@@ -1,0 +1,214 @@
+{
+    "type": "dialogue",
+    "dialogueBox": "speech_bubble_talking",
+    "dialogueBoxFlips": true,
+    "bgColor": "0xFF282828",
+    "dialogueSections": [
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "alttaro1",
+                "x": 0,
+                "y": 150,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "Understand.",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "normal0",
+            "box_Open": "open0",
+            "voiceLine": "SPORTING1"
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "alttaro1",
+                "x": 0,
+                "y": 150,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "You need to leave.",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            },
+            "voiceLine": "SPORTING2"
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "alttaro1",
+                "x": 0,
+                "y": 150,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "You are not aware of the prowess your spirit holds.",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            },
+            "voiceLine": "SPORTING3"
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "taro2",
+                "x": 0,
+                "y": 150,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "Pretty sure I am, man. I’m not what you’d call a loose canon, y’know. Besides, I have a power gauge.",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            },
+            "voiceLine": "SPORTINGTARO1"
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "taro1",
+                "x": 0,
+                "y": 150,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "*winks at Mel*",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            }
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "alttaro1",
+                "x": 0,
+                "y": 150,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "…",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            }
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "alttaro1",
+                "x": 0,
+                "y": 150,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "Please, don’t push this past what is necessary.",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            },
+            "voiceLine": "SPORTING4"
+        }
+    ]
+}

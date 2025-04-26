@@ -1,0 +1,98 @@
+{
+	"rtxData": {
+		"overlay": "0x0D004C",
+		"overlayAlpha": 0.134020618556701,
+		"inner": "0xE2DDD2",
+		"innerAlpha": 0.381443298969072,
+		"innerAngle": 270,
+		"lightX": 1254.2,
+		"lightY": 350.4,
+		"satinAlpha": 0.381443298969072,
+		"innerDistance": 21.9587628865979,
+		"pointLight": true,
+		"satin": "0x000061"
+	},
+	"objects": [
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.7,
+				0.7
+			],
+			"position": [
+				-750,
+				-555
+			],
+			"alpha": 1,
+			"file_Name": "BGSky",
+			"scale": 1
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.7,
+				0.7
+			],
+			"position": [
+				-750,
+				-548
+			],
+			"alpha": 1,
+			"file_Name": "BGCity",
+			"scale": 1
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"position": [
+				-350,
+				-550
+			],
+			"file_Name": "Rooftop",
+			"scale": 1
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0,
+				0
+			],
+			"position": [
+				-1190,
+				-665
+			],
+			"layer": "foreground",
+			"alpha": 1,
+			"file_Name": "Front",
+			"scale": 0.82
+		}
+	],
+	"character_Positions": [
+		[
+			2443,
+			1415
+		],
+		[
+			923,
+			1218
+		],
+		[
+			1775,
+			1325
+		]
+	],
+	"character_Scrolls": [
+		1,
+		1,
+		1
+	],
+	"camera_Zoom": 0.35,
+	"scriptName": "rain"
+}

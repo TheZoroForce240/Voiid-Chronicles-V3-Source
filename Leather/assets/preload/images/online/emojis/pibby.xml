@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pibby.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Pibby0000" x="0" y="0" width="91" height="100" frameX="0" frameY="-1" frameWidth="104" frameHeight="102"/>
+	<SubTexture name="Pibby0001" x="0" y="0" width="91" height="100" frameX="0" frameY="-1" frameWidth="104" frameHeight="102"/>
+	<SubTexture name="Pibby0002" x="91" y="0" width="91" height="101" frameX="-1" frameY="-1" frameWidth="104" frameHeight="102"/>
+	<SubTexture name="Pibby0003" x="182" y="0" width="91" height="101" frameX="-1" frameY="-1" frameWidth="104" frameHeight="102"/>
+	<SubTexture name="Pibby0004" x="273" y="0" width="90" height="102" frameX="0" frameY="0" frameWidth="104" frameHeight="102"/>
+	<SubTexture name="Pibby0005" x="273" y="0" width="90" height="102" frameX="0" frameY="0" frameWidth="104" frameHeight="102"/>
+	<SubTexture name="Pibby0006" x="363" y="0" width="89" height="101" frameX="-1" frameY="-1" frameWidth="104" frameHeight="102"/>
+	<SubTexture name="Pibby0007" x="363" y="0" width="89" height="101" frameX="-1" frameY="-1" frameWidth="104" frameHeight="102"/>
+	<SubTexture name="Pibby0008" x="0" y="102" width="90" height="102" frameX="0" frameY="0" frameWidth="104" frameHeight="102"/>
+	<SubTexture name="Pibby0009" x="0" y="102" width="90" height="102" frameX="0" frameY="0" frameWidth="104" frameHeight="102"/>
+	<SubTexture name="Pibby0010" x="90" y="102" width="103" height="101" frameX="-1" frameY="-1" frameWidth="104" frameHeight="102"/>
+</TextureAtlas>

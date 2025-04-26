@@ -1,0 +1,40 @@
+{
+    "defaultFlipX": false,
+    "dancesLeftAndRight": false,
+    "imagePath": "MagShag",
+    "spritesheetType": "SPARROW",
+    "barColor": [189,0,172],
+	"offsetsFlipWhenPlayer": false,
+    "animations": [
+        {
+            "name": "idle",
+            "animation_name": "shaggy stand idle instance",
+            "fps": 56,
+            "looped": false
+        },
+        {
+            "name": "singLEFT",
+            "animation_name": "stand left instance",
+            "fps": 28,
+            "looped": false
+        },
+        {
+            "name": "singDOWN",
+            "animation_name": "stand down instance",
+            "fps": 28,
+            "looped": false
+        },
+        {
+            "name": "singUP",
+            "animation_name": "stand up instance",
+            "fps": 28,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT",
+            "animation_name": "stand right instance",
+            "fps": 28,
+            "looped": false
+        }
+    ]
+}

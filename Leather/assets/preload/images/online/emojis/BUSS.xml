@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BUSS.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BUSS0000" x="0" y="0" width="93" height="87" frameX="0" frameY="0" frameWidth="93" frameHeight="88"/>
+	<SubTexture name="BUSS0001" x="0" y="0" width="93" height="87" frameX="0" frameY="0" frameWidth="93" frameHeight="88"/>
+	<SubTexture name="BUSS0002" x="93" y="0" width="85" height="87" frameX="-8" frameY="0" frameWidth="93" frameHeight="88"/>
+	<SubTexture name="BUSS0003" x="178" y="0" width="85" height="87" frameX="-8" frameY="0" frameWidth="93" frameHeight="88"/>
+	<SubTexture name="BUSS0004" x="263" y="0" width="86" height="87" frameX="-7" frameY="0" frameWidth="93" frameHeight="88"/>
+	<SubTexture name="BUSS0005" x="263" y="0" width="86" height="87" frameX="-7" frameY="0" frameWidth="93" frameHeight="88"/>
+	<SubTexture name="BUSS0006" x="349" y="0" width="92" height="87" frameX="0" frameY="0" frameWidth="93" frameHeight="88"/>
+	<SubTexture name="BUSS0007" x="349" y="0" width="92" height="87" frameX="0" frameY="0" frameWidth="93" frameHeight="88"/>
+	<SubTexture name="BUSS0008" x="0" y="87" width="91" height="87" frameX="-1" frameY="0" frameWidth="93" frameHeight="88"/>
+	<SubTexture name="BUSS0009" x="91" y="87" width="90" height="88" frameX="-2" frameY="0" frameWidth="93" frameHeight="88"/>
+</TextureAtlas>

@@ -1,0 +1,147 @@
+{
+	"rtxData": {
+		"overlay": "0x7C20B5",
+		"overlayAlpha": 0.0309278350515464,
+		"inner": "0xC59BCD",
+		"innerAlpha": 0.45360824742268,
+		"innerAngle": 241.237113402062,
+		"lightX": 465.5,
+		"lightY": 38.600000000001,
+		"satinAlpha": 0.742268041237113,
+		"innerDistance": 16.0824742268041,
+		"pointLight": false,
+		"satin": "0x812AA0"
+	},
+	"objects": [
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.05,
+				0.05
+			],
+			"position": [
+				-950,
+				-500
+			],
+			"file_Name": "7skyline",
+			"scale": 2
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.1,
+				0.1
+			],
+			"position": [
+				-950,
+				-500
+			],
+			"file_Name": "6cityvolc",
+			"scale": 2
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.125,
+				0.125
+			],
+			"position": [
+				300,
+				-200
+			],
+			"file_Name": "5blimp",
+			"scale": 1,
+			"object_Name": "blimp"
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.15,
+				0.15
+			],
+			"position": [
+				-900,
+				-500
+			],
+			"file_Name": "4shoredocks",
+			"scale": 2
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.75,
+				0.75
+			],
+			"position": [
+				-635,
+				-395
+			],
+			"file_Name": "3seatingswamp",
+			"scale": 2
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"position": [
+				-400,
+				-395
+			],
+			"file_Name": "2platform",
+			"scale": 2
+		},
+		{
+			"is_Animated": false,
+			"layer": "foreground",
+			"antialiased": true,
+			"scroll_Factor": [
+				0.05,
+				0.05
+			],
+			"position": [
+				-950,
+				-395
+			],
+			"file_Name": "1overlay",
+			"scale": 2
+		}
+	],
+	"character_Positions": [
+		[
+			1700,
+			900
+		],
+		[
+			900,
+			900
+		],
+		[
+			6905,
+			-2890
+		]
+	],
+	"camera_Zoom": 0.49,
+	"scriptName": "blimp",
+	"camera_Offsets": [
+		[
+			0,
+			-80
+		],
+		[
+			0,
+			-80
+		],
+		[
+			0,
+			0
+		]
+	]
+}

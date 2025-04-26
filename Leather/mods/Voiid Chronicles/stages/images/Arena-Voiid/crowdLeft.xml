@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Matt4BleachersLeftNew.png">
+  <!-- Created with Adobe Animate version 21.0.7.42652 -->
+  <!-- http://www.adobe.com/products/animate.html -->
+  <SubTexture name="Crowd Left0000" x="2.5" y="2.5" width="580" height="793.5" />
+  <SubTexture name="Crowd Left0001" x="585" y="2.5" width="580" height="793.5" />
+  <SubTexture name="Crowd Left0002" x="1167.5" y="2.5" width="577" height="793.5" frameX="-3" frameY="0" frameWidth="580" frameHeight="793.5" />
+  <SubTexture name="Crowd Left0003" x="1747" y="2.5" width="577" height="793.5" frameX="-3" frameY="0" frameWidth="580" frameHeight="793.5" />
+  <SubTexture name="Crowd Left0004" x="2326.5" y="2.5" width="572.5" height="793.5" frameX="-7.5" frameY="0" frameWidth="580" frameHeight="793.5" />
+  <SubTexture name="Crowd Left0005" x="2901.5" y="2.5" width="572.5" height="793.5" frameX="-7.5" frameY="0" frameWidth="580" frameHeight="793.5" />
+  <SubTexture name="Crowd Left0006" x="3476.5" y="2.5" width="571" height="793.5" frameX="-9" frameY="0" frameWidth="580" frameHeight="793.5" />
+  <SubTexture name="Crowd Left0007" x="2.5" y="798.5" width="571" height="793.5" frameX="-9" frameY="0" frameWidth="580" frameHeight="793.5" />
+</TextureAtlas>

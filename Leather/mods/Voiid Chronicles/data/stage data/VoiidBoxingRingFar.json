@@ -1,0 +1,162 @@
+{
+	"rtxData": {
+		"overlay": "0x7C20B5",
+		"overlayAlpha": 0.0309278350515464,
+		"inner": "0xC59BCD",
+		"innerAlpha": 0.45360824742268,
+		"innerAngle": 241.237113402062,
+		"satinAlpha": 0.494845360824742,
+		"innerDistance": 16.0824742268041,
+		"satin": "0x812AA0"
+	},
+	"character_Positions": [
+		[
+			2393,
+			965
+		],
+		[
+			1137,
+			952
+		],
+		[
+			1900,
+			830
+		]
+	],
+	"camera_Offsets": [
+		[
+			-150,
+			-50
+		],
+		[
+			0,
+			0
+		],
+		[
+			0,
+			0
+		]
+	],
+	"objects": [
+		{
+			"is_Animated": false,
+			"position": [
+				-460,
+				-200
+			],
+			"scroll_Factor": [
+				0.2,
+				1
+			],
+			"antialiased": true,
+			"scale": 2,
+			"file_Name": "Sky",
+			"alpha": 1
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-290,
+				-192
+			],
+			"scroll_Factor": [
+				0.499999999999999,
+				1
+			],
+			"antialiased": true,
+			"scale": 2,
+			"file_Name": "Sea"
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-260,
+				-200
+			],
+			"scroll_Factor": [
+				0.349999999999999,
+				1
+			],
+			"antialiased": true,
+			"scale": 2,
+			"file_Name": "Mountain 3"
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-6,
+				-180
+			],
+			"scroll_Factor": [
+				0.449999999999999,
+				1
+			],
+			"antialiased": true,
+			"scale": 2,
+			"file_Name": "Mountain 2"
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-310,
+				-159
+			],
+			"scroll_Factor": [
+				0.499999999999999,
+				1
+			],
+			"antialiased": true,
+			"scale": 2,
+			"file_Name": "Mountain 1"
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-245,
+				-220
+			],
+			"scroll_Factor": [
+				0.649999999999999,
+				1
+			],
+			"antialiased": true,
+			"scale": 2,
+			"file_Name": "Trees"
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-195,
+				-238
+			],
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"antialiased": true,
+			"scale": 2,
+			"file_Name": "Ring"
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0,
+				0
+			],
+			"position": [
+				-650,
+				-360
+			],
+			"layer": "foreground",
+			"file_Name": "ruido",
+			"scale": 4
+		}
+	],
+	"character_Scrolls": [
+		1,
+		1,
+		1
+	],
+	"camera_Zoom": 0.5
+}

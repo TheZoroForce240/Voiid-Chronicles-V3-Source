@@ -1,0 +1,18 @@
+{
+    "defaultFlipX": false,
+    "cameraOffset": [40, -10],
+    "dancesLeftAndRight": false,
+    "imagePath": "MattSlash",
+    "spritesheetType": "SPARROW",
+    "barColor": [73,69,78],
+    "positionOffset": [70, 70],
+    "graphicSize": 1.5,
+    "animations": [
+        {
+            "name": "slash",
+            "animation_name": "mattslash0",
+            "fps": 1,
+            "looped": false
+        }
+    ]
+}

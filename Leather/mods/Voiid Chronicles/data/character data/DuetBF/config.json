@@ -1,0 +1,15 @@
+{
+	"cameraOffset": [200, -320],
+    "barColor": [255, 175, 175],
+    "healthIcon": "Wiik1BFRTX",
+    "characters": [
+        {
+            "name": "Taro",
+            "positionOffset": [0,0]
+        },
+        {
+            "name": "Taro",
+            "positionOffset": [-150,50]
+        }
+    ]
+}

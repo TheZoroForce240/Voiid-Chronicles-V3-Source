@@ -1,0 +1,22 @@
+{
+	"cameraOffset": [0, -310],
+    "barColor": [0,0,0],
+    "characters": [
+        {
+            "name": "Taro",
+            "positionOffset": [0,0]
+        },
+        {
+            "name": "AntarkhBF",
+            "positionOffset": [-340,25]
+        },
+        {
+            "name": "Taro",
+            "positionOffset": [-150,100]
+        },
+        {
+            "name": "AntarkhBF",
+            "positionOffset": [-490,125]
+        }
+    ]
+}

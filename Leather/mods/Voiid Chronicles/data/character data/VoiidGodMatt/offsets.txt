@@ -1,0 +1,9 @@
+idle 0 -5
+singDOWN -89 -19
+singRIGHT -111 -26
+singUP -14 3
+singLEFT -108 -17
+dodgeDOWN -89 -19
+dodgeRIGHT -111 -26
+dodgeUP -14 3
+dodgeLEFT -108 -17

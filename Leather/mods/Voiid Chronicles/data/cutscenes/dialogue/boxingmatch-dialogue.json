@@ -1,0 +1,330 @@
+{
+    "type": "dialogue",
+    "dialogueBox": "speech_bubble_talking",
+    "dialogueBoxFlips": true,
+    "bgColor": "0xFF282828",
+    "dialogueSections": [
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "alttaro1",
+                "x": 0,
+                "y": 150,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "You are not focused.",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "normal0",
+            "box_Open": "open0",
+            "voiceLine": "BM1"
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "taro2",
+                "x": 0,
+                "y": 150,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "Seriously, what’s your deal? I’m hot right now.",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            },
+            "voiceLine": "BMTARO1"
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "alttaro1",
+                "x": 0,
+                "y": 150,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "You truly do not understand?",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            },
+            "voiceLine": "BM2"
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "alttaro1",
+                "x": 0,
+                "y": 150,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "Your body possesses an unusual amount of energy.",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            },
+            "voiceLine": "BM3"
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "alttaro1",
+                "x": 0,
+                "y": 150,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "If you do not leave…",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            },
+            "voiceLine": "BM4"
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "alttaro1",
+                "x": 0,
+                "y": 150,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "You will tear this world apart.",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            },
+            "voiceLine": "BM5"
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "alttaro1",
+                "x": 0,
+                "y": 150,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "I will lose everything…",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            },
+            "voiceLine": "BM6"
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "taro4",
+                "x": 0,
+                "y": 150,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "._.",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            }
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "alttaro4",
+                "x": 0,
+                "y": 150,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "…",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            }
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "alttaro4",
+                "x": 0,
+                "y": 150,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "Please.",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            },
+            "voiceLine": "BM7"
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "alttaro4",
+                "x": 0,
+                "y": 150,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "Leave.",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            },
+            "voiceLine": "BM8"
+        }
+    ]
+}

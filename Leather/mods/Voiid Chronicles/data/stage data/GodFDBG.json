@@ -1,0 +1,133 @@
+{
+	"rtxData": {
+		"overlay": "0x9B20B0",
+		"overlayAlpha": 0.0721649484536082,
+		"inner": "0xD89BCD",
+		"innerAlpha": 0.45360824742268,
+		"innerAngle": 241.237113402062,
+		"lightX": 0,
+		"lightY": 0,
+		"satinAlpha": 0.597938144329897,
+		"innerDistance": 14.5360824742268,
+		"pointLight": false,
+		"satin": "0xE72AB5"
+	},
+	"character_Positions": [
+		[
+			1590,
+			960
+		],
+		[
+			630,
+			940
+		],
+		[
+			1357,
+			810
+		]
+	],
+	"objects": [
+		{
+			"position": [
+				-800,
+				-1050
+			],
+			"scroll_Factor": [
+				0.5,
+				0.5
+			],
+			"antialiased": true,
+			"scale": 3500,
+			"file_Name": "",
+			"object_Name": "vortex",
+			"false": true
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-260,
+				-235
+			],
+			"scroll_Factor": [
+				0.6,
+				0.6
+			],
+			"antialiased": true,
+			"scale": 2,
+			"file_Name": "rock1"
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-192,
+				-235
+			],
+			"scroll_Factor": [
+				0.6,
+				0.6
+			],
+			"antialiased": true,
+			"scale": 2,
+			"file_Name": "rock2"
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-260,
+				-235
+			],
+			"scroll_Factor": [
+				0.7,
+				0.7
+			],
+			"antialiased": true,
+			"scale": 2,
+			"file_Name": "trees",
+			"alpha": 1
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-195,
+				-238
+			],
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"antialiased": true,
+			"scale": 2,
+			"file_Name": "ring"
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0,
+				0
+			],
+			"position": [
+				-800,
+				-300
+			],
+			"layer": "foreground",
+			"file_Name": "ruido",
+			"scale": 2
+		}
+	],
+	"camera_Zoom": 0.57,
+	"camera_Offsets": [
+		[
+			-100,
+			-50
+		],
+		[
+			0,
+			0
+		],
+		[
+			0,
+			0
+		]
+	]
+}

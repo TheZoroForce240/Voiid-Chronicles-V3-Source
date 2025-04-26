@@ -1,0 +1,431 @@
+{
+    "sections": [
+        {
+            "imageName": "Directors",
+            "people": [
+                {
+                    "name": "LordVoiid",
+                    "icon": "voiid",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@lordvoiidofficial",
+                    "desc": "Mod Owner, Musician,\nArtist, Animator\n"
+                },
+                {
+                    "name": "RhysRJJ",
+                    "icon": "rhys",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@RhysRJJ",
+                    "desc": "Co-Director, Charter, Coder"
+                },
+                {
+                    "name": "Natu",
+                    "icon": "natu",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Co-Director, Artist"
+                }
+            ]
+        },
+        {
+            "imageName": "Musicians",
+            "people": [
+                {
+                    "name": "LordVoiid",
+                    "icon": "voiid",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@lordvoiidofficial",
+                    "desc": "Mod Owner, Musician,\nArtist, Animator\n"
+                },
+                {
+                    "name": "AngryRacc",
+                    "icon": "",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@AngryRaccTheG",
+                    "desc": "Musician"
+                },
+                {
+                    "name": "Antarkh",
+                    "icon": "",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@itsAntarkh",
+                    "desc": "Musician"
+                },
+                {
+                    "name": "DeltaMoai",
+                    "icon": "delta",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@Delta_Fr",
+                    "desc": "Musician"
+                },
+                {
+                    "name": "FZ_Green",
+                    "icon": "",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@fz_greenold8757",
+                    "desc": "Musician"
+                },
+                {
+                    "name": "Hippo0824",
+                    "icon": "hippo",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@hippo0824music",
+                    "desc": "Musician"
+                },
+                {
+                    "name": "ImPaper",
+                    "icon": "impaper",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@ImPaperDS",
+                    "desc": "Musician"
+                },
+                {
+                    "name": "Invalid_bruh",
+                    "icon": "invalid",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@invalid_bruh359",
+                    "desc": "Musician"
+                },
+                {
+                    "name": "Joa",
+                    "icon": "",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@joa1597",
+                    "desc": "Musician"
+                },
+                {
+                    "name": "LegendaryPlz",
+                    "icon": "",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/channel/UCHLJZ4-h11jryvvv1vHYXng",
+                    "desc": "Musician"
+                },
+                {
+                    "name": "Spring",
+                    "icon": "",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@spring0-",
+                    "desc": "Musician"
+                },
+                {
+                    "name": "Lightor",
+                    "icon": "",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@lightor4171",
+                    "desc": "Musician"
+                },
+                {
+                    "name": "MLOM",
+                    "icon": "mlom",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@mlomofficial",
+                    "desc": "Musician"
+                },
+                {
+                    "name": "NobodyKnows",
+                    "icon": "",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@nobodyknows3721",
+                    "desc": "Musician"
+                },
+                {
+                    "name": "Revilo",
+                    "icon": "revilo",
+                    "iconScale": 2.3,
+                    "link": "https://www.youtube.com/@revkindaslumpy",
+                    "desc": "Musician"
+                },
+                {
+                    "name": "Singular",
+                    "icon": "",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@singular_m16",
+                    "desc": "Musician"
+                },
+                {
+                    "name": "SmokeCannon",
+                    "icon": "",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@SmokeDeveloper",
+                    "desc": "Musician"
+                },
+                {
+                    "name": "Spurk",
+                    "icon": "",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@SpurkFNF",
+                    "desc": "Musician"
+                },
+                {
+                    "name": "Tomz_",
+                    "icon": "",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@Tmzz_16",
+                    "desc": "Musician"
+                }
+            ]
+        },
+        {
+            "imageName": "Artists",
+            "people": [
+                {
+                    "name": "LordVoiid",
+                    "icon": "voiid",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@lordvoiidofficial",
+                    "desc": "Mod Owner, Musician,\nArtist, Animator\n"
+                },
+                {
+                    "name": "JayD",
+                    "icon": "jayd",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Artist"
+                },
+                {
+                    "name": "Haze",
+                    "icon": "haze",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Artist"
+                },
+                {
+                    "name": "Oddestial/Dane",
+                    "icon": "dane",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@oddestial",
+                    "desc": "Artist"
+                },
+                {
+                    "name": "Noicy",
+                    "icon": "noicy",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Artist"
+                },
+                {
+                    "name": "Paciofd",
+                    "icon": "",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Artist"
+                },
+                {
+                    "name": "VoiidicMelody",
+                    "icon": "mel",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Artist, Animator"
+                },
+                {
+                    "name": "Masker",
+                    "icon": "",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Artist"
+                },
+                {
+                    "name": "MD_",
+                    "icon": "",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Artist"
+                },
+                {
+                    "name": "Thenns_48",
+                    "icon": "",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Artist"
+                },
+                {
+                    "name": "Pik-a-boo",
+                    "icon": "",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Artist"
+                },
+                {
+                    "name": "Spike",
+                    "icon": "",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Menu Artist"
+                },
+                {
+                    "name": "SubSilent",
+                    "icon": "silent",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Credit Icons/Menu Artist"
+                },
+                {
+                    "name": "TroZeStick",
+                    "icon": "",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/channel/UCfbWyX2TFOExDceeQNIffGQ",
+                    "desc": "Artist, Animator"
+                },
+                {
+                    "name": "Constellations",
+                    "icon": "const",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Artist"
+                },
+                {
+                    "name": "ShagLSSJ",
+                    "icon": "",
+                    "iconScale": 0.7,
+                    "link": "https://twitter.com/shagLSSJ",
+                    "desc": "Icon Artist"
+                }
+            ]
+        },
+        {
+            "imageName": "Animators",
+            "people": [
+                {
+                    "name": "LordVoiid",
+                    "icon": "voiid",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@lordvoiidofficial",
+                    "desc": "Mod Owner, Musician,\nArtist, Animator\n"
+                },
+                {
+                    "name": "VoiidicMelody",
+                    "icon": "mel",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Artist, Animator"
+                },
+                {
+                    "name": "Kivro",
+                    "icon": "",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Animator"
+                },
+                {
+                    "name": "TroZeStick",
+                    "icon": "",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/channel/UCfbWyX2TFOExDceeQNIffGQ",
+                    "desc": "Artist, Animator"
+                },
+                {
+                    "name": "BlursedSV",
+                    "icon": "",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Animator"
+                },
+                {
+                    "name": "NunStop",
+                    "icon": "",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Animator"
+                }
+            ]
+        },
+        {
+            "imageName": "Charters",
+            "people": [
+                {
+                    "name": "RhysRJJ",
+                    "icon": "rhys",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@RhysRJJ",
+                    "desc": "Co-Director, Charter, Coder"
+                },
+                {
+                    "name": "ScottFlux",
+                    "icon": "scott",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Charter"
+                },
+                {
+                    "name": "Official_YS",
+                    "icon": "",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@JohnZackYT",
+                    "desc": "Charter"
+                },
+                {
+                    "name": "Diegobruv",
+                    "icon": "",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Charter"
+                },
+                {
+                    "name": "Ushear",
+                    "icon": "",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@Ushearr",
+                    "desc": "Charter"
+                },
+                {
+                    "name": "MarkC645",
+                    "icon": "",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@markc6454",
+                    "desc": "FD Old Charter"
+                },
+                {
+                    "name": "ArrowKeys | Medo",
+                    "icon": "",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@Arrowokeys12",
+                    "desc": "FD Old Charter"
+                },
+                {
+                    "name": "Vyrox",
+                    "icon": "",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Charter"
+                }
+            ]
+        },
+        {
+            "imageName": "Coders",
+            "people": [
+                {
+                    "name": "RhysRJJ",
+                    "icon": "rhys",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@RhysRJJ",
+                    "desc": "Co-Director, Charter, Coder"
+                },
+                {
+                    "name": "TheZoroForce240",
+                    "icon": "zoro",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@TheZoroForce240",
+                    "desc": "Coder"
+                },
+                {
+                    "name": "SugarMoon",
+                    "icon": "sugarmoon",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Coder (v1)"
+                }
+            ]
+        },
+        {
+            "imageName": "VoiceActors",
+            "people": [
+                {
+                    "name": "CritVA",
+                    "icon": "",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Voice Actor"
+                }
+            ]
+        }
+    ]
+}

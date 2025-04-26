@@ -1,0 +1,62 @@
+{
+	"rtxData": {
+		"overlay": "0x7C20B5",
+		"overlayAlpha": 0.0309278350515464,
+		"inner": "0xC59BCD",
+		"innerAlpha": 0.45360824742268,
+		"innerAngle": 241.237113402062,
+		"lightX": 465.5,
+		"lightY": 38.600000000001,
+		"satinAlpha": 0.515463917525773,
+		"innerDistance": 16.0824742268041,
+		"pointLight": false,
+		"satin": "0x812AA0"
+	},
+	"character_Positions": [
+		[
+			950,
+			900
+		],
+		[
+			550,
+			900
+		],
+		[
+			6905,
+			-2890
+		]
+	],
+	"objects": [
+		{
+			"is_Animated": false,
+			"position": [
+				-1100,
+				-90
+			],
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"antialiased": true,
+			"scale": 3,
+			"file_Name": "arena"
+		},
+		{
+			"is_Animated": false,
+			"layer": "foreground",
+			"position": [
+				-1100,
+				-500
+			],
+			"scroll_Factor": [
+				0,
+				0
+			],
+			"antialiased": true,
+			"scale": 3,
+			"file_Name": "grain"
+		}
+	],
+	"camera_Zoom": 0.525,
+	"scriptName": "smoke"
+}

@@ -1,0 +1,66 @@
+{
+	"rtxData": {
+		"overlay": "0x7C20B5",
+		"overlayAlpha": 0.0309278350515464,
+		"inner": "0xC59BCD",
+		"innerAlpha": 0.45360824742268,
+		"innerAngle": 241.237113402062,
+		"lightX": 465.5,
+		"lightY": 38.600000000001,
+		"satinAlpha": 0.247422680412371,
+		"innerDistance": 16.0824742268041,
+		"pointLight": false,
+		"satin": "0x812AA0"
+	},
+	"character_Scrolls": [
+		1,
+		1,
+		1
+	],
+	"objects": [
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.5,
+				0.5
+			],
+			"position": [
+				-1121,
+				-760
+			],
+			"file_Name": "void",
+			"scale": 2
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"position": [
+				-1121,
+				-1060
+			],
+			"file_Name": "floor",
+			"scale": 2
+		}
+	],
+	"character_Positions": [
+		[
+			934,
+			332
+		],
+		[
+			-68,
+			329
+		],
+		[
+			421,
+			272
+		]
+	],
+	"camera_Zoom": 0.6,
+	"scriptName": "smoke"
+}

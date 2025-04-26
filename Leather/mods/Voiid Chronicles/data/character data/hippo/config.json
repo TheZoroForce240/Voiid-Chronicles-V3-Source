@@ -1,0 +1,41 @@
+{
+    "defaultFlipX": false,
+    "dancesLeftAndRight": false,
+    "imagePath": "hippo",
+    "spritesheetType": "SPARROW",
+    "barColor": [240,90,220],
+    "positionOffset": [35, -10],
+    "offsetsFlipWhenPlayer": true,
+    "animations": [
+        {
+            "name": "idle",
+            "animation_name": "Hpo idle",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singLEFT",
+            "animation_name": "Hpo left0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWN",
+            "animation_name": "Hpo down0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP",
+            "animation_name": "Hpo up0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT",
+            "animation_name": "Hpo right0",
+            "fps": 24,
+            "looped": false
+        }
+    ]
+}

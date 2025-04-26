@@ -1,0 +1,14 @@
+{
+	"cameraOffset": [225, -310],
+    "barColor": [107,57,88],
+    "characters": [
+        {
+            "name": "Wiik2VoiidMatt",
+            "positionOffset": [-225,25]
+        },
+        {
+            "name": "VoiidGodMatt",
+            "positionOffset": [100,-50]
+        }
+    ]
+}

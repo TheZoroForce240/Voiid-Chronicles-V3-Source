@@ -1,0 +1,349 @@
+{
+    "type": "dialogue",
+    "dialogueBox": "speech_bubble_talking",
+    "dialogueBoxFlips": true,
+    "bgColor": "0xFF282828",
+    "dialogueSections": [
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "Why the hell you keep takin me to weird places?",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "normal0",
+            "box_Open": "open0"
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "…You possess more than strength alone.",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            }
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "I’m not just looks, smartass. I’m what most people call ‘stacked’.",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            }
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "Thanks for the gloves, babe.",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            }
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "*winks*",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            }
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "You haven’t faltered once… a trait found in only the most experienced.",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            }
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "…",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            }
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "Why’s it so cold in here?",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            }
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "…",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            }
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "You will drop where you stand.",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            }
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "Heavy words.",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            }
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "Try your worst.",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            }
+        }
+    ]
+}

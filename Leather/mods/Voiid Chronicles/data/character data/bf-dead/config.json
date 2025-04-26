@@ -1,0 +1,32 @@
+{
+    "defaultFlipX": true,
+    "dancesLeftAndRight": false,
+    "imagePath": "TARO_DEATH",
+    "spritesheetType": "SPARROW",
+    "animations": [
+        {
+            "name": "idle",
+            "animation_name": "BF dies",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "firstDeath",
+            "animation_name": "BF dies",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "deathLoop",
+            "animation_name": "BF Dead Loop",
+            "fps": 24,
+            "looped": true
+        },
+        {
+            "name": "deathConfirm",
+            "animation_name": "BF Dead confirm",
+            "fps": 24,
+            "looped": false
+        }
+    ]
+}

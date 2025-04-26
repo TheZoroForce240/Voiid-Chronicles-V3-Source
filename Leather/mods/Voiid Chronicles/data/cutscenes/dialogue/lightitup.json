@@ -1,0 +1,265 @@
+{
+    "type": "dialogue",
+    "dialogueBox": "speech_bubble_talking",
+    "dialogueBoxFlips": true,
+    "bgColor": "0xFF282828",
+    "dialogueSections": [
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "Welcome to the coliseum, you two.",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "normal0",
+            "box_Open": "open0"
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "I’m very glad to have this opportunity.",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            }
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "Why the hell is it so high up…\n*seasick*",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            }
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "Ease up.\nNo need to worry about the water.",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            }
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "I won’t have to push you that far,\nhopefully.",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            }
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "But, take your time.",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            }
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "When you are comfortable,\nwe may begin.",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            }
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "*winks at Taro*",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            }
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "Ugh… alright, I got this.\nDrop the needle.",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            }
+        }
+    ]
+}

@@ -1,0 +1,181 @@
+{
+    "type": "dialogue",
+    "dialogueBox": "speech_bubble_talking",
+    "dialogueBoxFlips": true,
+    "bgColor": "0xFF282828",
+    "dialogueSections": [
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "Very well done. You seem to have plenty of experience, I see…",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            },
+            "box_FPS": 24,
+            "open_Box": true,
+            "box_Antialiased": true,
+            "box_Anim": "normal0",
+            "box_Open": "open0"
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "God, who the hell built this… *seasick*",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            }
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "…",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            }
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "I believe you’re ready for a more challenging song.",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            }
+        },
+        {
+            "side": "left",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "Ready yourself, now. This one is a bit long.",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            }
+        },
+        {
+            "side": "right",
+            "showOtherPortrait": true,
+            "leftPortrait": {
+                "sprite": "spooky bois",
+                "x": 30,
+                "y": 100,
+                "antialiased": true
+            },
+            "rightPortrait": {
+                "sprite": "bf",
+                "x": 0,
+                "y": 100,
+                "antialiased": true
+            },
+            "has_Hand": false,
+            "dialogue": {
+                "text": "Right, right. Go ahead, then, surprise me >:)",
+                "color": "#000000",
+                "shadowColor": "#6045b1",
+                "font": "Contb___.ttf",
+                "hasShadow": true,
+                "size": 40,
+                "box_Offset": [160,120],
+                "text_Delay": 0.04,
+                "shadowOffset": 3
+            }
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+	"character_Positions": [
+		[
+			1875,
+			1207
+		],
+		[
+			1475,
+			1207
+		],
+		[
+			1606,
+			1090
+		]
+	],
+	"objects": [
+		{
+			"is_Animated": false,
+			"position": [
+				-791,
+				-667
+			],
+			"scroll_Factor": [
+				0.5,
+				0.5
+			],
+			"antialiased": true,
+			"scale": 2,
+			"file_Name": "Voiid3",
+			"alpha": 1
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-666,
+				-425
+			],
+			"scroll_Factor": [
+				0.6,
+				0.6
+			],
+			"antialiased": true,
+			"scale": 2,
+			"file_Name": "WALL"
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-271,
+				-202
+			],
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"antialiased": true,
+			"scale": 2,
+			"file_Name": "RING"
+		}
+	],
+	"rtxData": {
+		"overlay": "0x693FC5",
+		"innerAlpha": 0.402061855670103,
+		"lightX": 1621,
+		"lightY": 283.600000000001,
+		"satinAlpha": 0.783505154639175,
+		"innerDistance": 19.4845360824742,
+		"satin": "0x8E32D2",
+		"innerAngle": 248.659793814433,
+		"overlayAlpha": 0.0412371134020619,
+		"inner": "0xCAB0EF",
+		"pointLight": true
+	},
+	"camera_Zoom": 0.53
+}

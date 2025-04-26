@@ -1,0 +1,65 @@
+{
+    "defaultFlipX": false,
+    "dancesLeftAndRight": false,
+    "imagePath": "magmatt",
+    "spritesheetType": "SPARROW",
+    "barColor": [240,90,220],
+    "positionOffset": [100, 35],
+    "offsetsFlipWhenPlayer": false,
+    "animations": [
+        {
+            "name": "idle",
+            "animation_name": "magmatt idle",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singLEFT",
+            "animation_name": "magmatt left0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWN",
+            "animation_name": "magmatt down0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP",
+            "animation_name": "magmatt up0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT",
+            "animation_name": "magmatt right0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singLEFTmiss",
+            "animation_name": "magmatt leftmiss0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWNmiss",
+            "animation_name": "magmatt downmiss0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUPmiss",
+            "animation_name": "magmatt upmiss0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHTmiss",
+            "animation_name": "magmatt rightmiss0",
+            "fps": 24,
+            "looped": false
+        }
+    ]
+}

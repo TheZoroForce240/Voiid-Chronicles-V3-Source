@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="R hys.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Reece0000" x="0" y="0" width="105" height="111"/>
+	<SubTexture name="Reece0001" x="0" y="0" width="105" height="111"/>
+	<SubTexture name="Reece0002" x="105" y="0" width="105" height="111"/>
+	<SubTexture name="Reece0003" x="105" y="0" width="105" height="111"/>
+	<SubTexture name="Reece0004" x="210" y="0" width="105" height="111"/>
+	<SubTexture name="Reece0005" x="210" y="0" width="105" height="111"/>
+	<SubTexture name="Reece0006" x="315" y="0" width="105" height="111"/>
+	<SubTexture name="Reece0007" x="315" y="0" width="105" height="111"/>
+	<SubTexture name="Reece0008" x="0" y="111" width="105" height="111"/>
+	<SubTexture name="Reece0009" x="0" y="111" width="105" height="111"/>
+	<SubTexture name="Reece0010" x="105" y="111" width="105" height="111"/>
+</TextureAtlas>

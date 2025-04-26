@@ -1,0 +1,17 @@
+singDOWN 21 -27
+singLEFTmiss -10 -31
+dodgeUP -81 -4
+firstDeath -23 1
+idle 0 -1
+dodgeRIGHT -81 -4
+singLEFT 22 17
+singUPmiss -92 27
+dodge -81 -4
+deathLoop -32 -6
+dodgeDOWN -81 -4
+singRIGHTmiss -24 -8
+singUP -68 43
+deathConfirm 3 -3
+singRIGHT 38 21
+singDOWNmiss -17 -68
+dodgeLEFT -80 -4

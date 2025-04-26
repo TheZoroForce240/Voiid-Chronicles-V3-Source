@@ -1,0 +1,42 @@
+{
+    "defaultFlipX": false,
+    "cameraOffset": [-20, 20],
+    "dancesLeftAndRight": false,
+    "imagePath": "MATT_WIIK_1",
+    "spritesheetType": "SPARROW",
+    "barColor": [73,69,78],
+    "positionOffset": [50, 0],
+    "graphicSize": 1,
+    "animations": [
+        {
+            "name": "idle",
+            "animation_name": "idle0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singLEFT",
+            "animation_name": "left0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWN",
+            "animation_name": "down0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP",
+            "animation_name": "up0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT",
+            "animation_name": "right0",
+            "fps": 24,
+            "looped": false
+        }
+    ]
+}

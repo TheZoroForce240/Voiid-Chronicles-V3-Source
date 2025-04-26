@@ -1,0 +1,124 @@
+{
+	"objects": [
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"position": [
+				-3,
+				-552
+			],
+			"alpha": 1,
+			"file_Name": "bg",
+			"scale": 1
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"position": [
+				-92,
+				-648
+			],
+			"alpha": 1,
+			"file_Name": "leanfall",
+			"scale": 1
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"position": [
+				-349,
+				-548
+			],
+			"alpha": 1,
+			"file_Name": "bgrocks",
+			"scale": 1
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"position": [
+				-345,
+				-558
+			],
+			"file_Name": "floor",
+			"scale": 1
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"position": [
+				-349,
+				-555
+			],
+			"layer": "foreground",
+			"alpha": 1,
+			"file_Name": "lava",
+			"scale": 1
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.9,
+				0.9
+			],
+			"position": [
+				-359,
+				-555
+			],
+			"layer": "foreground",
+			"file_Name": "rockstop",
+			"scale": 1
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"position": [
+				-1672,
+				1484
+			],
+			"layer": "foreground",
+			"file_Name": "ruido2",
+			"scale": 1.3
+		}
+	],
+	"character_Positions": [
+		[
+			1447,
+			467
+		],
+		[
+			620,
+			474
+		],
+		[
+			943,
+			-1215
+		]
+	],
+	"camera_Zoom": 0.7
+}

@@ -1,0 +1,66 @@
+{
+    "defaultFlipX": false,
+    "dancesLeftAndRight": false,
+    "imagePath": "MattSword",
+    "spritesheetType": "SPARROW",
+    "barColor": [251, 141, 5],
+    "positionOffset": [260, 450],
+    "graphicSize": 1.5,
+    "cameraOffset": [-100, -200],
+    "animations": [
+        {
+            "name": "idle",
+            "animation_name": "Idle0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singLEFT",
+            "animation_name": "Left0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWN",
+            "animation_name": "Down0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP",
+            "animation_name": "Up0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT",
+            "animation_name": "Right0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singLEFT-alt",
+            "animation_name": "AltLeft0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWN-alt",
+            "animation_name": "AltDown0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP-alt",
+            "animation_name": "AltUp0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT-alt",
+            "animation_name": "AltRight0",
+            "fps": 24,
+            "looped": false
+        }
+    ]
+}

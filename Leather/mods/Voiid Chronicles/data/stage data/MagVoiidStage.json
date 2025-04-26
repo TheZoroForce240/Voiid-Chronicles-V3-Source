@@ -1,0 +1,34 @@
+{
+	"objects": [
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"position": [
+				-450,
+				-176
+			],
+			"alpha": 1,
+			"file_Name": "BG",
+			"scale": 1
+		}
+	],
+	"character_Positions": [
+		[
+			1590,
+			960
+		],
+		[
+			630,
+			940
+		],
+		[
+			1057,
+			860
+		]
+	],
+	"camera_Zoom": 0.57
+}

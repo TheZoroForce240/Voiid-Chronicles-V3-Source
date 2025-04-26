@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="die.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="die0000" x="0" y="0" width="72" height="96"/>
+	<SubTexture name="die0001" x="0" y="0" width="72" height="96"/>
+	<SubTexture name="die0002" x="72" y="0" width="71" height="96" frameX="-1" frameY="0" frameWidth="72" frameHeight="96"/>
+	<SubTexture name="die0003" x="72" y="0" width="71" height="96" frameX="-1" frameY="0" frameWidth="72" frameHeight="96"/>
+	<SubTexture name="die0004" x="143" y="0" width="71" height="96" frameX="-1" frameY="0" frameWidth="72" frameHeight="96"/>
+	<SubTexture name="die0005" x="143" y="0" width="71" height="96" frameX="-1" frameY="0" frameWidth="72" frameHeight="96"/>
+	<SubTexture name="die0006" x="0" y="0" width="72" height="96"/>
+	<SubTexture name="die0007" x="0" y="0" width="72" height="96"/>
+	<SubTexture name="die0008" x="72" y="0" width="71" height="96" frameX="-1" frameY="0" frameWidth="72" frameHeight="96"/>
+	<SubTexture name="die0009" x="72" y="0" width="71" height="96" frameX="-1" frameY="0" frameWidth="72" frameHeight="96"/>
+</TextureAtlas>

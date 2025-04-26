@@ -1,0 +1,22 @@
+{
+	"cameraOffset": [0, -310],
+    "barColor": [107,57,88],
+    "characters": [
+        {
+            "name": "VoiidShaggy",
+            "positionOffset": [0,0]
+        },
+        {
+            "name": "Wiik2VoiidMatt",
+            "positionOffset": [-200,25]
+        },
+        {
+            "name": "AntarkhShaggy",
+            "positionOffset": [-400,50]
+        },
+        {
+            "name": "AntarkhMatt",
+            "positionOffset": [-600,75]
+        }
+    ]
+}

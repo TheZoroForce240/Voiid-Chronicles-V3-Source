@@ -1,0 +1,70 @@
+{
+    "defaultFlipX": false,
+    "cameraOffset": [250, 75],
+    "dancesLeftAndRight": false,
+    "imagePath": "VoiidShaggy",
+    "spritesheetType": "SPARROW",
+    "barColor": [94, 79, 88],
+    "animations": [
+        {
+            "name": "idle",
+            "animation_name": "Idle0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singLEFT",
+            "animation_name": "Left0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWN",
+            "animation_name": "Down0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP",
+            "animation_name": "Up0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT",
+            "animation_name": "Right0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "idle-alt",
+            "animation_name": "Idle0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singLEFT-alt",
+            "animation_name": "Left0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWN-alt",
+            "animation_name": "Down0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP-alt",
+            "animation_name": "Up0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT-alt",
+            "animation_name": "Right0",
+            "fps": 24,
+            "looped": false
+        }
+    ]
+}

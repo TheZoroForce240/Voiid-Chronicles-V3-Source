@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="cries.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="cries0000" x="0" y="0" width="121" height="106" frameX="-5" frameY="0" frameWidth="127" frameHeight="106"/>
+	<SubTexture name="cries0001" x="121" y="0" width="121" height="106" frameX="-5" frameY="0" frameWidth="127" frameHeight="106"/>
+	<SubTexture name="cries0002" x="242" y="0" width="127" height="104" frameX="0" frameY="-1" frameWidth="127" frameHeight="106"/>
+	<SubTexture name="cries0003" x="369" y="0" width="127" height="104" frameX="0" frameY="-1" frameWidth="127" frameHeight="106"/>
+	<SubTexture name="cries0004" x="0" y="106" width="120" height="106" frameX="-5" frameY="0" frameWidth="127" frameHeight="106"/>
+	<SubTexture name="cries0005" x="120" y="106" width="121" height="106" frameX="-5" frameY="0" frameWidth="127" frameHeight="106"/>
+	<SubTexture name="cries0006" x="241" y="106" width="121" height="105" frameX="-4" frameY="-1" frameWidth="127" frameHeight="106"/>
+	<SubTexture name="cries0007" x="362" y="106" width="120" height="105" frameX="-4" frameY="-1" frameWidth="127" frameHeight="106"/>
+	<SubTexture name="cries0008" x="0" y="212" width="120" height="105" frameX="-4" frameY="-1" frameWidth="127" frameHeight="106"/>
+	<SubTexture name="cries0009" x="120" y="212" width="120" height="105" frameX="-4" frameY="-1" frameWidth="127" frameHeight="106"/>
+	<SubTexture name="cries0010" x="240" y="212" width="121" height="105" frameX="-4" frameY="-1" frameWidth="127" frameHeight="106"/>
+</TextureAtlas>

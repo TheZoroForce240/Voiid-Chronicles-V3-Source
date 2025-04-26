@@ -1,0 +1,198 @@
+{
+    "defaultFlipX": true,
+    "cameraOffset": [-0, -100],
+    "dancesLeftAndRight": false,
+    "imagePath": "TARO_WIIK3",
+    "spritesheetType": "SPARROW",
+    "healthIcon": "Wiik1BFRTX",
+    "barColor": [255, 175, 175],
+	"offsetsFlipWhenEnemy": true,
+    "offsetsFlipWhenPlayer": false,
+    "positionOffset": [0, 0],
+    "graphicSize": 1.0,
+    "animations": [
+        {
+            "name": "idle",
+            "animation_name": "BF idle dance0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singLEFT",
+            "animation_name": "BF Attack Right0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWN",
+            "animation_name": "BF Attack Down0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP",
+            "animation_name": "BF Attack Up0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT",
+            "animation_name": "BF Attack Left0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singLEFTmiss",
+            "animation_name": "BF RIGHT MISS0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWNmiss",
+            "animation_name": "BF RIGHT MISS0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUPmiss",
+            "animation_name": "BF RIGHT MISS0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHTmiss",
+            "animation_name": "BF RIGHT MISS0",
+            "fps": 24,
+            "looped": false
+        },
+		{
+            "name": "blockLEFT",
+            "animation_name": "BF Block Left0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "blockDOWN",
+            "animation_name": "BF Block Down0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "blockUP",
+            "animation_name": "BF Block Up0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "blockRIGHT",
+            "animation_name": "BF Block Right0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "dodgeLEFT",
+            "animation_name": "dodge DOWN0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "dodgeDOWN",
+            "animation_name": "dodge DOWN0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "dodgeUP",
+            "animation_name": "dodge UP0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "dodgeRIGHT",
+            "animation_name": "dodge UP0",
+            "fps": 24,
+            "looped": false
+        },
+
+
+
+        {
+            "name": "idle-mic",
+            "animation_name": "BF idle dance 20",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singLEFT-mic",
+            "animation_name": "BF SING RIGHT0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWN-mic",
+            "animation_name": "BF SING DOWN0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP-mic",
+            "animation_name": "BF SING UP0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT-mic",
+            "animation_name": "BF SING LEFT0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singLEFTmiss-mic",
+            "animation_name": "BF RIGHT MISS MIC0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWNmiss-mic",
+            "animation_name": "BF RIGHT MISS MIC0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUPmiss-mic",
+            "animation_name": "BF RIGHT MISS MIC0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHTmiss-mic",
+            "animation_name": "BF RIGHT MISS MIC0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "dodgeLEFT-mic",
+            "animation_name": "dodge DOWN MIC0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "dodgeDOWN-mic",
+            "animation_name": "dodge DOWN MIC0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "dodgeUP-mic",
+            "animation_name": "dodge UP MIC0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "dodgeRIGHT-mic",
+            "animation_name": "dodge UP MIC0",
+            "fps": 24,
+            "looped": false
+        }
+    ]
+}

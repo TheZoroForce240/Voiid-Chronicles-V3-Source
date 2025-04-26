@@ -1,0 +1,75 @@
+{
+	"rtxData": {
+		"overlay": "0x7C20B5",
+		"overlayAlpha": 0.0309278350515464,
+		"inner": "0xC59BCD",
+		"innerAlpha": 0.45360824742268,
+		"innerAngle": 241.237113402062,
+		"lightX": 465.5,
+		"lightY": 38.600000000001,
+		"satinAlpha": 0.742268041237113,
+		"innerDistance": 16.0824742268041,
+		"pointLight": false,
+		"satin": "0x812AA0"
+	},
+	"objects": [
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.6,
+				0.6
+			],
+			"position": [
+				-342,
+				-331
+			],
+			"alpha": 1,
+			"file_Name": "sky",
+			"scale": 1
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"position": [
+				-312,
+				-396
+			],
+			"file_Name": "wawa",
+			"scale": 1
+		}
+	],
+	"character_Positions": [
+		[
+			1541,
+			724
+		],
+		[
+			1156,
+			704
+		],
+		[
+			3507,
+			2258
+		]
+	],
+	"camera_Zoom": 0.8,
+	"camera_Offsets": [
+		[
+			0,
+			-50
+		],
+		[
+			0,
+			-50
+		],
+		[
+			0,
+			0
+		]
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"character_Scrolls": [
+		1,
+		1,
+		1
+	],
+	"objects": [
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"position": [
+				-1121,
+				-1060
+			],
+			"file_Name": "BG",
+			"scale": 1
+		}
+	],
+	"character_Positions": [
+		[
+			429,
+			-60
+		],
+		[
+			-303,
+			-80
+		],
+		[
+			112,
+			-167
+		]
+	],
+	"camera_Zoom": 0.675
+}

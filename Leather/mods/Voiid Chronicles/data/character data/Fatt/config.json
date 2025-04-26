@@ -1,0 +1,55 @@
+{
+    "defaultFlipX": true,
+    "cameraOffset": [-150, -50],
+    "dancesLeftAndRight": false,
+    "imagePath": "fatt",
+    "healthIcon": "",
+    "spritesheetType": "SPARROW",
+    "barColor": [255, 175, 175],
+	"offsetsFlipWhenEnemy": true,
+    "offsetsFlipWhenPlayer": false,
+    "animations": [
+        {
+            "name": "idle",
+            "animation_name": "idle0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "idle-alt",
+            "animation_name": "idle-alt0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singLEFT",
+            "animation_name": "right0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWN",
+            "animation_name": "down0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP",
+            "animation_name": "up0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP-alt",
+            "animation_name": "up-alt0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT",
+            "animation_name": "left0",
+            "fps": 24,
+            "looped": false
+        }
+    ]
+}

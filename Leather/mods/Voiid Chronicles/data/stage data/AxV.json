@@ -1,0 +1,104 @@
+{
+	"rtxData": {
+		"overlay": "0x7C20B5",
+		"overlayAlpha": 0.0309278350515464,
+		"inner": "0xC59BCD",
+		"innerAlpha": 0.45360824742268,
+		"innerAngle": 241.237113402062,
+		"lightX": 465.5,
+		"lightY": 38.600000000001,
+		"satinAlpha": 0.742268041237113,
+		"innerDistance": 16.0824742268041,
+		"pointLight": false,
+		"satin": "0x812AA0"
+	},
+	"character_Positions": [
+		[
+			746,
+			306
+		],
+		[
+			209,
+			286
+		],
+		[
+			1111,
+			202
+		]
+	],
+	"objects": [
+		{
+			"is_Animated": false,
+			"position": [
+				-670,
+				-450
+			],
+			"scroll_Factor": [
+				0.1,
+				0.1
+			],
+			"antialiased": true,
+			"scale": 1,
+			"file_Name": "bg"
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-768,
+				-558
+			],
+			"scroll_Factor": [
+				0.3,
+				0.3
+			],
+			"antialiased": true,
+			"scale": 1,
+			"file_Name": "rocks"
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-1200,
+				-1000
+			],
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"antialiased": true,
+			"scale": 1.2,
+			"file_Name": "floor"
+		},
+		{
+			"is_Animated": false,
+			"layer": "foreground",
+			"position": [
+				-700,
+				-450
+			],
+			"scroll_Factor": [
+				0.2,
+				0.2
+			],
+			"antialiased": true,
+			"scale": 1,
+			"file_Name": "foreground"
+		},
+		{
+			"is_Animated": false,
+			"layer": "foreground",
+			"position": [
+				-700,
+				-450
+			],
+			"scroll_Factor": [
+				0.2,
+				0.2
+			],
+			"antialiased": true,
+			"scale": 1,
+			"file_Name": "dust"
+		}
+	],
+	"camera_Zoom": 0.55
+}

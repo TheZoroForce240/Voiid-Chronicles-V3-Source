@@ -1,0 +1,104 @@
+{
+	"rtxData": {
+		"overlay": "0xB02061",
+		"overlayAlpha": 0.0618556701030928,
+		"inner": "0xE59B9E",
+		"innerAlpha": 0.34020618556701,
+		"innerAngle": 308.041237113402,
+		"lightX": 465.5,
+		"lightY": 38.600000000001,
+		"satinAlpha": 0.793814432989691,
+		"innerDistance": 20.7216494845361,
+		"pointLight": false,
+		"satin": "0xBB352D"
+	},
+	"character_Positions": [
+		[
+			2454,
+			1736
+		],
+		[
+			1385,
+			1719
+		],
+		[
+			1909,
+			1636
+		]
+	],
+	"objects": [
+		{
+			"is_Animated": false,
+			"position": [
+				-1056,
+				-180
+			],
+			"scroll_Factor": [
+				0.2,
+				1
+			],
+			"antialiased": true,
+			"scale": 1,
+			"file_Name": "Sky",
+			"alpha": 1
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-936,
+				-180
+			],
+			"scroll_Factor": [
+				0.35,
+				1
+			],
+			"antialiased": true,
+			"scale": 1,
+			"file_Name": "2"
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-836,
+				-180
+			],
+			"scroll_Factor": [
+				0.5,
+				1
+			],
+			"antialiased": true,
+			"scale": 1,
+			"file_Name": "1"
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-236,
+				-180
+			],
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"antialiased": true,
+			"scale": 1,
+			"file_Name": "Floor"
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0,
+				0
+			],
+			"position": [
+				-1676,
+				-882
+			],
+			"layer": "foreground",
+			"file_Name": "Grain",
+			"scale": 1
+		}
+	],
+	"camera_Zoom": 0.33
+}

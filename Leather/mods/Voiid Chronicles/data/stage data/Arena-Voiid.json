@@ -1,0 +1,139 @@
+{
+	"scriptName": "cvalwiik4",
+	"character_Positions": [
+		[
+			950,
+			900
+		],
+		[
+			550,
+			900
+		],
+		[
+			6905,
+			-2890
+		]
+	],
+	"objects": [
+		{
+			"is_Animated": false,
+			"position": [
+				-635,
+				-395
+			],
+			"scroll_Factor": [
+				0.5,
+				0.5
+			],
+			"antialiased": true,
+			"scale": 2,
+			"file_Name": "bg"
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-635,
+				-585
+			],
+			"scroll_Factor": [
+				0.8,
+				0.8
+			],
+			"antialiased": true,
+			"scale": 2,
+			"file_Name": "water",
+			"object_Name": "water"
+		},
+		{
+			"is_Animated": true,
+			"position": [
+				-645,
+				-360
+			],
+			"scroll_Factor": [
+				0.8,
+				0.8
+			],
+			"antialiased": true,
+			"scale": 2,
+			"file_Name": "crowdLeft",
+			"animations": [
+				{
+					"animation_name": "Crowd Left",
+					"name": "beatHit",
+					"fps": 12,
+					"looped": true
+				}
+			],
+			"start_Animation": "Crowd Left"
+		},
+		{
+			"is_Animated": true,
+			"position": [
+				965,
+				-360
+			],
+			"scroll_Factor": [
+				0.8,
+				0.8
+			],
+			"antialiased": true,
+			"scale": 2,
+			"file_Name": "crowdRight",
+			"start_Animation": "crowdRight",
+			"animations": [
+				{
+					"animation_name": "R Crowd Right",
+					"name": "beatHit",
+					"fps": 12,
+					"looped": true
+				}
+			]
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-590,
+				-590
+			],
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"antialiased": true,
+			"scale": 2,
+			"file_Name": "platform"
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-605,
+				-610
+			],
+			"scroll_Factor": [
+				0.8,
+				0.8
+			],
+			"antialiased": true,
+			"scale": 2,
+			"layer": "foreground",
+			"file_Name": "lights"
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-635,
+				-405
+			],
+			"scroll_Factor": [
+				0,
+				0
+			],
+			"antialiased": true,
+			"scale": 2,
+			"layer": "foreground",
+			"file_Name": "grain"
+		}
+	],
+	"camera_Zoom": 0.525
+}

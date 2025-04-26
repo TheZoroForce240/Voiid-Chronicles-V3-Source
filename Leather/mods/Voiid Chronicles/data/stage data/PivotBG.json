@@ -1,0 +1,69 @@
+
+{
+	"scriptName": "pivotBG",
+	"character_Scrolls": [
+		1,
+		1,
+		1
+	],
+	"character_Positions": [
+		[
+			1460,
+			741
+		],
+		[
+			634,
+			741
+		],
+		[
+			1040,
+			725
+		]
+	],
+	"objects": [
+		{
+			"is_Animated": false,
+			"position": [
+				-495,
+				-238
+			],
+			"scroll_Factor": [
+				0.3,
+				0.3
+			],
+			"antialiased": true,
+			"scale": 1,
+			"file_Name": "vapor"
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-195,
+				-238
+			],
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"antialiased": true,
+			"scale": 1,
+			"file_Name": "leanroom"
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0,
+				0
+			],
+			"position": [
+				-800,
+				-516
+			],
+			"layer": "foreground",
+			"file_Name": "grain",
+			"scale": 1.5
+		}
+	],
+	"camera_Zoom": 0.7
+}

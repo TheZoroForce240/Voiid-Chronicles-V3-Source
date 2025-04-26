@@ -1,0 +1,66 @@
+{
+    "defaultFlipX": false,
+    "cameraOffset": [40, -10],
+    "dancesLeftAndRight": false,
+    "imagePath": "VoiidGodMattRTX",
+    "spritesheetType": "SPARROW",
+    "barColor": [73,69,78],
+    "positionOffset": [70, 70],
+    "graphicSize": 1.5,
+    "animations": [
+        {
+            "name": "idle",
+            "animation_name": "idlegod0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singLEFT",
+            "animation_name": "leftgod0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWN",
+            "animation_name": "downgod0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP",
+            "animation_name": "upgod0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT",
+            "animation_name": "rightgod0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "dodgeLEFT",
+            "animation_name": "leftgod0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "dodgeDOWN",
+            "animation_name": "downgod0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "dodgeUP",
+            "animation_name": "upgod0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "dodgeRIGHT",
+            "animation_name": "rightgod0",
+            "fps": 24,
+            "looped": false
+        }
+    ]
+}

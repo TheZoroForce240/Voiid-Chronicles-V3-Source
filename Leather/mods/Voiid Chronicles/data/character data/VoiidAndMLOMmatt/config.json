@@ -1,0 +1,15 @@
+{
+	"cameraOffset": [225, -310],
+    "barColor": [73,69,78],
+    "healthIcon": "Wiik2VoiidMatt",
+    "characters": [
+        {
+            "name": "Wiik2VoiidMatt",
+            "positionOffset": [100,0]
+        },
+        {
+            "name": "MLOMmatt",
+            "positionOffset": [-150,20]
+        }
+    ]
+}

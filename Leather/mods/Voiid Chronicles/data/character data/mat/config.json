@@ -1,0 +1,83 @@
+{
+    "defaultFlipX": false,
+    "cameraOffset": [250, -100],
+    "dancesLeftAndRight": false,
+    "imagePath": "mat",
+    "spritesheetType": "SPARROW",
+    "barColor": [255,255,255],
+    "positionOffset": [0, 0],
+    "animations": [
+        {
+            "name": "idle",
+            "animation_name": "matt idle0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singLEFT",
+            "animation_name": "matt left note0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWN",
+            "animation_name": "matt down note0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP",
+            "animation_name": "matt up note0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT",
+            "animation_name": "matt right note0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "trans",
+            "animation_name": "trans",
+            "fps": 24,
+            "looped": false
+	    },
+		{
+            "name": "destrans",
+            "animation_name": "destrans",
+            "fps": 24,
+            "looped": false
+		},
+		{
+            "name": "idle-alt",
+            "animation_name": "idlegod0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singLEFT-alt",
+            "animation_name": "leftgod0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWN-alt",
+            "animation_name": "downgod0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP-alt",
+            "animation_name": "upgod0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT-alt",
+            "animation_name": "rightgod0",
+            "fps": 24,
+            "looped": false
+        }
+    ]
+}

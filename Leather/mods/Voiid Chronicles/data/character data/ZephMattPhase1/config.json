@@ -1,0 +1,43 @@
+{
+    "defaultFlipX": false,
+    "dancesLeftAndRight": false,
+    "imagePath": "ZEPHMATT_PHASE1",
+    "spritesheetType": "SPARROW",
+    "healthIcon" : "Wiik4ZephMatt",
+    "barColor": [73,69,78],
+    "positionOffset": [100, 200],
+    "graphicSize": 1.5,
+    "cameraOffset": [-100, -100],
+    "animations": [
+        {
+            "name": "idle",
+            "animation_name": "idle0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singLEFT",
+            "animation_name": "left0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWN",
+            "animation_name": "down0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP",
+            "animation_name": "up0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT",
+            "animation_name": "right0",
+            "fps": 24,
+            "looped": false
+        }
+    ]
+}

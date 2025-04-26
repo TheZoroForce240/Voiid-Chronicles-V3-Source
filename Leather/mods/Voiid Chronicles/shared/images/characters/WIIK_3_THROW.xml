@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="WIIK_3_THROW.png">
+	<!-- Created with Adobe Animate version 24.0.0.305 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Matt Attack FistThrow0000" x="4" y="4" width="307" height="410" frameX="-244" frameY="-54" frameWidth="852" frameHeight="464"/>
+	<SubTexture name="Matt Attack FistThrow0001" x="4" y="4" width="307" height="410" frameX="-244" frameY="-54" frameWidth="852" frameHeight="464"/>
+	<SubTexture name="Matt Attack FistThrow0002" x="315" y="4" width="307" height="403" frameX="-241" frameY="-61" frameWidth="852" frameHeight="464"/>
+	<SubTexture name="Matt Attack FistThrow0003" x="626" y="4" width="307" height="405" frameX="-243" frameY="-59" frameWidth="852" frameHeight="464"/>
+	<SubTexture name="Matt Attack FistThrow0004" x="937" y="4" width="307" height="407" frameX="-244" frameY="-57" frameWidth="852" frameHeight="464"/>
+	<SubTexture name="Matt Attack FistThrow0005" x="937" y="4" width="307" height="407" frameX="-244" frameY="-57" frameWidth="852" frameHeight="464"/>
+	<SubTexture name="Matt Attack FistThrow0006" x="937" y="4" width="307" height="407" frameX="-244" frameY="-57" frameWidth="852" frameHeight="464"/>
+	<SubTexture name="Matt Attack FistThrow0007" x="1248" y="4" width="354" height="399" frameX="-192" frameY="-65" frameWidth="852" frameHeight="464"/>
+	<SubTexture name="Matt Attack FistThrow0008" x="1606" y="4" width="336" height="401" frameX="-212" frameY="-63" frameWidth="852" frameHeight="464"/>
+	<SubTexture name="Matt Attack FistThrow0009" x="4" y="418" width="327" height="403" frameX="-221" frameY="-61" frameWidth="852" frameHeight="464"/>
+	<SubTexture name="Matt Attack FistThrow0010" x="4" y="418" width="327" height="403" frameX="-221" frameY="-61" frameWidth="852" frameHeight="464"/>
+	<SubTexture name="Matt Attack FistThrow0011" x="335" y="418" width="852" height="404" frameX="0" frameY="-60" frameWidth="852" frameHeight="464"/>
+	<SubTexture name="Matt Attack FistThrow0012" x="1191" y="418" width="397" height="462" frameX="-274" frameY="0" frameWidth="852" frameHeight="464"/>
+	<SubTexture name="Matt Attack FistThrow0013" x="1592" y="418" width="438" height="426" frameX="-255" frameY="-33" frameWidth="852" frameHeight="464"/>
+	<SubTexture name="Matt Attack FistThrow0014" x="4" y="884" width="398" height="425" frameX="-259" frameY="-34" frameWidth="852" frameHeight="464"/>
+	<SubTexture name="Matt Attack FistThrow0015" x="4" y="884" width="398" height="425" frameX="-259" frameY="-34" frameWidth="852" frameHeight="464"/>
+	<SubTexture name="Matt Attack FistThrow0016" x="406" y="884" width="370" height="420" frameX="-252" frameY="-40" frameWidth="852" frameHeight="464"/>
+	<SubTexture name="Matt Attack FistThrow0017" x="780" y="884" width="298" height="412" frameX="-224" frameY="-51" frameWidth="852" frameHeight="464"/>
+	<SubTexture name="Matt Attack FistThrow0018" x="1082" y="884" width="412" height="379" frameX="-145" frameY="-74" frameWidth="852" frameHeight="464"/>
+	<SubTexture name="Matt Attack FistThrow0019" x="1082" y="884" width="412" height="379" frameX="-145" frameY="-74" frameWidth="852" frameHeight="464"/>
+	<SubTexture name="Matt Attack FistThrow0020" x="1498" y="884" width="410" height="365" frameX="-148" frameY="-88" frameWidth="852" frameHeight="464"/>
+	<SubTexture name="Matt Attack FistThrow0021" x="1498" y="884" width="410" height="365" frameX="-148" frameY="-88" frameWidth="852" frameHeight="464"/>
+	<SubTexture name="Matt Attack FistThrow0022" x="1498" y="884" width="410" height="365" frameX="-148" frameY="-88" frameWidth="852" frameHeight="464"/>
+	<SubTexture name="Matt Attack FistThrow0023" x="1498" y="884" width="410" height="365" frameX="-148" frameY="-88" frameWidth="852" frameHeight="464"/>
+	<SubTexture name="Matt Attack FistThrow0024" x="1498" y="884" width="410" height="365" frameX="-148" frameY="-88" frameWidth="852" frameHeight="464"/>
+</TextureAtlas>

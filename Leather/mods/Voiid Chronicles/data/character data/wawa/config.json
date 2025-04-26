@@ -1,0 +1,45 @@
+{
+    "defaultFlipX": true,
+    "cameraOffset": [50, -300],
+    "dancesLeftAndRight": false,
+    "positionOffset": [50, 200],
+    "imagePath": "wawa",
+    "healthIcon": "",
+    "spritesheetType": "SPARROW",
+    "barColor": [255, 175, 175],
+	"offsetsFlipWhenEnemy": true,
+    "offsetsFlipWhenPlayer": false,
+    "graphicSize": 1.5,
+    "animations": [
+        {
+            "name": "idle",
+            "animation_name": "idle0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singLEFT",
+            "animation_name": "right0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWN",
+            "animation_name": "down0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP",
+            "animation_name": "up0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT",
+            "animation_name": "left0",
+            "fps": 24,
+            "looped": false
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+y:205
+charterX:-52
+charterScaleY:56
+charterY:-18
+charterScaleX:0
+affectedByColor:false
+spriteName:REJECTED_NOTES

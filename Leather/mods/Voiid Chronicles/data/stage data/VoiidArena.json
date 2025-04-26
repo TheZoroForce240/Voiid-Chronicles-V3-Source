@@ -1,0 +1,136 @@
+{
+	"rtxData": {
+		"overlay": "0x7C20B5",
+		"overlayAlpha": 0.0309278350515464,
+		"inner": "0xC59BCD",
+		"innerAlpha": 0.237113402061856,
+		"innerAngle": 256.082474226804,
+		"satinAlpha": 0.721649484536082,
+		"innerDistance": 16.0824742268041,
+		"satin": "0x812AA0"
+	},
+	"character_Positions": [
+		[
+			1173,
+			840
+		],
+		[
+			441,
+			810
+		],
+		[
+			781,
+			685
+		]
+	],
+	"objects": [
+		{
+			"is_Animated": false,
+			"position": [
+				-500,
+				-200
+			],
+			"scroll_Factor": [
+				0.4,
+				1
+			],
+			"antialiased": true,
+			"scale": 2,
+			"file_Name": "SKY"
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-500,
+				-150
+			],
+			"scroll_Factor": [
+				0.4,
+				1
+			],
+			"antialiased": true,
+			"scale": 2,
+			"file_Name": "WATER"
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-500,
+				-150
+			],
+			"scroll_Factor": [
+				0.6,
+				1
+			],
+			"antialiased": true,
+			"scale": 2,
+			"file_Name": "WAWA"
+		},
+		{
+			"is_Animated": true,
+			"position": [
+				-500,
+				-200
+			],
+			"scroll_Factor": [
+				0.6,
+				1
+			],
+			"antialiased": true,
+			"scale": 2,
+			"file_Name": "CROWD",
+			"animations": [
+				{
+					"animation_name": "Crowd_Animated0",
+					"name": "beatHit2",
+					"fps": 24,
+					"looped": false
+				}
+			]
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-500,
+				-150
+			],
+			"scroll_Factor": [
+				0.6,
+				1
+			],
+			"antialiased": true,
+			"scale": 2,
+			"file_Name": "railing"
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-500,
+				-200
+			],
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"antialiased": true,
+			"scale": 2,
+			"file_Name": "FLOOR"
+		},
+		{
+			"is_Animated": false,
+			"layer": "foreground",
+			"position": [
+				-500,
+				-200
+			],
+			"scroll_Factor": [
+				0,
+				0
+			],
+			"antialiased": true,
+			"scale": 2,
+			"file_Name": "GRAIN"
+		}
+	],
+	"camera_Zoom": 0.65
+}

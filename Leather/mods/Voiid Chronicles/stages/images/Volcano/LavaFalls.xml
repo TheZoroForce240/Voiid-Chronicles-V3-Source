@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Lava_Falls.png">
+  <!-- Created with Adobe Animate version 21.0.0.35450 -->
+  <!-- http://www.adobe.com/products/animate.html -->
+  <SubTexture name="lavafalls0000" x="0" y="0" width="1019" height="625" />
+  <SubTexture name="lavafalls0001" x="1019" y="0" width="1019" height="625" />
+  <SubTexture name="lavafalls0002" x="2038" y="0" width="1019" height="625" />
+  <SubTexture name="lavafalls0003" x="3057" y="0" width="1019" height="625" />
+  <SubTexture name="lavafalls0004" x="0" y="625" width="1019" height="625" />
+  <SubTexture name="lavafalls0005" x="1019" y="625" width="1019" height="625" />
+  <SubTexture name="lavafalls0006" x="2038" y="625" width="1019" height="625" />
+  <SubTexture name="lavafalls0007" x="3057" y="625" width="1019" height="625" />
+  <SubTexture name="lavafalls0008" x="0" y="1250" width="1019" height="625" />
+  <SubTexture name="lavafalls0009" x="1019" y="1250" width="1019" height="625" />
+  <SubTexture name="lavafalls0010" x="2038" y="1250" width="1019" height="625" />
+  <SubTexture name="lavafalls0011" x="3057" y="1250" width="1019" height="625" />
+  <SubTexture name="lavafalls0012" x="0" y="1875" width="1019" height="625" />
+  <SubTexture name="lavafalls0013" x="1019" y="1875" width="1019" height="625" />
+  <SubTexture name="lavafalls0014" x="2038" y="1875" width="1019" height="625" />
+  <SubTexture name="lavafalls0015" x="3057" y="1875" width="1019" height="625" />
+  <SubTexture name="lavafalls0016" x="0" y="2500" width="1019" height="625" />
+  <SubTexture name="lavafalls0017" x="1019" y="2500" width="1019" height="625" />
+  <SubTexture name="lavafalls0018" x="2038" y="2500" width="1019" height="625" />
+  <SubTexture name="lavafalls0019" x="3057" y="2500" width="1019" height="625" />
+  <SubTexture name="lavafalls0020" x="0" y="3125" width="1019" height="625" />
+  <SubTexture name="lavafalls0021" x="1019" y="3125" width="1019" height="625" />
+  <SubTexture name="lavafalls0022" x="2038" y="3125" width="1019" height="625" />
+</TextureAtlas>

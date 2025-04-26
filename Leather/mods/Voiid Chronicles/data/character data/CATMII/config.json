@@ -1,0 +1,120 @@
+{
+    "defaultFlipX": true,
+    "cameraOffset": [-150, -50],
+    "dancesLeftAndRight": false,
+    "imagePath": "CAT_MII_PLAYER",
+    "healthIcon": "",
+    "spritesheetType": "SPARROW",
+    "barColor": [255, 175, 175],
+	"offsetsFlipWhenEnemy": true,
+    "offsetsFlipWhenPlayer": false,
+    "positionOffset": [-20, 0],
+    "deathCharacterName": "CATMII",
+    "animations": [
+        {
+            "name": "idle",
+            "animation_name": "Cat idle0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singLEFT",
+            "animation_name": "Cat Right0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWN",
+            "animation_name": "Cat Down0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP",
+            "animation_name": "Cat Up",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT",
+            "animation_name": "Cat Left0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singLEFTmiss",
+            "animation_name": "Cat Miss Right0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWNmiss",
+            "animation_name": "Cat Miss Down0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUPmiss",
+            "animation_name": "Cat Miss Up0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHTmiss",
+            "animation_name": "Cat Miss Left0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "dodge",
+            "animation_name": "Cat Dodge0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "dodgeLEFT",
+            "animation_name": "Cat Dodge0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "dodgeDOWN",
+            "animation_name": "Cat Dodge0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "dodgeUP",
+            "animation_name": "Cat Dodge0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "dodgeRIGHT",
+            "animation_name": "Cat Dodge0",
+            "fps": 24,
+            "looped": false
+        },
+
+        {
+            "name": "firstDeath",
+            "animation_name": "Cat Death Start0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "deathLoop",
+            "animation_name": "Cat Death Loop0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "deathConfirm",
+            "animation_name": "Cat Death ENTER0",
+            "fps": 24,
+            "looped": false
+        }
+
+        
+    ]
+}

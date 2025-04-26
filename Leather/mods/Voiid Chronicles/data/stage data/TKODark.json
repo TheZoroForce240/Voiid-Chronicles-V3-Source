@@ -1,0 +1,81 @@
+{
+	"rtxData": {
+		"overlay": "0x000000",
+		"overlayAlpha": 0.0103092783505155,
+		"inner": "0xC5C5CD",
+		"innerAlpha": 0.474226804123711,
+		"innerAngle": 263.505154639175,
+		"lightX": 465.5,
+		"lightY": 38.600000000001,
+		"satinAlpha": 0.793814432989691,
+		"innerDistance": 18.8659793814433,
+		"pointLight": false,
+		"satin": "0x0B0315"
+	},
+	"character_Scrolls": [
+		1,
+		1,
+		1
+	],
+	"objects": [
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.5,
+				0.5
+			],
+			"position": [
+				-1121,
+				-760
+			],
+			"file_Name": "void",
+			"scale": 2
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"position": [
+				-1121,
+				-1060
+			],
+			"file_Name": "floor",
+			"scale": 2,
+			"object_Name": "tko-floor"
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"position": [
+				-1121,
+				-1060
+			],
+			"file_Name": "floordarknew",
+			"scale": 2,
+			"object_Name": "tko-floorGlow"
+		}
+	],
+	"character_Positions": [
+		[
+			934,
+			332
+		],
+		[
+			-68,
+			329
+		],
+		[
+			421,
+			272
+		]
+	],
+	"camera_Zoom": 0.6
+}

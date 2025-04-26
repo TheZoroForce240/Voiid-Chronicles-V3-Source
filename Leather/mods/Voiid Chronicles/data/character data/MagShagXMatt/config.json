@@ -1,0 +1,14 @@
+{
+	"cameraOffset": [250, -330],
+    "barColor": [189,0,172],
+    "characters": [
+        {
+            "name": "MagShaggy",
+            "positionOffset": [-225,0]
+        },
+        {
+            "name": "MagMatt",
+            "positionOffset": [0,0]
+        }
+    ]
+}

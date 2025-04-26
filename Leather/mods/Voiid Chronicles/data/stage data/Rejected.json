@@ -1,0 +1,94 @@
+{
+	"character_Positions": [
+		[
+			2416,
+			2106
+		],
+		[
+			917,
+			2145
+		],
+		[
+			1625,
+			2091
+		]
+	],
+	"objects": [
+		{
+			"false": true,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.4,
+				0.4
+			],
+			"position": [
+				-700,
+				-1000
+			],
+			"file_Name": "",
+			"scale": 3500,
+			"object_Name": "vortex"
+			
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-692,
+				-67
+			],
+			"scroll_Factor": [
+				0.75,
+				0.75
+			],
+			"antialiased": true,
+			"scale": 1,
+			"file_Name": "Island"
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-352,
+				-162
+			],
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"antialiased": true,
+			"scale": 1,
+			"file_Name": "Main"
+		},
+		{
+			"is_Animated": false,
+			"layer": "foreground",
+			"position": [
+				-800,
+				-516
+			],
+			"scroll_Factor": [
+				0,
+				0
+			],
+			"antialiased": true,
+			"scale": 1,
+			"file_Name": "ruido"
+		}
+	],
+	"character_Scrolls": [
+		1,
+		1,
+		1
+	],
+	"rtxData": {
+		"overlay": "0xB02061",
+		"overlayAlpha": 0.0824742268041237,
+		"inner": "0xE5C0B3",
+		"innerAlpha": 0.123711340206186,
+		"innerAngle": 237.525773195876,
+		"satinAlpha": 0.77319587628866,
+		"innerDistance": 15.1546391752577,
+		"satin": "0xB33F4A"
+	},
+	"camera_Zoom": 0.45,
+	"scriptName": "rejectedStage"
+}

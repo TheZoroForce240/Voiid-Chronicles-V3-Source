@@ -1,0 +1,63 @@
+{
+	"objects": [
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"position": [
+				-575,
+				-305
+			],
+			"file_Name": "BG",
+			"scale": 1
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"position": [
+				-590,
+				-290
+			],
+			"file_Name": "PLATFORM",
+			"scale": 1
+		},
+		{
+			"is_Animated": false,
+			"layer": "foreground",
+			"antialiased": true,
+			"scroll_Factor": [
+				0,
+				0
+			],
+			"position": [
+				-1275,
+				-705
+			],
+			"file_Name": "GRAIN",
+			"scale": 1
+		}
+	],
+	"scriptName": "heatWave",
+	"character_Positions": [
+		[
+			1732,
+			1564
+		],
+		[
+			1132,
+			1561
+		],
+		[
+			6905,
+			-2890
+		]
+	],
+	"camera_Zoom": 0.350
+}

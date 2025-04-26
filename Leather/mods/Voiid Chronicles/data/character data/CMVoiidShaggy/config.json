@@ -1,0 +1,15 @@
+{
+	"cameraOffset": [225, -310],
+    "barColor": [107,57,88],
+    "healthIcon": "VoiidShaggy",
+    "characters": [
+        {
+            "name": "VoiidShaggy",
+            "positionOffset": [-225,25]
+        },
+        {
+            "name": "VoiidShaggy",
+            "positionOffset": [225,0]
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "defaultFlipX": false,
+    "dancesLeftAndRight": false,
+    "imagePath": "nk",
+    "spritesheetType": "SPARROW",
+    "barColor": [200, 80, 200],
+    "positionOffset": [0, 0],
+    "cameraOffset": [130, -0],
+    "animations": [
+        {
+            "name": "idle",
+            "animation_name": "nk idle0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singLEFT",
+            "animation_name": "nk left0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWN",
+            "animation_name": "nk down0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP",
+            "animation_name": "nk up0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT",
+            "animation_name": "nk right0",
+            "fps": 24,
+            "looped": false
+        }
+    ]
+}

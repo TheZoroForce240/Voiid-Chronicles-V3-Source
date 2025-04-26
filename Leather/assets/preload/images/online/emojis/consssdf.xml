@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="consssdf.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Conspart20000" x="0" y="0" width="105" height="90" frameX="-1" frameY="0" frameWidth="106" frameHeight="90"/>
+	<SubTexture name="Conspart20001" x="105" y="0" width="105" height="90" frameX="-1" frameY="0" frameWidth="106" frameHeight="90"/>
+	<SubTexture name="Conspart20002" x="210" y="0" width="106" height="90"/>
+	<SubTexture name="Conspart20003" x="210" y="0" width="106" height="90"/>
+	<SubTexture name="Conspart20004" x="316" y="0" width="105" height="90" frameX="-1" frameY="0" frameWidth="106" frameHeight="90"/>
+	<SubTexture name="Conspart20005" x="316" y="0" width="105" height="90" frameX="-1" frameY="0" frameWidth="106" frameHeight="90"/>
+	<SubTexture name="Conspart20006" x="0" y="90" width="105" height="90" frameX="-1" frameY="0" frameWidth="106" frameHeight="90"/>
+	<SubTexture name="Conspart20007" x="0" y="90" width="105" height="90" frameX="-1" frameY="0" frameWidth="106" frameHeight="90"/>
+	<SubTexture name="Conspart20008" x="105" y="90" width="106" height="90"/>
+	<SubTexture name="Conspart20009" x="105" y="90" width="106" height="90"/>
+	<SubTexture name="Conspart20010" x="0" y="0" width="105" height="90" frameX="-1" frameY="0" frameWidth="106" frameHeight="90"/>
+</TextureAtlas>
