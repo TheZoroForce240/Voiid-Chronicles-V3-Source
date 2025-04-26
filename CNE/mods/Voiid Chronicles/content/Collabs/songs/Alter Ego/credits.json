@@ -1,0 +1,20 @@
+{
+	"composer": "LordVoiid and Revilo",
+	"charter": "RhysRJJ",
+	"originalComposer": "",
+	"startTime": 0,
+	"songFont": "dumbnerd.ttf",
+	"songFontSize": 128,
+	"infoFontSize": 24,
+	"outerBorderTop": "#000000",
+	"outerBorderBot": "#000000",
+	"midBorderTop": "#de2000",
+	"midBorderBot": "#aa1937",
+	"innerBorderTop": "#29131c",
+	"innerBorderBot": "#29131c",
+	"mixGap": 1.5,
+
+	"sobelStrength": 1.8,
+	"sobelIntensity": 1.0,
+	"outerBorderSize": 10
+}

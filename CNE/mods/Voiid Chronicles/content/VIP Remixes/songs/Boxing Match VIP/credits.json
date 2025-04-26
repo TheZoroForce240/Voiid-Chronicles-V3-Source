@@ -1,0 +1,28 @@
+{
+	"composer": "NobodyKnows, Lord Voiid and IvanoDrako",
+	"charter": "Wolfinu",
+	"originalComposer": "TheOnlyVolume",
+	"startTime": 10666,
+	"songFont": "dumbnerd.ttf",
+	"songFontSize": 128,
+	"infoFontSize": 22,
+	"outerBorderTop": "#000000",
+	"outerBorderBot": "#000000",
+	"midBorderTop": "#ff57f3",
+	"midBorderBot": "#13051f",
+	"innerBorderTop": "#8730a2",
+	"innerBorderBot": "#190c2c",
+
+	"sobelStrength": 0.5,
+	"sobelIntensity": 1.0,
+	"mixGap": 2.5,
+
+	"outerBorderTopVIP": "#000000",
+	"outerBorderBotVIP": "#000000",
+	"midBorderTopVIP": "#f3ff18",
+	"midBorderBotVIP": "#8d770a",
+	"innerBorderTopVIP": "#142332",
+	"innerBorderBotVIP": "#000000",
+
+	"outerBorderSize": 13
+}

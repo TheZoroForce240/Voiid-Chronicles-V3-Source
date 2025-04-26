@@ -1,0 +1,1441 @@
+<Modchart noteModchart="true">
+	<Init>
+		<Event type="initShader" shader="PerlinMirrorRepeatEffect" name="mirror"/>
+		<Event type="setCameraShader" camera="game" name="mirror"/>
+		<Event type="setShaderProperty" value="1" property="zoom" name="mirror"/>
+		<Event type="initShader" shader="GreyscaleEffect" name="greyscale"/>
+		<Event type="setCameraShader" camera="game" name="greyscale"/>
+		<Event type="setCameraShader" camera="hud" name="greyscale"/>
+		<Event type="setShaderProperty" value="1" property="strength" name="greyscale"/>
+		<Event type="initShader" shader="BlurEffect" name="blur"/>
+		<Event type="setCameraShader" camera="game" name="blur"/>
+		<Event type="setCameraShader" camera="hud" name="blur"/>
+		<Event type="setShaderProperty" value="0" property="strength" name="blur"/>
+		<Event strumLineID="0" code="x += xO_value;" value="0" type="initModifier" name="xO"/>
+		<Event strumLineID="1" code="x += xP_value;" value="0" type="initModifier" name="xP"/>
+		<Event type="initModifier" code="scaleX += noteScale_value; scaleY += noteScale_value;" value="0" name="noteScale"/>
+		<Event type="initModifier" code="
+			if (strumID &lt; 2.0) {
+				x -= xSplit_value;
+			} else {
+				x += xSplit_value;
+			}
+		" value="0" name="xSplit"/>
+		<Event type="initModifier" code="
+			if (strumID &lt; 2.0) {
+				y -= ySplit_value;
+			} else {
+				y += ySplit_value;
+			}
+		" value="0" name="ySplit"/>
+		<Event type="initModifier" code="
+			if (strumID &lt; 2.0) {
+				angleX -= angleXSplit_value;
+			} else {
+				angleX += angleXSplit_value;
+			}
+		" value="0" name="angleXSplit"/>
+		<Event type="initModifier" code="
+			if (strumID &lt; 2.0) {
+				angleY -= angleYSplit_value;
+			} else {
+				angleY += angleYSplit_value;
+			}
+		" value="0" name="angleYSplit"/>
+		<Event type="initModifier" code="
+			if (strumID &lt; 2.0) {
+				angleZ -= angleZSplit_value;
+			} else {
+				angleZ += angleZSplit_value;
+			}
+		" value="0" name="angleZSplit"/>
+	</Init>
+	<Events>
+		<Event step="0" type="addHUDZoom" value="0.01"/>
+		<Event step="0" type="addCameraZoom" value="0.01"/>
+		<Event step="16" type="addCameraZoom" value="0.01"/>
+		<Event step="16" type="addHUDZoom" value="0"/>
+		<Event step="32" type="addCameraZoom" value="0.01"/>
+		<Event step="32" type="addHUDZoom" value="0"/>
+		<Event step="40" type="addHUDZoom" value="0"/>
+		<Event step="40" type="addCameraZoom" value="0.01"/>
+		<Event step="44" type="addHUDZoom" value="0"/>
+		<Event step="44" type="addCameraZoom" value="0.01"/>
+		<Event step="46" type="addHUDZoom" value="0"/>
+		<Event step="46" type="addCameraZoom" value="0.01"/>
+		<Event step="48" type="addCameraZoom" value="0.01"/>
+		<Event step="48" type="addHUDZoom" value="0"/>
+		<Event step="56" type="addHUDZoom" value="0"/>
+		<Event step="56" type="addCameraZoom" value="0.01"/>
+		<Event step="60" type="addHUDZoom" value="0"/>
+		<Event step="60" type="addCameraZoom" value="0.01"/>
+		<Event step="62" type="addHUDZoom" value="0"/>
+		<Event step="62" type="addCameraZoom" value="0.01"/>
+		<Event step="64" type="addCameraZoom" value="0.01"/>
+		<Event step="64" type="addHUDZoom" value="0"/>
+		<Event step="80" type="addCameraZoom" value="0.01"/>
+		<Event step="80" type="addHUDZoom" value="0"/>
+		<Event step="96" type="addCameraZoom" value="0.01"/>
+		<Event step="96" type="addHUDZoom" value="0"/>
+		<Event step="104" type="addHUDZoom" value="0"/>
+		<Event step="104" type="addCameraZoom" value="0.01"/>
+		<Event step="108" type="addHUDZoom" value="0"/>
+		<Event step="108" type="addCameraZoom" value="0.01"/>
+		<Event step="110" type="addHUDZoom" value="0"/>
+		<Event step="110" type="addCameraZoom" value="0.01"/>
+		<Event step="112" type="addCameraZoom" value="0.01"/>
+		<Event step="112" type="addHUDZoom" value="0"/>
+		<Event step="120" type="addHUDZoom" value="0"/>
+		<Event step="120" type="addCameraZoom" value="0.01"/>
+		<Event step="124" type="addHUDZoom" value="0"/>
+		<Event step="124" type="addCameraZoom" value="0.01"/>
+		<Event step="126" type="addHUDZoom" value="0"/>
+		<Event step="126" type="addCameraZoom" value="0.01"/>
+		<Event step="128" type="addCameraZoom" value="0.01"/>
+		<Event step="128" type="addHUDZoom" value="0"/>
+		<Event step="144" type="addCameraZoom" value="0.01"/>
+		<Event step="144" type="addHUDZoom" value="0"/>
+		<Event step="160" type="addCameraZoom" value="0.01"/>
+		<Event step="160" type="addHUDZoom" value="0"/>
+		<Event step="168" type="addHUDZoom" value="0"/>
+		<Event step="168" type="addCameraZoom" value="0.01"/>
+		<Event step="172" type="addHUDZoom" value="0"/>
+		<Event step="172" type="addCameraZoom" value="0.01"/>
+		<Event step="174" type="addHUDZoom" value="0"/>
+		<Event step="174" type="addCameraZoom" value="0.01"/>
+		<Event step="176" type="addCameraZoom" value="0.01"/>
+		<Event step="176" type="addHUDZoom" value="0"/>
+		<Event step="184" type="addHUDZoom" value="0"/>
+		<Event step="184" type="addCameraZoom" value="0.01"/>
+		<Event step="188" type="addHUDZoom" value="0"/>
+		<Event step="188" type="addCameraZoom" value="0.01"/>
+		<Event step="190" type="addHUDZoom" value="0"/>
+		<Event step="190" type="addCameraZoom" value="0.01"/>
+		<Event step="192" type="addCameraZoom" value="0.01"/>
+		<Event step="192" type="addHUDZoom" value="0"/>
+		<Event step="192" time="64" value="0" property="strength" ease="cubeIn" type="tweenShaderProperty" startValue="1" name="greyscale"/>
+		<Event step="208" type="addCameraZoom" value="0.01"/>
+		<Event step="208" type="addHUDZoom" value="0"/>
+		<Event step="224" type="addCameraZoom" value="0.01"/>
+		<Event step="224" type="addHUDZoom" value="0"/>
+		<Event step="232" type="addHUDZoom" value="0"/>
+		<Event step="232" type="addCameraZoom" value="0.01"/>
+		<Event step="240" type="addCameraZoom" value="0.01"/>
+		<Event step="240" type="addHUDZoom" value="0"/>
+		<Event step="256" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="256" type="addCameraZoom" value="0.05"/>
+		<Event step="256" type="addHUDZoom" value="0"/>
+		<Event step="264" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="264" type="addCameraZoom" value="0.05"/>
+		<Event step="264" type="addHUDZoom" value="0"/>
+		<Event step="272" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="272" type="addCameraZoom" value="0.05"/>
+		<Event step="272" type="addHUDZoom" value="0"/>
+		<Event step="296" type="addCameraZoom" value="0.05"/>
+		<Event step="296" type="addHUDZoom" value="0"/>
+		<Event step="296" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="304" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="304" type="addCameraZoom" value="0.05"/>
+		<Event step="304" type="addHUDZoom" value="0"/>
+		<Event step="320" type="addCameraZoom" value="0.05"/>
+		<Event step="320" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="320" type="addHUDZoom" value="0"/>
+		<Event step="328" type="addCameraZoom" value="0.05"/>
+		<Event step="328" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="328" type="addHUDZoom" value="0"/>
+		<Event step="336" type="addCameraZoom" value="0.05"/>
+		<Event step="336" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="336" type="addHUDZoom" value="0"/>
+		<Event step="360" type="addCameraZoom" value="0.05"/>
+		<Event step="360" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="360" type="addHUDZoom" value="0"/>
+		<Event step="368" type="addCameraZoom" value="0.05"/>
+		<Event step="368" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="368" type="addHUDZoom" value="0"/>
+		<Event step="384" type="addCameraZoom" value="0.05"/>
+		<Event step="384" type="addHUDZoom" value="0"/>
+		<Event step="384" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="392" type="addCameraZoom" value="0.05"/>
+		<Event step="392" type="addHUDZoom" value="0"/>
+		<Event step="392" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="400" type="addCameraZoom" value="0.05"/>
+		<Event step="400" type="addHUDZoom" value="0"/>
+		<Event step="400" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="424" type="addCameraZoom" value="0.05"/>
+		<Event step="424" type="addHUDZoom" value="0"/>
+		<Event step="424" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="432" type="addCameraZoom" value="0.05"/>
+		<Event step="432" type="addHUDZoom" value="0"/>
+		<Event step="432" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="452" type="addCameraZoom" value="0.05"/>
+		<Event step="452" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="452" type="addHUDZoom" value="0"/>
+		<Event step="472" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="472" type="addCameraZoom" value="0.05"/>
+		<Event step="472" type="addHUDZoom" value="0"/>
+		<Event step="476" type="addCameraZoom" value="0.05"/>
+		<Event step="476" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.25" name="noteScale"/>
+		<Event step="476" type="addHUDZoom" value="0"/>
+		<Event step="496" type="addCameraZoom" value="0.05"/>
+		<Event step="496" time="8" value="45" ease="expoOut" type="tweenModifierValue" startValue="0" name="angleXSplit"/>
+		<Event step="496" type="addHUDZoom" value="0"/>
+		<Event step="504" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="504" type="addCameraZoom" value="0.05"/>
+		<Event step="504" time="4" value="0" ease="quintOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="504" time="4" value="45" ease="quadOut" type="tweenModifierValue" startValue="0" name="angleZSplit"/>
+		<Event step="504" type="addHUDZoom" value="0"/>
+		<Event step="508" time="4" value="45" ease="quartOut" type="tweenModifierValue" startValue="0" name="angleYSplit"/>
+		<Event step="508" time="4" value="0" ease="quintOut" type="tweenModifierValue" startValue="45" name="angleZSplit"/>
+		<Event step="508" type="addCameraZoom" value="0.05"/>
+		<Event step="508" type="addHUDZoom" value="0"/>
+		<Event step="512" time="4" value="0" ease="expoOut" type="tweenModifierValue" startValue="45" name="angleYSplit"/>
+		<Event step="512" type="addCameraZoom" value="0.05"/>
+		<Event step="512" type="addHUDZoom" value="0"/>
+		<Event step="512" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="520" type="addCameraZoom" value="0.05"/>
+		<Event step="520" type="addHUDZoom" value="0"/>
+		<Event step="520" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="528" type="addCameraZoom" value="0.05"/>
+		<Event step="528" type="addHUDZoom" value="0"/>
+		<Event step="528" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="552" type="addCameraZoom" value="0.05"/>
+		<Event step="552" type="addHUDZoom" value="0"/>
+		<Event step="552" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="560" type="addCameraZoom" value="0.05"/>
+		<Event step="560" type="addHUDZoom" value="0"/>
+		<Event step="560" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="576" type="addCameraZoom" value="0.05"/>
+		<Event step="576" type="addHUDZoom" value="0"/>
+		<Event step="576" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="584" type="addCameraZoom" value="0.05"/>
+		<Event step="584" type="addHUDZoom" value="0"/>
+		<Event step="584" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="592" type="addCameraZoom" value="0.05"/>
+		<Event step="592" type="addHUDZoom" value="0"/>
+		<Event step="592" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="616" type="addCameraZoom" value="0.05"/>
+		<Event step="616" type="addHUDZoom" value="0"/>
+		<Event step="616" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="624" type="addCameraZoom" value="0.05"/>
+		<Event step="624" type="addHUDZoom" value="0"/>
+		<Event step="624" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="640" type="addCameraZoom" value="0.05"/>
+		<Event step="640" type="addHUDZoom" value="0"/>
+		<Event step="640" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="648" type="addCameraZoom" value="0.05"/>
+		<Event step="648" type="addHUDZoom" value="0"/>
+		<Event step="648" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="656" type="addCameraZoom" value="0.05"/>
+		<Event step="656" type="addHUDZoom" value="0"/>
+		<Event step="656" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="680" type="addCameraZoom" value="0.05"/>
+		<Event step="680" type="addHUDZoom" value="0"/>
+		<Event step="680" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="688" type="addCameraZoom" value="0.05"/>
+		<Event step="688" type="addHUDZoom" value="0"/>
+		<Event step="688" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="708" type="addCameraZoom" value="0.05"/>
+		<Event step="708" type="addHUDZoom" value="0"/>
+		<Event step="708" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="728" type="addCameraZoom" value="0.05"/>
+		<Event step="728" type="addHUDZoom" value="0"/>
+		<Event step="728" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="732" type="addCameraZoom" value="0.05"/>
+		<Event step="732" type="addHUDZoom" value="0"/>
+		<Event step="732" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.25" name="noteScale"/>
+		<Event step="752" type="addCameraZoom" value="0.05"/>
+		<Event step="752" type="addHUDZoom" value="0"/>
+		<Event step="752" time="8" value="-45" ease="expoOut" type="tweenModifierValue" startValue="0" name="angleXSplit"/>
+		<Event step="760" type="addCameraZoom" value="0.05"/>
+		<Event step="760" type="addHUDZoom" value="0"/>
+		<Event step="760" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="760" time="4" value="45" ease="quadOut" type="tweenModifierValue" startValue="0" name="angleZSplit"/>
+		<Event step="760" time="4" value="0" ease="quintOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="764" type="addCameraZoom" value="0.05"/>
+		<Event step="764" type="addHUDZoom" value="0"/>
+		<Event step="764" time="4" value="0" ease="quintOut" type="tweenModifierValue" startValue="45" name="angleZSplit"/>
+		<Event step="764" time="4" value="-45" ease="quartOut" type="tweenModifierValue" startValue="0" name="angleYSplit"/>
+		<Event step="768" type="addCameraZoom" value="0.05"/>
+		<Event step="768" type="addHUDZoom" value="0"/>
+		<Event step="768" time="4" value="0" ease="expoOut" type="tweenModifierValue" startValue="45" name="angleYSplit"/>
+		<Event step="768" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="776" type="addCameraZoom" value="0.05"/>
+		<Event step="776" type="addHUDZoom" value="0"/>
+		<Event step="776" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="784" type="addCameraZoom" value="0.05"/>
+		<Event step="784" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="784" type="addHUDZoom" value="0"/>
+		<Event step="784" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="808" type="addCameraZoom" value="0.05"/>
+		<Event step="808" type="addHUDZoom" value="0"/>
+		<Event step="808" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="816" type="addCameraZoom" value="0.05"/>
+		<Event step="816" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="-45" name="angleXSplit"/>
+		<Event step="816" type="addHUDZoom" value="0"/>
+		<Event step="816" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="832" type="addCameraZoom" value="0.05"/>
+		<Event step="832" type="addHUDZoom" value="0"/>
+		<Event step="832" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="840" type="addCameraZoom" value="0.05"/>
+		<Event step="840" type="addHUDZoom" value="0"/>
+		<Event step="840" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="848" type="addCameraZoom" value="0.05"/>
+		<Event step="848" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="45" name="angleYSplit"/>
+		<Event step="848" type="addHUDZoom" value="0"/>
+		<Event step="848" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="872" type="addCameraZoom" value="0.05"/>
+		<Event step="872" type="addHUDZoom" value="0"/>
+		<Event step="872" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="880" type="addCameraZoom" value="0.05"/>
+		<Event step="880" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="-45" name="angleYSplit"/>
+		<Event step="880" type="addHUDZoom" value="0"/>
+		<Event step="880" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="896" type="addCameraZoom" value="0.05"/>
+		<Event step="896" type="addHUDZoom" value="0"/>
+		<Event step="896" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="904" type="addCameraZoom" value="0.05"/>
+		<Event step="904" type="addHUDZoom" value="0"/>
+		<Event step="904" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="912" type="addCameraZoom" value="0.05"/>
+		<Event step="912" type="addHUDZoom" value="0"/>
+		<Event step="912" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="912" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="936" type="addCameraZoom" value="0.05"/>
+		<Event step="936" type="addHUDZoom" value="0"/>
+		<Event step="936" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="944" type="addCameraZoom" value="0.05"/>
+		<Event step="944" type="addHUDZoom" value="0"/>
+		<Event step="944" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="-45" name="angleXSplit"/>
+		<Event step="944" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="964" type="addCameraZoom" value="0.05"/>
+		<Event step="964" type="addHUDZoom" value="0"/>
+		<Event step="964" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="984" type="addCameraZoom" value="0.05"/>
+		<Event step="984" type="addHUDZoom" value="0"/>
+		<Event step="984" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="988" type="addCameraZoom" value="0.05"/>
+		<Event step="988" type="addHUDZoom" value="0"/>
+		<Event step="988" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="45" name="angleZSplit"/>
+		<Event step="988" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.25" name="noteScale"/>
+		<Event step="1008" type="addCameraZoom" value="0.05"/>
+		<Event step="1008" type="addHUDZoom" value="0"/>
+		<Event step="1008" time="8" value="45" ease="expoOut" type="tweenModifierValue" startValue="0" name="angleXSplit"/>
+		<Event step="1016" type="addCameraZoom" value="0.05"/>
+		<Event step="1016" type="addHUDZoom" value="0"/>
+		<Event step="1016" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1016" time="4" value="45" ease="quadOut" type="tweenModifierValue" startValue="0" name="angleZSplit"/>
+		<Event step="1016" time="4" value="0" ease="quintOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="1020" type="addCameraZoom" value="0.05"/>
+		<Event step="1020" type="addHUDZoom" value="0"/>
+		<Event step="1020" time="4" value="45" ease="quartOut" type="tweenModifierValue" startValue="0" name="angleYSplit"/>
+		<Event step="1020" time="4" value="0" ease="quintOut" type="tweenModifierValue" startValue="45" name="angleZSplit"/>
+		<Event step="1024" type="addCameraZoom" value="0.05"/>
+		<Event step="1024" type="addHUDZoom" value="0"/>
+		<Event step="1024" time="4" value="0" ease="expoOut" type="tweenModifierValue" startValue="45" name="angleYSplit"/>
+		<Event step="1024" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1032" type="addCameraZoom" value="0.05"/>
+		<Event step="1032" type="addHUDZoom" value="0"/>
+		<Event step="1032" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1040" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="1040" type="addCameraZoom" value="0.05"/>
+		<Event step="1040" type="addHUDZoom" value="0"/>
+		<Event step="1040" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1064" type="addCameraZoom" value="0.05"/>
+		<Event step="1064" type="addHUDZoom" value="0"/>
+		<Event step="1064" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1072" type="addCameraZoom" value="0.05"/>
+		<Event step="1072" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="-45" name="angleXSplit"/>
+		<Event step="1072" type="addHUDZoom" value="0"/>
+		<Event step="1072" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1088" type="addCameraZoom" value="0.05"/>
+		<Event step="1088" type="addHUDZoom" value="0"/>
+		<Event step="1088" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1096" type="addCameraZoom" value="0.05"/>
+		<Event step="1096" type="addHUDZoom" value="0"/>
+		<Event step="1096" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1104" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="45" name="angleYSplit"/>
+		<Event step="1104" type="addCameraZoom" value="0.05"/>
+		<Event step="1104" type="addHUDZoom" value="0"/>
+		<Event step="1104" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1128" type="addCameraZoom" value="0.05"/>
+		<Event step="1128" type="addHUDZoom" value="0"/>
+		<Event step="1128" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1136" type="addCameraZoom" value="0.05"/>
+		<Event step="1136" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="-45" name="angleYSplit"/>
+		<Event step="1136" type="addHUDZoom" value="0"/>
+		<Event step="1136" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1152" type="addCameraZoom" value="0.05"/>
+		<Event step="1152" type="addHUDZoom" value="0"/>
+		<Event step="1152" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1160" type="addCameraZoom" value="0.05"/>
+		<Event step="1160" type="addHUDZoom" value="0"/>
+		<Event step="1160" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1168" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="1168" type="addCameraZoom" value="0.05"/>
+		<Event step="1168" type="addHUDZoom" value="0"/>
+		<Event step="1168" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1192" type="addCameraZoom" value="0.05"/>
+		<Event step="1192" type="addHUDZoom" value="0"/>
+		<Event step="1192" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1200" type="addCameraZoom" value="0.05"/>
+		<Event step="1200" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="-45" name="angleXSplit"/>
+		<Event step="1200" type="addHUDZoom" value="0"/>
+		<Event step="1200" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1220" type="addCameraZoom" value="0.05"/>
+		<Event step="1220" type="addHUDZoom" value="0"/>
+		<Event step="1220" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1240" type="addCameraZoom" value="0.05"/>
+		<Event step="1240" type="addHUDZoom" value="0"/>
+		<Event step="1240" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1244" type="addCameraZoom" value="0.05"/>
+		<Event step="1244" type="addHUDZoom" value="0"/>
+		<Event step="1244" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="45" name="angleZSplit"/>
+		<Event step="1244" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.25" name="noteScale"/>
+		<Event step="1248" time="4" value="1" property="strength" ease="cubeOut" type="tweenShaderProperty" startValue="0" name="greyscale"/>
+		<Event step="1264" time="4" value="0.75" property="strength" ease="cubeIn" type="tweenShaderProperty" startValue="1" name="greyscale"/>
+		<Event step="1264" type="addCameraZoom" value="0.05"/>
+		<Event step="1264" type="addHUDZoom" value="0"/>
+		<Event step="1264" time="8" value="-45" ease="expoOut" type="tweenModifierValue" startValue="0" name="angleXSplit"/>
+		<Event step="1272" type="addCameraZoom" value="0.05"/>
+		<Event step="1272" type="addHUDZoom" value="0"/>
+		<Event step="1272" time="4" value="0" ease="quintOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="1272" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1272" time="4" value="45" ease="quadOut" type="tweenModifierValue" startValue="0" name="angleZSplit"/>
+		<Event step="1276" type="addCameraZoom" value="0.05"/>
+		<Event step="1276" type="addHUDZoom" value="0"/>
+		<Event step="1276" time="4" value="-45" ease="quartOut" type="tweenModifierValue" startValue="0" name="angleYSplit"/>
+		<Event step="1276" time="4" value="0" ease="quintOut" type="tweenModifierValue" startValue="45" name="angleZSplit"/>
+		<Event step="1280" time="128" value="0.5" property="speed" ease="quadIn" type="tweenShaderProperty" startValue="0.2" name="mirror"/>
+		<Event step="1280" time="192" value="20" property="angleRange" ease="quadIn" type="tweenShaderProperty" startValue="0" name="mirror"/>
+		<Event step="1280" time="192" value="0.1" property="xRange" ease="quadIn" type="tweenShaderProperty" startValue="0" name="mirror"/>
+		<Event step="1280" time="96" value="0" property="strength" ease="cubeIn" type="tweenShaderProperty" startValue="0.75" name="greyscale"/>
+		<Event step="1280" type="addCameraZoom" value="0.05"/>
+		<Event step="1280" time="192" value="0.1" property="yRange" ease="quadIn" type="tweenShaderProperty" startValue="0" name="mirror"/>
+		<Event step="1280" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.4" name="noteScale"/>
+		<Event step="1280" type="addHUDZoom" value="0"/>
+		<Event step="1280" time="16" value="0" ease="quadOut" type="tweenModifierValue" startValue="90" name="angleYSplit"/>
+		<Event step="1312" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.4" name="noteScale"/>
+		<Event step="1312" type="addCameraZoom" value="0.05"/>
+		<Event step="1312" time="16" value="0" ease="quadOut" type="tweenModifierValue" startValue="-90" name="angleYSplit"/>
+		<Event step="1312" type="addHUDZoom" value="-0.05"/>
+		<Event step="1344" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.4" name="noteScale"/>
+		<Event step="1344" type="addCameraZoom" value="0.05"/>
+		<Event step="1344" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="90" name="angleYSplit"/>
+		<Event step="1344" type="addHUDZoom" value="-0.05"/>
+		<Event step="1360" type="addCameraZoom" value="0.05"/>
+		<Event step="1360" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.4" name="noteScale"/>
+		<Event step="1360" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="-90" name="angleYSplit"/>
+		<Event step="1360" type="addHUDZoom" value="-0.05"/>
+		<Event step="1376" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.4" name="noteScale"/>
+		<Event step="1376" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="90" name="angleYSplit"/>
+		<Event step="1376" type="addCameraZoom" value="0.05"/>
+		<Event step="1376" type="addHUDZoom" value="-0.05"/>
+		<Event step="1392" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.4" name="noteScale"/>
+		<Event step="1392" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="-90" name="angleYSplit"/>
+		<Event step="1392" type="addCameraZoom" value="0.05"/>
+		<Event step="1392" type="addHUDZoom" value="-0.05"/>
+		<Event step="1408" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="1408" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.4" name="noteScale"/>
+		<Event step="1408" type="addCameraZoom" value="0.05"/>
+		<Event step="1408" type="addHUDZoom" value="-0.05"/>
+		<Event step="1416" type="addCameraZoom" value="0.05"/>
+		<Event step="1416" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="-45" name="angleXSplit"/>
+		<Event step="1416" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.4" name="noteScale"/>
+		<Event step="1416" type="addHUDZoom" value="-0.05"/>
+		<Event step="1424" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="1424" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.4" name="noteScale"/>
+		<Event step="1424" type="addCameraZoom" value="0.05"/>
+		<Event step="1424" type="addHUDZoom" value="-0.05"/>
+		<Event step="1432" type="addCameraZoom" value="0.05"/>
+		<Event step="1432" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="-45" name="angleXSplit"/>
+		<Event step="1432" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.4" name="noteScale"/>
+		<Event step="1432" type="addHUDZoom" value="-0.05"/>
+		<Event step="1440" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="1440" type="addCameraZoom" value="0.05"/>
+		<Event step="1440" type="addHUDZoom" value="-0.05"/>
+		<Event step="1440" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.4" name="noteScale"/>
+		<Event step="1448" type="addCameraZoom" value="0.05"/>
+		<Event step="1448" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="-45" name="angleXSplit"/>
+		<Event step="1448" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.4" name="noteScale"/>
+		<Event step="1448" type="addHUDZoom" value="-0.05"/>
+		<Event step="1456" time="4" value="0" property="speed" ease="cubeInOut" type="tweenShaderProperty" startValue="0.5" name="mirror"/>
+		<Event step="1456" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.4" name="noteScale"/>
+		<Event step="1456" time="16" value="-320" ease="expoOut" type="tweenModifierValue" startValue="0" name="xP"/>
+		<Event step="1456" time="16" value="320" ease="expoOut" type="tweenModifierValue" startValue="0" name="xO"/>
+		<Event step="1456" type="addCameraZoom" value="0.05"/>
+		<Event step="1456" type="addHUDZoom" value="-0.05"/>
+		<Event step="1456" time="16" value="0" ease="expoOut" type="tweenModifierValue" startValue="360" name="angleZSplit"/>
+		<Event step="1472" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="45" name="angleZSplit"/>
+		<Event step="1472" time="0" value="2.5" property="speed" ease="cubeInOut" type="tweenShaderProperty" startValue="0.5" name="mirror"/>
+		<Event step="1472" type="addCameraZoom" value="0.035"/>
+		<Event step="1472" type="addHUDZoom" value="-0.035"/>
+		<Event step="1472" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1476" type="addCameraZoom" value="0.035"/>
+		<Event step="1476" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="-45" name="angleZSplit"/>
+		<Event step="1476" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1476" type="addHUDZoom" value="-0.035"/>
+		<Event step="1480" type="addCameraZoom" value="0.035"/>
+		<Event step="1480" type="addHUDZoom" value="-0.035"/>
+		<Event step="1480" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1480" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="45" name="angleZSplit"/>
+		<Event step="1484" type="addCameraZoom" value="0.035"/>
+		<Event step="1484" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1484" type="addHUDZoom" value="-0.035"/>
+		<Event step="1484" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="-45" name="angleZSplit"/>
+		<Event step="1488" type="addCameraZoom" value="0.035"/>
+		<Event step="1488" type="addHUDZoom" value="-0.035"/>
+		<Event step="1488" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="45" name="angleZSplit"/>
+		<Event step="1488" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1492" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1492" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="-45" name="angleZSplit"/>
+		<Event step="1492" type="addCameraZoom" value="0.035"/>
+		<Event step="1492" type="addHUDZoom" value="-0.035"/>
+		<Event step="1496" type="addCameraZoom" value="0.035"/>
+		<Event step="1496" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="45" name="angleZSplit"/>
+		<Event step="1496" type="addHUDZoom" value="-0.035"/>
+		<Event step="1496" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1500" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="-45" name="angleZSplit"/>
+		<Event step="1500" type="addCameraZoom" value="0.035"/>
+		<Event step="1500" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1500" type="addHUDZoom" value="-0.035"/>
+		<Event step="1504" type="addCameraZoom" value="0.035"/>
+		<Event step="1504" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="1504" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1504" type="addHUDZoom" value="-0.035"/>
+		<Event step="1506" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="-45" name="angleXSplit"/>
+		<Event step="1506" type="addCameraZoom" value="0.035"/>
+		<Event step="1506" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1506" type="addHUDZoom" value="-0.035"/>
+		<Event step="1508" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="1508" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1508" type="addCameraZoom" value="0.035"/>
+		<Event step="1508" type="addHUDZoom" value="-0.035"/>
+		<Event step="1510" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="-45" name="angleXSplit"/>
+		<Event step="1510" type="addCameraZoom" value="0.035"/>
+		<Event step="1510" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1510" type="addHUDZoom" value="-0.035"/>
+		<Event step="1512" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="1512" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1512" type="addCameraZoom" value="0.035"/>
+		<Event step="1512" type="addHUDZoom" value="-0.035"/>
+		<Event step="1514" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1514" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="-45" name="angleXSplit"/>
+		<Event step="1514" type="addCameraZoom" value="0.035"/>
+		<Event step="1514" type="addHUDZoom" value="-0.035"/>
+		<Event step="1516" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1516" type="addCameraZoom" value="0.035"/>
+		<Event step="1516" type="addHUDZoom" value="-0.035"/>
+		<Event step="1516" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="1518" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1518" type="addCameraZoom" value="0.035"/>
+		<Event step="1518" type="addHUDZoom" value="-0.035"/>
+		<Event step="1518" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="-45" name="angleXSplit"/>
+		<Event step="1520" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1520" type="addCameraZoom" value="0.035"/>
+		<Event step="1520" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="1520" type="addHUDZoom" value="-0.035"/>
+		<Event step="1522" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1522" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="-45" name="angleXSplit"/>
+		<Event step="1522" type="addCameraZoom" value="0.035"/>
+		<Event step="1522" type="addHUDZoom" value="-0.035"/>
+		<Event step="1524" type="addCameraZoom" value="0.035"/>
+		<Event step="1524" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="1524" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1524" type="addHUDZoom" value="-0.035"/>
+		<Event step="1526" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="-45" name="angleXSplit"/>
+		<Event step="1526" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1526" type="addCameraZoom" value="0.035"/>
+		<Event step="1526" type="addHUDZoom" value="-0.035"/>
+		<Event step="1528" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="1528" type="addCameraZoom" value="0.035"/>
+		<Event step="1528" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1528" type="addHUDZoom" value="-0.035"/>
+		<Event step="1530" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="-45" name="angleXSplit"/>
+		<Event step="1530" type="addCameraZoom" value="0.035"/>
+		<Event step="1530" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1530" type="addHUDZoom" value="-0.035"/>
+		<Event step="1532" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="1532" type="addCameraZoom" value="0.035"/>
+		<Event step="1532" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1532" type="addHUDZoom" value="-0.035"/>
+		<Event step="1534" type="addCameraZoom" value="0.035"/>
+		<Event step="1534" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="-45" name="angleXSplit"/>
+		<Event step="1534" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1534" type="addHUDZoom" value="-0.035"/>
+		<Event step="1536" time="0" value="0.1" property="speed" ease="cubeInOut" type="tweenShaderProperty" startValue="2.5" name="mirror"/>
+		<Event step="1536" type="addCameraZoom" value="0.035"/>
+		<Event step="1536" time="192" value="2" property="angleRange" ease="quadIn" type="tweenShaderProperty" startValue="0" name="mirror"/>
+		<Event step="1536" time="128" value="0" ease="expoOut" type="tweenModifierValue" startValue="360" name="angleXSplit"/>
+		<Event step="1536" time="128" value="0" ease="expoOut" type="tweenModifierValue" startValue="360" name="angleYSplit"/>
+		<Event step="1536" time="192" value="0.1" property="xRange" ease="quadIn" type="tweenShaderProperty" startValue="0.1" name="mirror"/>
+		<Event step="1536" time="192" value="0.1" property="yRange" ease="quadIn" type="tweenShaderProperty" startValue="0.1" name="mirror"/>
+		<Event step="1536" type="addHUDZoom" value="-0.035"/>
+		<Event step="1680" time="8" value="1" property="strength" ease="cubeInOut" type="tweenShaderProperty" startValue="0" name="greyscale"/>
+		<Event step="1728" time="8" value="0.5" property="strength" ease="cubeInOut" type="tweenShaderProperty" startValue="1" name="greyscale"/>
+		<Event step="1792" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1792" time="32" value="0" ease="quartOut" type="tweenModifierValue" startValue="320" name="xO"/>
+		<Event step="1792" type="addCameraZoom" value="0.05"/>
+		<Event step="1792" time="32" value="0" ease="quartOut" type="tweenModifierValue" startValue="-320" name="xP"/>
+		<Event step="1792" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="35" name="ySplit"/>
+		<Event step="1792" type="addHUDZoom" value="0"/>
+		<Event step="1800" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1800" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="-35" name="ySplit"/>
+		<Event step="1800" type="addCameraZoom" value="0.05"/>
+		<Event step="1800" type="addHUDZoom" value="0"/>
+		<Event step="1808" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1808" time="16" value="0" ease="quadOut" type="tweenModifierValue" startValue="50" name="xSplit"/>
+		<Event step="1808" type="addCameraZoom" value="0.05"/>
+		<Event step="1808" type="addHUDZoom" value="0"/>
+		<Event step="1832" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="35" name="ySplit"/>
+		<Event step="1832" type="addCameraZoom" value="0.05"/>
+		<Event step="1832" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1832" type="addHUDZoom" value="0"/>
+		<Event step="1840" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="-35" name="ySplit"/>
+		<Event step="1840" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1840" type="addCameraZoom" value="0.05"/>
+		<Event step="1840" type="addHUDZoom" value="0"/>
+		<Event step="1856" type="addCameraZoom" value="0.05"/>
+		<Event step="1856" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="35" name="ySplit"/>
+		<Event step="1856" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1856" type="addHUDZoom" value="0"/>
+		<Event step="1864" type="addCameraZoom" value="0.05"/>
+		<Event step="1864" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1864" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="-35" name="ySplit"/>
+		<Event step="1864" type="addHUDZoom" value="0"/>
+		<Event step="1872" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1872" time="16" value="0" ease="quadOut" type="tweenModifierValue" startValue="50" name="xSplit"/>
+		<Event step="1872" type="addCameraZoom" value="0.05"/>
+		<Event step="1872" type="addHUDZoom" value="0"/>
+		<Event step="1896" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="35" name="ySplit"/>
+		<Event step="1896" type="addCameraZoom" value="0.05"/>
+		<Event step="1896" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1896" type="addHUDZoom" value="0"/>
+		<Event step="1904" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="-35" name="ySplit"/>
+		<Event step="1904" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1904" type="addCameraZoom" value="0.05"/>
+		<Event step="1904" type="addHUDZoom" value="0"/>
+		<Event step="1920" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="35" name="ySplit"/>
+		<Event step="1920" type="addCameraZoom" value="0.05"/>
+		<Event step="1920" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1920" type="addHUDZoom" value="0"/>
+		<Event step="1928" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="-35" name="ySplit"/>
+		<Event step="1928" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1928" type="addCameraZoom" value="0.05"/>
+		<Event step="1928" type="addHUDZoom" value="0"/>
+		<Event step="1936" time="16" value="0" ease="quadOut" type="tweenModifierValue" startValue="50" name="xSplit"/>
+		<Event step="1936" type="addCameraZoom" value="0.05"/>
+		<Event step="1936" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1936" type="addHUDZoom" value="0"/>
+		<Event step="1960" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="35" name="ySplit"/>
+		<Event step="1960" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1960" type="addCameraZoom" value="0.05"/>
+		<Event step="1960" type="addHUDZoom" value="0"/>
+		<Event step="1968" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="-35" name="ySplit"/>
+		<Event step="1968" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1968" type="addCameraZoom" value="0.05"/>
+		<Event step="1968" type="addHUDZoom" value="0"/>
+		<Event step="1988" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="35" name="ySplit"/>
+		<Event step="1988" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="1988" type="addCameraZoom" value="0.05"/>
+		<Event step="1988" type="addHUDZoom" value="0"/>
+		<Event step="2008" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2008" type="addCameraZoom" value="0.05"/>
+		<Event step="2008" type="addHUDZoom" value="0"/>
+		<Event step="2008" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="35" name="ySplit"/>
+		<Event step="2012" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.25" name="noteScale"/>
+		<Event step="2012" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="-35" name="ySplit"/>
+		<Event step="2012" type="addCameraZoom" value="0.05"/>
+		<Event step="2012" type="addHUDZoom" value="0"/>
+		<Event step="2032" time="4" value="50" ease="expoOut" type="tweenModifierValue" startValue="0" name="xSplit"/>
+		<Event step="2032" type="addCameraZoom" value="0.05"/>
+		<Event step="2032" type="addHUDZoom" value="0"/>
+		<Event step="2040" time="4" value="50" ease="expoOut" type="tweenModifierValue" startValue="0" name="ySplit"/>
+		<Event step="2040" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2040" type="addCameraZoom" value="0.05"/>
+		<Event step="2040" type="addHUDZoom" value="0"/>
+		<Event step="2044" type="addCameraZoom" value="0.05"/>
+		<Event step="2044" time="4" value="-50" ease="expoOut" type="tweenModifierValue" startValue="50" name="ySplit"/>
+		<Event step="2044" type="addHUDZoom" value="0"/>
+		<Event step="2048" time="4" value="0" ease="expoOut" type="tweenModifierValue" startValue="50" name="xSplit"/>
+		<Event step="2048" type="addCameraZoom" value="0.05"/>
+		<Event step="2048" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2048" type="addHUDZoom" value="0"/>
+		<Event step="2048" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="35" name="ySplit"/>
+		<Event step="2056" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="-35" name="ySplit"/>
+		<Event step="2056" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2056" type="addCameraZoom" value="0.05"/>
+		<Event step="2056" type="addHUDZoom" value="0"/>
+		<Event step="2064" time="16" value="0" ease="quadOut" type="tweenModifierValue" startValue="50" name="xSplit"/>
+		<Event step="2064" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2064" type="addCameraZoom" value="0.05"/>
+		<Event step="2064" type="addHUDZoom" value="0"/>
+		<Event step="2088" type="addCameraZoom" value="0.05"/>
+		<Event step="2088" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2088" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="35" name="ySplit"/>
+		<Event step="2088" type="addHUDZoom" value="0"/>
+		<Event step="2096" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2096" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="-35" name="ySplit"/>
+		<Event step="2096" type="addCameraZoom" value="0.05"/>
+		<Event step="2096" type="addHUDZoom" value="0"/>
+		<Event step="2112" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2112" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="35" name="ySplit"/>
+		<Event step="2112" type="addCameraZoom" value="0.05"/>
+		<Event step="2112" type="addHUDZoom" value="0"/>
+		<Event step="2120" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2120" type="addCameraZoom" value="0.05"/>
+		<Event step="2120" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="-35" name="ySplit"/>
+		<Event step="2120" type="addHUDZoom" value="0"/>
+		<Event step="2128" type="addCameraZoom" value="0.05"/>
+		<Event step="2128" time="16" value="0" ease="quadOut" type="tweenModifierValue" startValue="50" name="xSplit"/>
+		<Event step="2128" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2128" type="addHUDZoom" value="0"/>
+		<Event step="2152" type="addCameraZoom" value="0.05"/>
+		<Event step="2152" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2152" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="35" name="ySplit"/>
+		<Event step="2152" type="addHUDZoom" value="0"/>
+		<Event step="2160" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2160" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="-35" name="ySplit"/>
+		<Event step="2160" type="addCameraZoom" value="0.05"/>
+		<Event step="2160" type="addHUDZoom" value="0"/>
+		<Event step="2176" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2176" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="35" name="ySplit"/>
+		<Event step="2176" type="addCameraZoom" value="0.05"/>
+		<Event step="2176" type="addHUDZoom" value="0"/>
+		<Event step="2184" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="-35" name="ySplit"/>
+		<Event step="2184" type="addCameraZoom" value="0.05"/>
+		<Event step="2184" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2184" type="addHUDZoom" value="0"/>
+		<Event step="2192" type="addCameraZoom" value="0.05"/>
+		<Event step="2192" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2192" time="16" value="0" ease="quadOut" type="tweenModifierValue" startValue="50" name="xSplit"/>
+		<Event step="2192" type="addHUDZoom" value="0"/>
+		<Event step="2216" type="addCameraZoom" value="0.05"/>
+		<Event step="2216" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2216" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="35" name="ySplit"/>
+		<Event step="2216" type="addHUDZoom" value="0"/>
+		<Event step="2224" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2224" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="-35" name="ySplit"/>
+		<Event step="2224" type="addCameraZoom" value="0.05"/>
+		<Event step="2224" type="addHUDZoom" value="0"/>
+		<Event step="2244" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2244" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="35" name="ySplit"/>
+		<Event step="2244" type="addCameraZoom" value="0.05"/>
+		<Event step="2244" type="addHUDZoom" value="0"/>
+		<Event step="2264" type="addCameraZoom" value="0.05"/>
+		<Event step="2264" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="35" name="ySplit"/>
+		<Event step="2264" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2264" type="addHUDZoom" value="0"/>
+		<Event step="2268" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.25" name="noteScale"/>
+		<Event step="2268" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="-35" name="ySplit"/>
+		<Event step="2268" type="addCameraZoom" value="0.05"/>
+		<Event step="2268" type="addHUDZoom" value="0"/>
+		<Event step="2288" type="addCameraZoom" value="0.05"/>
+		<Event step="2288" time="4" value="50" ease="expoOut" type="tweenModifierValue" startValue="0" name="xSplit"/>
+		<Event step="2288" type="addHUDZoom" value="0"/>
+		<Event step="2296" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2296" time="4" value="-50" ease="expoOut" type="tweenModifierValue" startValue="0" name="ySplit"/>
+		<Event step="2296" type="addCameraZoom" value="0.05"/>
+		<Event step="2296" type="addHUDZoom" value="0"/>
+		<Event step="2300" time="4" value="50" ease="expoOut" type="tweenModifierValue" startValue="-50" name="ySplit"/>
+		<Event step="2300" type="addCameraZoom" value="0.05"/>
+		<Event step="2300" type="addHUDZoom" value="0"/>
+		<Event step="2304" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2304" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="35" name="ySplit"/>
+		<Event step="2304" time="4" value="0" ease="expoOut" type="tweenModifierValue" startValue="50" name="xSplit"/>
+		<Event step="2304" type="addCameraZoom" value="0.05"/>
+		<Event step="2304" type="addHUDZoom" value="0"/>
+		<Event step="2312" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="-35" name="ySplit"/>
+		<Event step="2312" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2312" type="addCameraZoom" value="0.05"/>
+		<Event step="2312" type="addHUDZoom" value="0"/>
+		<Event step="2320" time="16" value="0" ease="quadOut" type="tweenModifierValue" startValue="50" name="xSplit"/>
+		<Event step="2320" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2320" type="addCameraZoom" value="0.05"/>
+		<Event step="2320" type="addHUDZoom" value="0"/>
+		<Event step="2344" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2344" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="35" name="ySplit"/>
+		<Event step="2344" type="addCameraZoom" value="0.05"/>
+		<Event step="2344" type="addHUDZoom" value="0"/>
+		<Event step="2352" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2352" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="-35" name="ySplit"/>
+		<Event step="2352" type="addCameraZoom" value="0.05"/>
+		<Event step="2352" type="addHUDZoom" value="0"/>
+		<Event step="2368" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2368" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="35" name="ySplit"/>
+		<Event step="2368" type="addCameraZoom" value="0.05"/>
+		<Event step="2368" type="addHUDZoom" value="0"/>
+		<Event step="2376" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="-35" name="ySplit"/>
+		<Event step="2376" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2376" type="addCameraZoom" value="0.05"/>
+		<Event step="2376" type="addHUDZoom" value="0"/>
+		<Event step="2384" time="16" value="0" ease="quadOut" type="tweenModifierValue" startValue="50" name="xSplit"/>
+		<Event step="2384" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2384" type="addCameraZoom" value="0.05"/>
+		<Event step="2384" type="addHUDZoom" value="0"/>
+		<Event step="2408" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2408" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="35" name="ySplit"/>
+		<Event step="2408" type="addCameraZoom" value="0.05"/>
+		<Event step="2408" type="addHUDZoom" value="0"/>
+		<Event step="2416" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2416" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="-35" name="ySplit"/>
+		<Event step="2416" type="addCameraZoom" value="0.05"/>
+		<Event step="2416" type="addHUDZoom" value="0"/>
+		<Event step="2432" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2432" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="35" name="ySplit"/>
+		<Event step="2432" type="addCameraZoom" value="0.05"/>
+		<Event step="2432" type="addHUDZoom" value="0"/>
+		<Event step="2440" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2440" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="-35" name="ySplit"/>
+		<Event step="2440" type="addCameraZoom" value="0.05"/>
+		<Event step="2440" type="addHUDZoom" value="0"/>
+		<Event step="2448" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2448" time="16" value="0" ease="quadOut" type="tweenModifierValue" startValue="50" name="xSplit"/>
+		<Event step="2448" type="addCameraZoom" value="0.05"/>
+		<Event step="2448" type="addHUDZoom" value="0"/>
+		<Event step="2472" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2472" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="35" name="ySplit"/>
+		<Event step="2472" type="addCameraZoom" value="0.05"/>
+		<Event step="2472" type="addHUDZoom" value="0"/>
+		<Event step="2480" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2480" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="-35" name="ySplit"/>
+		<Event step="2480" type="addCameraZoom" value="0.05"/>
+		<Event step="2480" type="addHUDZoom" value="0"/>
+		<Event step="2500" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2500" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="35" name="ySplit"/>
+		<Event step="2500" type="addCameraZoom" value="0.05"/>
+		<Event step="2500" type="addHUDZoom" value="0"/>
+		<Event step="2520" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="35" name="ySplit"/>
+		<Event step="2520" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2520" type="addCameraZoom" value="0.05"/>
+		<Event step="2520" type="addHUDZoom" value="0"/>
+		<Event step="2524" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="-35" name="ySplit"/>
+		<Event step="2524" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.25" name="noteScale"/>
+		<Event step="2524" type="addCameraZoom" value="0.05"/>
+		<Event step="2524" type="addHUDZoom" value="0"/>
+		<Event step="2544" time="4" value="50" ease="expoOut" type="tweenModifierValue" startValue="0" name="xSplit"/>
+		<Event step="2544" type="addCameraZoom" value="0.05"/>
+		<Event step="2544" type="addHUDZoom" value="0"/>
+		<Event step="2552" time="4" value="50" ease="expoOut" type="tweenModifierValue" startValue="0" name="ySplit"/>
+		<Event step="2552" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2552" type="addCameraZoom" value="0.05"/>
+		<Event step="2552" type="addHUDZoom" value="0"/>
+		<Event step="2556" time="4" value="-50" ease="expoOut" type="tweenModifierValue" startValue="50" name="ySplit"/>
+		<Event step="2556" type="addCameraZoom" value="0.05"/>
+		<Event step="2556" type="addHUDZoom" value="0"/>
+		<Event step="2560" type="addCameraZoom" value="0.05"/>
+		<Event step="2560" time="4" value="0" ease="expoOut" type="tweenModifierValue" startValue="50" name="xSplit"/>
+		<Event step="2560" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2560" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="35" name="ySplit"/>
+		<Event step="2560" type="addHUDZoom" value="0"/>
+		<Event step="2568" type="addCameraZoom" value="0.05"/>
+		<Event step="2568" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2568" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="-35" name="ySplit"/>
+		<Event step="2568" type="addHUDZoom" value="0"/>
+		<Event step="2576" type="addCameraZoom" value="0.05"/>
+		<Event step="2576" time="16" value="0" ease="quadOut" type="tweenModifierValue" startValue="50" name="xSplit"/>
+		<Event step="2576" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2576" type="addHUDZoom" value="0"/>
+		<Event step="2600" type="addCameraZoom" value="0.05"/>
+		<Event step="2600" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2600" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="35" name="ySplit"/>
+		<Event step="2600" type="addHUDZoom" value="0"/>
+		<Event step="2608" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2608" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="-35" name="ySplit"/>
+		<Event step="2608" type="addCameraZoom" value="0.05"/>
+		<Event step="2608" type="addHUDZoom" value="0"/>
+		<Event step="2624" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2624" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="35" name="ySplit"/>
+		<Event step="2624" type="addCameraZoom" value="0.05"/>
+		<Event step="2624" type="addHUDZoom" value="0"/>
+		<Event step="2632" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2632" type="addCameraZoom" value="0.05"/>
+		<Event step="2632" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="-35" name="ySplit"/>
+		<Event step="2632" type="addHUDZoom" value="0"/>
+		<Event step="2640" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2640" type="addCameraZoom" value="0.05"/>
+		<Event step="2640" time="16" value="0" ease="quadOut" type="tweenModifierValue" startValue="50" name="xSplit"/>
+		<Event step="2640" type="addHUDZoom" value="0"/>
+		<Event step="2664" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="35" name="ySplit"/>
+		<Event step="2664" type="addCameraZoom" value="0.05"/>
+		<Event step="2664" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2664" type="addHUDZoom" value="0"/>
+		<Event step="2672" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2672" type="addCameraZoom" value="0.05"/>
+		<Event step="2672" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="-35" name="ySplit"/>
+		<Event step="2672" type="addHUDZoom" value="0"/>
+		<Event step="2688" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="35" name="ySplit"/>
+		<Event step="2688" type="addCameraZoom" value="0.05"/>
+		<Event step="2688" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2688" type="addHUDZoom" value="0"/>
+		<Event step="2696" type="addCameraZoom" value="0.05"/>
+		<Event step="2696" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2696" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="-35" name="ySplit"/>
+		<Event step="2696" type="addHUDZoom" value="0"/>
+		<Event step="2704" type="addCameraZoom" value="0.05"/>
+		<Event step="2704" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2704" time="16" value="0" ease="quadOut" type="tweenModifierValue" startValue="50" name="xSplit"/>
+		<Event step="2704" type="addHUDZoom" value="0"/>
+		<Event step="2728" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="35" name="ySplit"/>
+		<Event step="2728" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2728" type="addCameraZoom" value="0.05"/>
+		<Event step="2728" type="addHUDZoom" value="0"/>
+		<Event step="2736" type="addCameraZoom" value="0.05"/>
+		<Event step="2736" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2736" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="-35" name="ySplit"/>
+		<Event step="2736" type="addHUDZoom" value="0"/>
+		<Event step="2752" time="64" value="0" property="strength" ease="cubeIn" type="tweenShaderProperty" startValue="0.5" name="greyscale"/>
+		<Event step="2756" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2756" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="35" name="ySplit"/>
+		<Event step="2756" type="addCameraZoom" value="0.05"/>
+		<Event step="2756" type="addHUDZoom" value="0"/>
+		<Event step="2776" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="35" name="ySplit"/>
+		<Event step="2776" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2776" type="addCameraZoom" value="0.05"/>
+		<Event step="2776" type="addHUDZoom" value="0"/>
+		<Event step="2780" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="-35" name="ySplit"/>
+		<Event step="2780" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.25" name="noteScale"/>
+		<Event step="2780" type="addCameraZoom" value="0.05"/>
+		<Event step="2780" type="addHUDZoom" value="0"/>
+		<Event step="2800" time="4" value="50" ease="expoOut" type="tweenModifierValue" startValue="0" name="xSplit"/>
+		<Event step="2800" type="addCameraZoom" value="0.05"/>
+		<Event step="2800" type="addHUDZoom" value="0"/>
+		<Event step="2808" time="4" value="-50" ease="expoOut" type="tweenModifierValue" startValue="0" name="ySplit"/>
+		<Event step="2808" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2808" type="addCameraZoom" value="0.05"/>
+		<Event step="2808" type="addHUDZoom" value="0"/>
+		<Event step="2812" type="addCameraZoom" value="0.05"/>
+		<Event step="2812" time="4" value="50" ease="expoOut" type="tweenModifierValue" startValue="-50" name="ySplit"/>
+		<Event step="2812" type="addHUDZoom" value="0"/>
+		<Event step="2816" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2816" time="4" value="0" ease="expoOut" type="tweenModifierValue" startValue="50" name="xSplit"/>
+		<Event step="2816" time="4" value="0" ease="expoOut" type="tweenModifierValue" startValue="50" name="ySplit"/>
+		<Event step="2816" type="addCameraZoom" value="0.05"/>
+		<Event step="2816" type="addHUDZoom" value="0"/>
+		<Event step="2824" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2824" type="addCameraZoom" value="0.05"/>
+		<Event step="2824" type="addHUDZoom" value="0"/>
+		<Event step="2832" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2832" type="addCameraZoom" value="0.05"/>
+		<Event step="2832" type="addHUDZoom" value="0"/>
+		<Event step="2856" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2856" type="addCameraZoom" value="0.05"/>
+		<Event step="2856" type="addHUDZoom" value="0"/>
+		<Event step="2864" type="addCameraZoom" value="0.05"/>
+		<Event step="2864" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2864" type="addHUDZoom" value="0"/>
+		<Event step="2880" type="addCameraZoom" value="0.05"/>
+		<Event step="2880" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2880" type="addHUDZoom" value="0"/>
+		<Event step="2888" type="addCameraZoom" value="0.05"/>
+		<Event step="2888" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2888" type="addHUDZoom" value="0"/>
+		<Event step="2896" type="addCameraZoom" value="0.05"/>
+		<Event step="2896" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2896" type="addHUDZoom" value="0"/>
+		<Event step="2920" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2920" type="addCameraZoom" value="0.05"/>
+		<Event step="2920" type="addHUDZoom" value="0"/>
+		<Event step="2928" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2928" type="addCameraZoom" value="0.05"/>
+		<Event step="2928" type="addHUDZoom" value="0"/>
+		<Event step="2944" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2944" type="addCameraZoom" value="0.05"/>
+		<Event step="2944" type="addHUDZoom" value="0"/>
+		<Event step="2952" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2952" type="addCameraZoom" value="0.05"/>
+		<Event step="2952" type="addHUDZoom" value="0"/>
+		<Event step="2960" type="addCameraZoom" value="0.05"/>
+		<Event step="2960" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2960" type="addHUDZoom" value="0"/>
+		<Event step="2984" type="addCameraZoom" value="0.05"/>
+		<Event step="2984" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2984" type="addHUDZoom" value="0"/>
+		<Event step="2992" type="addCameraZoom" value="0.05"/>
+		<Event step="2992" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="2992" type="addHUDZoom" value="0"/>
+		<Event step="3012" type="addCameraZoom" value="0.05"/>
+		<Event step="3012" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3012" type="addHUDZoom" value="0"/>
+		<Event step="3032" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3032" type="addCameraZoom" value="0.05"/>
+		<Event step="3032" type="addHUDZoom" value="0"/>
+		<Event step="3036" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.25" name="noteScale"/>
+		<Event step="3036" type="addCameraZoom" value="0.05"/>
+		<Event step="3036" type="addHUDZoom" value="0"/>
+		<Event step="3056" time="8" value="45" ease="expoOut" type="tweenModifierValue" startValue="0" name="angleXSplit"/>
+		<Event step="3056" type="addCameraZoom" value="0.05"/>
+		<Event step="3056" type="addHUDZoom" value="0"/>
+		<Event step="3064" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3064" time="4" value="45" ease="quadOut" type="tweenModifierValue" startValue="0" name="angleZSplit"/>
+		<Event step="3064" time="4" value="0" ease="quintOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="3064" type="addCameraZoom" value="0.05"/>
+		<Event step="3064" type="addHUDZoom" value="0"/>
+		<Event step="3068" type="addCameraZoom" value="0.05"/>
+		<Event step="3068" time="4" value="0" ease="quintOut" type="tweenModifierValue" startValue="45" name="angleZSplit"/>
+		<Event step="3068" time="4" value="45" ease="quartOut" type="tweenModifierValue" startValue="0" name="angleYSplit"/>
+		<Event step="3068" type="addHUDZoom" value="0"/>
+		<Event step="3072" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3072" time="4" value="0" ease="expoOut" type="tweenModifierValue" startValue="45" name="angleYSplit"/>
+		<Event step="3072" type="addCameraZoom" value="0.05"/>
+		<Event step="3072" type="addHUDZoom" value="0"/>
+		<Event step="3080" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3080" type="addCameraZoom" value="0.05"/>
+		<Event step="3080" type="addHUDZoom" value="0"/>
+		<Event step="3088" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3088" type="addCameraZoom" value="0.05"/>
+		<Event step="3088" type="addHUDZoom" value="0"/>
+		<Event step="3112" type="addCameraZoom" value="0.05"/>
+		<Event step="3112" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3112" type="addHUDZoom" value="0"/>
+		<Event step="3120" type="addCameraZoom" value="0.05"/>
+		<Event step="3120" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3120" type="addHUDZoom" value="0"/>
+		<Event step="3136" type="addCameraZoom" value="0.05"/>
+		<Event step="3136" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3136" type="addHUDZoom" value="0"/>
+		<Event step="3144" type="addCameraZoom" value="0.05"/>
+		<Event step="3144" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3144" type="addHUDZoom" value="0"/>
+		<Event step="3152" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3152" type="addCameraZoom" value="0.05"/>
+		<Event step="3152" type="addHUDZoom" value="0"/>
+		<Event step="3176" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3176" type="addCameraZoom" value="0.05"/>
+		<Event step="3176" type="addHUDZoom" value="0"/>
+		<Event step="3184" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3184" type="addCameraZoom" value="0.05"/>
+		<Event step="3184" type="addHUDZoom" value="0"/>
+		<Event step="3200" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3200" type="addCameraZoom" value="0.05"/>
+		<Event step="3200" type="addHUDZoom" value="0"/>
+		<Event step="3208" type="addCameraZoom" value="0.05"/>
+		<Event step="3208" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3208" type="addHUDZoom" value="0"/>
+		<Event step="3216" type="addCameraZoom" value="0.05"/>
+		<Event step="3216" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3216" type="addHUDZoom" value="0"/>
+		<Event step="3240" type="addCameraZoom" value="0.05"/>
+		<Event step="3240" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3240" type="addHUDZoom" value="0"/>
+		<Event step="3248" type="addCameraZoom" value="0.05"/>
+		<Event step="3248" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3248" type="addHUDZoom" value="0"/>
+		<Event step="3268" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3268" type="addCameraZoom" value="0.05"/>
+		<Event step="3268" type="addHUDZoom" value="0"/>
+		<Event step="3288" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3288" type="addCameraZoom" value="0.05"/>
+		<Event step="3288" type="addHUDZoom" value="0"/>
+		<Event step="3292" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.25" name="noteScale"/>
+		<Event step="3292" type="addCameraZoom" value="0.05"/>
+		<Event step="3292" type="addHUDZoom" value="0"/>
+		<Event step="3312" time="8" value="-45" ease="expoOut" type="tweenModifierValue" startValue="0" name="angleXSplit"/>
+		<Event step="3312" type="addCameraZoom" value="0.05"/>
+		<Event step="3312" type="addHUDZoom" value="0"/>
+		<Event step="3320" time="4" value="45" ease="quadOut" type="tweenModifierValue" startValue="0" name="angleZSplit"/>
+		<Event step="3320" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3320" type="addCameraZoom" value="0.05"/>
+		<Event step="3320" time="4" value="0" ease="quintOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="3320" type="addHUDZoom" value="0"/>
+		<Event step="3324" type="addCameraZoom" value="0.05"/>
+		<Event step="3324" time="4" value="0" ease="quintOut" type="tweenModifierValue" startValue="45" name="angleZSplit"/>
+		<Event step="3324" time="4" value="-45" ease="quartOut" type="tweenModifierValue" startValue="0" name="angleYSplit"/>
+		<Event step="3324" type="addHUDZoom" value="0"/>
+		<Event step="3328" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3328" time="4" value="0" ease="expoOut" type="tweenModifierValue" startValue="45" name="angleYSplit"/>
+		<Event step="3328" type="addCameraZoom" value="0.05"/>
+		<Event step="3328" type="addHUDZoom" value="0"/>
+		<Event step="3336" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3336" type="addCameraZoom" value="0.05"/>
+		<Event step="3336" type="addHUDZoom" value="0"/>
+		<Event step="3344" type="addCameraZoom" value="0.05"/>
+		<Event step="3344" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3344" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="3344" type="addHUDZoom" value="0"/>
+		<Event step="3368" type="addCameraZoom" value="0.05"/>
+		<Event step="3368" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3368" type="addHUDZoom" value="0"/>
+		<Event step="3376" type="addCameraZoom" value="0.05"/>
+		<Event step="3376" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="-45" name="angleXSplit"/>
+		<Event step="3376" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3376" type="addHUDZoom" value="0"/>
+		<Event step="3392" type="addCameraZoom" value="0.05"/>
+		<Event step="3392" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3392" type="addHUDZoom" value="0"/>
+		<Event step="3400" type="addCameraZoom" value="0.05"/>
+		<Event step="3400" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3400" type="addHUDZoom" value="0"/>
+		<Event step="3408" type="addCameraZoom" value="0.05"/>
+		<Event step="3408" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3408" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="45" name="angleYSplit"/>
+		<Event step="3408" type="addHUDZoom" value="0"/>
+		<Event step="3432" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3432" type="addCameraZoom" value="0.05"/>
+		<Event step="3432" type="addHUDZoom" value="0"/>
+		<Event step="3440" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3440" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="-45" name="angleYSplit"/>
+		<Event step="3440" type="addCameraZoom" value="0.05"/>
+		<Event step="3440" type="addHUDZoom" value="0"/>
+		<Event step="3456" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3456" type="addCameraZoom" value="0.05"/>
+		<Event step="3456" type="addHUDZoom" value="0"/>
+		<Event step="3464" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3464" type="addCameraZoom" value="0.05"/>
+		<Event step="3464" type="addHUDZoom" value="0"/>
+		<Event step="3472" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="3472" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3472" type="addCameraZoom" value="0.05"/>
+		<Event step="3472" type="addHUDZoom" value="0"/>
+		<Event step="3496" type="addCameraZoom" value="0.05"/>
+		<Event step="3496" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3496" type="addHUDZoom" value="0"/>
+		<Event step="3504" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="-45" name="angleXSplit"/>
+		<Event step="3504" type="addCameraZoom" value="0.05"/>
+		<Event step="3504" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3504" type="addHUDZoom" value="0"/>
+		<Event step="3524" type="addCameraZoom" value="0.05"/>
+		<Event step="3524" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3524" type="addHUDZoom" value="0"/>
+		<Event step="3544" type="addCameraZoom" value="0.05"/>
+		<Event step="3544" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3544" type="addHUDZoom" value="0"/>
+		<Event step="3548" type="addCameraZoom" value="0.05"/>
+		<Event step="3548" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="45" name="angleZSplit"/>
+		<Event step="3548" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.25" name="noteScale"/>
+		<Event step="3548" type="addHUDZoom" value="0"/>
+		<Event step="3568" type="addCameraZoom" value="0.05"/>
+		<Event step="3568" time="8" value="45" ease="expoOut" type="tweenModifierValue" startValue="0" name="angleXSplit"/>
+		<Event step="3568" type="addHUDZoom" value="0"/>
+		<Event step="3576" time="4" value="45" ease="quadOut" type="tweenModifierValue" startValue="0" name="angleZSplit"/>
+		<Event step="3576" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3576" time="4" value="0" ease="quintOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="3576" type="addCameraZoom" value="0.05"/>
+		<Event step="3576" type="addHUDZoom" value="0"/>
+		<Event step="3580" time="4" value="45" ease="quartOut" type="tweenModifierValue" startValue="0" name="angleYSplit"/>
+		<Event step="3580" time="4" value="0" ease="quintOut" type="tweenModifierValue" startValue="45" name="angleZSplit"/>
+		<Event step="3580" type="addCameraZoom" value="0.05"/>
+		<Event step="3580" type="addHUDZoom" value="0"/>
+		<Event step="3584" time="4" value="0" ease="expoOut" type="tweenModifierValue" startValue="45" name="angleYSplit"/>
+		<Event step="3584" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3584" type="addCameraZoom" value="0.05"/>
+		<Event step="3584" type="addHUDZoom" value="0"/>
+		<Event step="3592" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3592" type="addCameraZoom" value="0.05"/>
+		<Event step="3592" type="addHUDZoom" value="0"/>
+		<Event step="3600" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="3600" type="addCameraZoom" value="0.05"/>
+		<Event step="3600" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3600" type="addHUDZoom" value="0"/>
+		<Event step="3624" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3624" type="addCameraZoom" value="0.05"/>
+		<Event step="3624" type="addHUDZoom" value="0"/>
+		<Event step="3632" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="-45" name="angleXSplit"/>
+		<Event step="3632" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3632" type="addCameraZoom" value="0.05"/>
+		<Event step="3632" type="addHUDZoom" value="0"/>
+		<Event step="3648" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3648" type="addCameraZoom" value="0.05"/>
+		<Event step="3648" type="addHUDZoom" value="0"/>
+		<Event step="3656" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3656" type="addCameraZoom" value="0.05"/>
+		<Event step="3656" type="addHUDZoom" value="0"/>
+		<Event step="3664" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="45" name="angleYSplit"/>
+		<Event step="3664" type="addCameraZoom" value="0.05"/>
+		<Event step="3664" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3664" type="addHUDZoom" value="0"/>
+		<Event step="3688" type="addCameraZoom" value="0.05"/>
+		<Event step="3688" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3688" type="addHUDZoom" value="0"/>
+		<Event step="3696" type="addCameraZoom" value="0.05"/>
+		<Event step="3696" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3696" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="-45" name="angleYSplit"/>
+		<Event step="3696" type="addHUDZoom" value="0"/>
+		<Event step="3712" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3712" type="addCameraZoom" value="0.05"/>
+		<Event step="3712" type="addHUDZoom" value="0"/>
+		<Event step="3720" type="addCameraZoom" value="0.05"/>
+		<Event step="3720" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3720" type="addHUDZoom" value="0"/>
+		<Event step="3728" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="3728" type="addCameraZoom" value="0.05"/>
+		<Event step="3728" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3728" type="addHUDZoom" value="0"/>
+		<Event step="3752" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3752" type="addCameraZoom" value="0.05"/>
+		<Event step="3752" type="addHUDZoom" value="0"/>
+		<Event step="3760" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="-45" name="angleXSplit"/>
+		<Event step="3760" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3760" type="addCameraZoom" value="0.05"/>
+		<Event step="3760" type="addHUDZoom" value="0"/>
+		<Event step="3780" type="addCameraZoom" value="0.05"/>
+		<Event step="3780" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3780" type="addHUDZoom" value="0"/>
+		<Event step="3800" type="addCameraZoom" value="0.05"/>
+		<Event step="3800" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3800" type="addHUDZoom" value="0"/>
+		<Event step="3804" type="addCameraZoom" value="0.05"/>
+		<Event step="3804" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="45" name="angleZSplit"/>
+		<Event step="3804" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.25" name="noteScale"/>
+		<Event step="3804" type="addHUDZoom" value="0"/>
+		<Event step="3808" time="4" value="1" property="strength" ease="cubeOut" type="tweenShaderProperty" startValue="0" name="greyscale"/>
+		<Event step="3824" time="8" value="-45" ease="expoOut" type="tweenModifierValue" startValue="0" name="angleXSplit"/>
+		<Event step="3824" time="4" value="0.75" property="strength" ease="cubeIn" type="tweenShaderProperty" startValue="1" name="greyscale"/>
+		<Event step="3824" type="addCameraZoom" value="0.05"/>
+		<Event step="3824" type="addHUDZoom" value="0"/>
+		<Event step="3832" time="4" value="0" ease="quintOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="3832" time="4" value="45" ease="quadOut" type="tweenModifierValue" startValue="0" name="angleZSplit"/>
+		<Event step="3832" type="addCameraZoom" value="0.05"/>
+		<Event step="3832" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="3832" type="addHUDZoom" value="0"/>
+		<Event step="3836" type="addCameraZoom" value="0.05"/>
+		<Event step="3836" time="4" value="-45" ease="quartOut" type="tweenModifierValue" startValue="0" name="angleYSplit"/>
+		<Event step="3836" time="4" value="0" ease="quintOut" type="tweenModifierValue" startValue="45" name="angleZSplit"/>
+		<Event step="3836" type="addHUDZoom" value="0"/>
+		<Event step="3840" time="96" value="0" property="strength" ease="cubeIn" type="tweenShaderProperty" startValue="0.75" name="greyscale"/>
+		<Event step="3840" time="192" value="0.1" property="xRange" ease="quadIn" type="tweenShaderProperty" startValue="0" name="mirror"/>
+		<Event step="3840" time="192" value="0.1" property="yRange" ease="quadIn" type="tweenShaderProperty" startValue="0" name="mirror"/>
+		<Event step="3840" time="16" value="0" ease="quadOut" type="tweenModifierValue" startValue="90" name="angleYSplit"/>
+		<Event step="3840" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.4" name="noteScale"/>
+		<Event step="3840" time="192" value="20" property="angleRange" ease="quadIn" type="tweenShaderProperty" startValue="0" name="mirror"/>
+		<Event step="3840" time="128" value="0.5" property="speed" ease="quadIn" type="tweenShaderProperty" startValue="0.2" name="mirror"/>
+		<Event step="3840" type="addCameraZoom" value="0.05"/>
+		<Event step="3840" type="addHUDZoom" value="0"/>
+		<Event step="3872" time="16" value="0" ease="quadOut" type="tweenModifierValue" startValue="-90" name="angleYSplit"/>
+		<Event step="3872" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.4" name="noteScale"/>
+		<Event step="3872" type="addCameraZoom" value="0.05"/>
+		<Event step="3872" type="addHUDZoom" value="-0.05"/>
+		<Event step="3904" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="90" name="angleYSplit"/>
+		<Event step="3904" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.4" name="noteScale"/>
+		<Event step="3904" type="addCameraZoom" value="0.05"/>
+		<Event step="3904" type="addHUDZoom" value="-0.05"/>
+		<Event step="3920" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.4" name="noteScale"/>
+		<Event step="3920" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="-90" name="angleYSplit"/>
+		<Event step="3920" type="addCameraZoom" value="0.05"/>
+		<Event step="3920" type="addHUDZoom" value="-0.05"/>
+		<Event step="3936" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.4" name="noteScale"/>
+		<Event step="3936" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="90" name="angleYSplit"/>
+		<Event step="3936" type="addCameraZoom" value="0.05"/>
+		<Event step="3936" type="addHUDZoom" value="-0.05"/>
+		<Event step="3952" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="-90" name="angleYSplit"/>
+		<Event step="3952" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.4" name="noteScale"/>
+		<Event step="3952" type="addCameraZoom" value="0.05"/>
+		<Event step="3952" type="addHUDZoom" value="-0.05"/>
+		<Event step="3968" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.4" name="noteScale"/>
+		<Event step="3968" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="3968" type="addCameraZoom" value="0.05"/>
+		<Event step="3968" type="addHUDZoom" value="-0.05"/>
+		<Event step="3976" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="-45" name="angleXSplit"/>
+		<Event step="3976" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.4" name="noteScale"/>
+		<Event step="3976" type="addCameraZoom" value="0.05"/>
+		<Event step="3976" type="addHUDZoom" value="-0.05"/>
+		<Event step="3984" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="3984" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.4" name="noteScale"/>
+		<Event step="3984" type="addCameraZoom" value="0.05"/>
+		<Event step="3984" type="addHUDZoom" value="-0.05"/>
+		<Event step="3992" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.4" name="noteScale"/>
+		<Event step="3992" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="-45" name="angleXSplit"/>
+		<Event step="3992" type="addCameraZoom" value="0.05"/>
+		<Event step="3992" type="addHUDZoom" value="-0.05"/>
+		<Event step="4000" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.4" name="noteScale"/>
+		<Event step="4000" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="4000" type="addCameraZoom" value="0.05"/>
+		<Event step="4000" type="addHUDZoom" value="-0.05"/>
+		<Event step="4008" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="-45" name="angleXSplit"/>
+		<Event step="4008" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.4" name="noteScale"/>
+		<Event step="4008" type="addCameraZoom" value="0.05"/>
+		<Event step="4008" type="addHUDZoom" value="-0.05"/>
+		<Event step="4016" time="16" value="0" ease="expoOut" type="tweenModifierValue" startValue="360" name="angleZSplit"/>
+		<Event step="4016" type="addCameraZoom" value="0.05"/>
+		<Event step="4016" time="16" value="320" ease="expoOut" type="tweenModifierValue" startValue="0" name="xO"/>
+		<Event step="4016" time="4" value="0" property="speed" ease="cubeInOut" type="tweenShaderProperty" startValue="0.5" name="mirror"/>
+		<Event step="4016" time="16" value="-320" ease="expoOut" type="tweenModifierValue" startValue="0" name="xP"/>
+		<Event step="4016" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.4" name="noteScale"/>
+		<Event step="4016" type="addHUDZoom" value="-0.05"/>
+		<Event step="4032" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4032" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="45" name="angleZSplit"/>
+		<Event step="4032" time="0" value="2.5" property="speed" ease="cubeInOut" type="tweenShaderProperty" startValue="0.5" name="mirror"/>
+		<Event step="4032" type="addCameraZoom" value="0.035"/>
+		<Event step="4032" type="addHUDZoom" value="-0.035"/>
+		<Event step="4036" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4036" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="-45" name="angleZSplit"/>
+		<Event step="4036" type="addCameraZoom" value="0.035"/>
+		<Event step="4036" type="addHUDZoom" value="-0.035"/>
+		<Event step="4040" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4040" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="45" name="angleZSplit"/>
+		<Event step="4040" type="addCameraZoom" value="0.035"/>
+		<Event step="4040" type="addHUDZoom" value="-0.035"/>
+		<Event step="4044" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="-45" name="angleZSplit"/>
+		<Event step="4044" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4044" type="addCameraZoom" value="0.035"/>
+		<Event step="4044" type="addHUDZoom" value="-0.035"/>
+		<Event step="4048" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="45" name="angleZSplit"/>
+		<Event step="4048" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4048" type="addCameraZoom" value="0.035"/>
+		<Event step="4048" type="addHUDZoom" value="-0.035"/>
+		<Event step="4052" type="addCameraZoom" value="0.035"/>
+		<Event step="4052" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="-45" name="angleZSplit"/>
+		<Event step="4052" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4052" type="addHUDZoom" value="-0.035"/>
+		<Event step="4056" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="45" name="angleZSplit"/>
+		<Event step="4056" type="addCameraZoom" value="0.035"/>
+		<Event step="4056" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4056" type="addHUDZoom" value="-0.035"/>
+		<Event step="4060" type="addCameraZoom" value="0.035"/>
+		<Event step="4060" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4060" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="-45" name="angleZSplit"/>
+		<Event step="4060" type="addHUDZoom" value="-0.035"/>
+		<Event step="4064" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="4064" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4064" type="addCameraZoom" value="0.035"/>
+		<Event step="4064" type="addHUDZoom" value="-0.035"/>
+		<Event step="4066" type="addCameraZoom" value="0.035"/>
+		<Event step="4066" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="-45" name="angleXSplit"/>
+		<Event step="4066" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4066" type="addHUDZoom" value="-0.035"/>
+		<Event step="4068" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4068" type="addCameraZoom" value="0.035"/>
+		<Event step="4068" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="4068" type="addHUDZoom" value="-0.035"/>
+		<Event step="4070" type="addCameraZoom" value="0.035"/>
+		<Event step="4070" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="-45" name="angleXSplit"/>
+		<Event step="4070" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4070" type="addHUDZoom" value="-0.035"/>
+		<Event step="4072" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4072" type="addCameraZoom" value="0.035"/>
+		<Event step="4072" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="4072" type="addHUDZoom" value="-0.035"/>
+		<Event step="4074" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4074" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="-45" name="angleXSplit"/>
+		<Event step="4074" type="addCameraZoom" value="0.035"/>
+		<Event step="4074" type="addHUDZoom" value="-0.035"/>
+		<Event step="4076" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4076" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="4076" type="addCameraZoom" value="0.035"/>
+		<Event step="4076" type="addHUDZoom" value="-0.035"/>
+		<Event step="4078" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4078" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="-45" name="angleXSplit"/>
+		<Event step="4078" type="addCameraZoom" value="0.035"/>
+		<Event step="4078" type="addHUDZoom" value="-0.035"/>
+		<Event step="4080" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4080" type="addCameraZoom" value="0.035"/>
+		<Event step="4080" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="4080" type="addHUDZoom" value="-0.035"/>
+		<Event step="4082" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4082" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="-45" name="angleXSplit"/>
+		<Event step="4082" type="addCameraZoom" value="0.035"/>
+		<Event step="4082" type="addHUDZoom" value="-0.035"/>
+		<Event step="4084" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="4084" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4084" type="addCameraZoom" value="0.035"/>
+		<Event step="4084" type="addHUDZoom" value="-0.035"/>
+		<Event step="4086" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="-45" name="angleXSplit"/>
+		<Event step="4086" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4086" type="addCameraZoom" value="0.035"/>
+		<Event step="4086" type="addHUDZoom" value="-0.035"/>
+		<Event step="4088" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="4088" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4088" type="addCameraZoom" value="0.035"/>
+		<Event step="4088" type="addHUDZoom" value="-0.035"/>
+		<Event step="4090" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="-45" name="angleXSplit"/>
+		<Event step="4090" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4090" type="addCameraZoom" value="0.035"/>
+		<Event step="4090" type="addHUDZoom" value="-0.035"/>
+		<Event step="4092" type="addCameraZoom" value="0.035"/>
+		<Event step="4092" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="4092" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4092" type="addHUDZoom" value="-0.035"/>
+		<Event step="4094" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4094" type="addCameraZoom" value="0.035"/>
+		<Event step="4094" time="2" value="0" ease="quadOut" type="tweenModifierValue" startValue="-45" name="angleXSplit"/>
+		<Event step="4094" type="addHUDZoom" value="-0.035"/>
+		<Event step="4096" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4096" type="addCameraZoom" value="0.05"/>
+		<Event step="4096" time="4" value="0" ease="expoOut" type="tweenModifierValue" startValue="45" name="angleYSplit"/>
+		<Event step="4096" time="16" value="0" ease="expoOut" type="tweenModifierValue" startValue="320" name="xO"/>
+		<Event step="4096" time="16" value="0" ease="expoOut" type="tweenModifierValue" startValue="-320" name="xP"/>
+		<Event step="4096" type="addHUDZoom" value="0"/>
+		<Event step="4100" time="2" value="0" property="speed" ease="cubeInOut" type="tweenShaderProperty" startValue="2.5" name="mirror"/>
+		<Event step="4104" time="2" value="2.5" property="speed" ease="cubeInOut" type="tweenShaderProperty" startValue="0" name="mirror"/>
+		<Event step="4104" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4104" type="addCameraZoom" value="0.05"/>
+		<Event step="4104" type="addHUDZoom" value="0"/>
+		<Event step="4112" type="addCameraZoom" value="0.05"/>
+		<Event step="4112" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="4112" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4112" type="addHUDZoom" value="0"/>
+		<Event step="4116" time="2" value="0" property="speed" ease="cubeInOut" type="tweenShaderProperty" startValue="2.5" name="mirror"/>
+		<Event step="4120" time="2" value="2.5" property="speed" ease="cubeInOut" type="tweenShaderProperty" startValue="0" name="mirror"/>
+		<Event step="4136" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4136" type="addCameraZoom" value="0.05"/>
+		<Event step="4136" type="addHUDZoom" value="0"/>
+		<Event step="4144" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="-45" name="angleXSplit"/>
+		<Event step="4144" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4144" type="addCameraZoom" value="0.05"/>
+		<Event step="4144" type="addHUDZoom" value="0"/>
+		<Event step="4160" type="addCameraZoom" value="0.05"/>
+		<Event step="4160" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4160" type="addHUDZoom" value="0"/>
+		<Event step="4164" time="2" value="0" property="speed" ease="cubeInOut" type="tweenShaderProperty" startValue="2.5" name="mirror"/>
+		<Event step="4168" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4168" type="addCameraZoom" value="0.05"/>
+		<Event step="4168" type="addHUDZoom" value="0"/>
+		<Event step="4168" time="2" value="2.5" property="speed" ease="cubeInOut" type="tweenShaderProperty" startValue="0" name="mirror"/>
+		<Event step="4176" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4176" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="45" name="angleYSplit"/>
+		<Event step="4176" type="addCameraZoom" value="0.05"/>
+		<Event step="4176" type="addHUDZoom" value="0"/>
+		<Event step="4180" time="2" value="0" property="speed" ease="cubeInOut" type="tweenShaderProperty" startValue="2.5" name="mirror"/>
+		<Event step="4184" time="2" value="2.5" property="speed" ease="cubeInOut" type="tweenShaderProperty" startValue="0" name="mirror"/>
+		<Event step="4200" type="addCameraZoom" value="0.05"/>
+		<Event step="4200" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4200" type="addHUDZoom" value="0"/>
+		<Event step="4208" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4208" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="-45" name="angleYSplit"/>
+		<Event step="4208" type="addCameraZoom" value="0.05"/>
+		<Event step="4208" type="addHUDZoom" value="0"/>
+		<Event step="4224" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4224" type="addCameraZoom" value="0.05"/>
+		<Event step="4224" type="addHUDZoom" value="0"/>
+		<Event step="4232" type="addCameraZoom" value="0.05"/>
+		<Event step="4232" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4232" type="addHUDZoom" value="0"/>
+		<Event step="4240" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="4240" type="addCameraZoom" value="0.05"/>
+		<Event step="4240" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4240" type="addHUDZoom" value="0"/>
+		<Event step="4264" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4264" type="addCameraZoom" value="0.05"/>
+		<Event step="4264" type="addHUDZoom" value="0"/>
+		<Event step="4272" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="-45" name="angleXSplit"/>
+		<Event step="4272" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4272" type="addCameraZoom" value="0.05"/>
+		<Event step="4272" type="addHUDZoom" value="0"/>
+		<Event step="4292" type="addCameraZoom" value="0.05"/>
+		<Event step="4292" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4292" type="addHUDZoom" value="0"/>
+		<Event step="4312" time="4" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4312" type="addCameraZoom" value="0.05"/>
+		<Event step="4312" type="addHUDZoom" value="0"/>
+		<Event step="4316" time="16" value="0" ease="quartOut" type="tweenModifierValue" startValue="45" name="angleZSplit"/>
+		<Event step="4316" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.25" name="noteScale"/>
+		<Event step="4316" type="addCameraZoom" value="0.05"/>
+		<Event step="4316" type="addHUDZoom" value="0"/>
+		<Event step="4336" time="8" value="45" ease="expoOut" type="tweenModifierValue" startValue="0" name="angleXSplit"/>
+		<Event step="4336" type="addCameraZoom" value="0.05"/>
+		<Event step="4336" type="addHUDZoom" value="0"/>
+		<Event step="4344" type="addCameraZoom" value="0.05"/>
+		<Event step="4344" time="8" value="0" ease="quadOut" type="tweenModifierValue" startValue="0.2" name="noteScale"/>
+		<Event step="4344" time="4" value="0" ease="quintOut" type="tweenModifierValue" startValue="45" name="angleXSplit"/>
+		<Event step="4344" time="4" value="45" ease="quadOut" type="tweenModifierValue" startValue="0" name="angleZSplit"/>
+		<Event step="4344" type="addHUDZoom" value="0"/>
+		<Event step="4348" time="4" value="0" ease="quintOut" type="tweenModifierValue" startValue="45" name="angleZSplit"/>
+		<Event step="4348" time="4" value="45" ease="quartOut" type="tweenModifierValue" startValue="0" name="angleYSplit"/>
+		<Event step="4348" type="addCameraZoom" value="0.05"/>
+		<Event step="4348" type="addHUDZoom" value="0"/>
+		<Event step="4352" time="128" value="0" ease="expoOut" type="tweenModifierValue" startValue="360" name="angleXSplit"/>
+		<Event step="4352" time="128" value="0" ease="expoOut" type="tweenModifierValue" startValue="360" name="angleYSplit"/>
+		<Event step="4352" time="0" value="0.1" property="speed" ease="cubeInOut" type="tweenShaderProperty" startValue="2.5" name="mirror"/>
+		<Event step="4352" type="addCameraZoom" value="0.05"/>
+		<Event step="4352" type="addHUDZoom" value="0"/>
+	</Events>
+</Modchart>

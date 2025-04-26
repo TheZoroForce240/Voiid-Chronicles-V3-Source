@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.50" name="ShagBG" folder="stages/ShagBG" >
+	<sprite name="skyline" x="-1170" y="-480" sprite="5skyline" scroll="0.05" scale="1.2" updateHitbox="true"/>
+	<sprite name="overlay" x="-1170" y="-480" sprite="1overlay" scroll="0.05" scale="1.2" updateHitbox="true"/>
+	<sprite name="mountains" x="-1092" y="-480" sprite="4mountains" scroll="0.15" scale="1.2" updateHitbox="true"/>
+	<sprite name="castle" x="-630" y="80" sprite="3castle" scroll="0.75" scale="1.2" updateHitbox="true"/>
+	<sprite name="floor" x="-420" y="240" sprite="2floor" scroll="1" scale="1.2" updateHitbox="true"/>
+	<girlfriend x="8286," y="-4308"/>
+	<boyfriend x="1600" y="1700"/>
+	<dad x="800" y="1700"/>
+</stage>

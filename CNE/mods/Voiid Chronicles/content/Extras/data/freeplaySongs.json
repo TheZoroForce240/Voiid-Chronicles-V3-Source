@@ -1,0 +1,77 @@
+{
+	"categories": [
+		{
+			"name": "Extras",
+			"songs": [
+				{
+					"name": "Warm up",
+					"port": "Wiik_1"
+				},
+				{
+					"name": "King Hit Wawa",
+					"port": "Wiik_3"
+				},
+				{
+					"name": "Bombastic",
+					"port": "Wiik_3"
+				},
+				{
+					"name": "Edgelord",
+					"port": "TKO"
+				},
+				{
+					"name": "Fishycuffs",
+					"port": "Wiik_2"
+				},
+				{
+					"name": "Rejected",
+					"port": "Rejected"
+				},
+				{
+					"name": "Cleverness",
+					"port": "Wiik_3"
+				},
+				{
+					"name": "Tempo Slayer",
+					"port": "Wiik_3"
+				},
+				{
+					"name": "Total Bravery",
+					"port": "Wiik_3"
+				},
+				{
+					"name": "Wastelands",
+					"port": "Mattpurgation"
+				},
+				{
+					"name": "Toxic",
+					"port": "Mattpurgation"
+				},
+				{
+					"name": "Mattpurgation",
+					"port": "Mattpurgation"
+				},
+				{
+					"name": "1CORE KILLER",
+					"port": "Mattpurgation"
+				},
+				{
+					"name": "Exodus",
+					"port": "Mattpurgation"
+				},
+				{
+					"name": "Wii Remote",
+					"port": "Wiik_2"
+				},
+				{
+					"name": "damnale",
+					"port": "Wiik_2"
+				},
+				{
+					"name": "Average Voiid Song",
+					"port": "Wiik_1"
+				}
+			]
+		}
+	]
+}

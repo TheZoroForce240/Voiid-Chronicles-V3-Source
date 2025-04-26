@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.57" name="GodFDBG" folder="stages/GodFDBG" >
+	<sprite name="unknown1" x="-260" y="-235" sprite="rock1" scroll="0.6" scale="2" updateHitbox="true"/>
+	<sprite name="unknown2" x="-192" y="-235" sprite="rock2" scroll="0.6" scale="2" updateHitbox="true"/>
+	<sprite name="unknown3" x="-260" y="-235" sprite="trees" scroll="0.7" scale="2" updateHitbox="true"/>
+	<sprite name="unknown4" x="-195" y="-238" sprite="ring" scroll="1" scale="2" updateHitbox="true"/>
+	
+	<girlfriend x="1457" y="860"/>
+	<dad x="630" y="940"/>
+	<boyfriend x="1590" y="960"/>
+	<sprite name="unknown5" x="-800" y="-300" sprite="ruido" scroll="0" scale="2" updateHitbox="true"/>
+</stage>

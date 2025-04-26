@@ -1,0 +1,18 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.5" name="VoiidBoxingRingFar" folder="stages/VoiidBoxingRingFar">
+	<sprite name="unknown0" x="-460" y="-200" sprite="Sky" scroll="0.2" scale="2" updateHitbox="true"/>
+	<sprite name="unknown1" x="-290" y="-192" sprite="Sea" scroll="0.499999999999999" scale="2" updateHitbox="true"/>
+	<sprite name="unknown2" x="-260" y="-200" sprite="Mountain 3" scroll="0.349999999999999" scale="2" updateHitbox="true"/>
+	<sprite name="unknown3" x="-6" y="-180" sprite="Mountain 2" scroll="0.449999999999999" scale="2" updateHitbox="true"/>
+	<sprite name="unknown4" x="-310" y="-159" sprite="Mountain 1" scroll="0.499999999999999" scale="2" updateHitbox="true"/>
+	<sprite name="unknown5" x="-245" y="-220" sprite="Trees" scroll="0.649999999999999" scale="2" updateHitbox="true"/>
+	<sprite name="ring0" x="-195" y="-238" sprite="Ring" scroll="1" scale="2" updateHitbox="true"/>
+	<sprite name="ring1" x="-195" y="-238" sprite="Ring2" scroll="1" scale="2" updateHitbox="true" alpha="0"/>
+	<sprite name="ring2" x="-195" y="-238" sprite="Ring3" scroll="1" scale="2" updateHitbox="true" alpha="0"/>
+	
+	<girlfriend x="1900" y="830"/>
+	<combo x="1600"/>
+	<dad x="1137" y="952"/>
+	<boyfriend x="2393" y="965" camxoffset="-150" camyoffset="25"/>
+	<sprite name="unknown7" x="-650" y="-360" sprite="ruido" scroll="0" scale="4" updateHitbox="true"/>
+</stage>

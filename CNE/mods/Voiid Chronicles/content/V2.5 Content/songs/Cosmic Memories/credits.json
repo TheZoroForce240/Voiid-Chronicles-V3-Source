@@ -1,0 +1,15 @@
+{
+	"composer": "Lord Voiid",
+	"charter": "RhysRJJ (Canon), Wolfinu (Mania)",
+	"originalComposer": "",
+	"startTime": 0,
+	"songFont": "dumbnerd.ttf",
+	"songFontSize": 128,
+	"infoFontSize": 24,
+	"outerBorderTop": "#000000",
+	"outerBorderBot": "#000000",
+	"midBorderTop": "#af3847",
+	"midBorderBot": "#52122b",
+	"innerBorderTop": "#3f3f3f",
+	"innerBorderBot": "#121617"
+}

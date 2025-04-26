@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Lava_Falls.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="lavafalls0000" x="0" y="0" width="2038" height="1250"/>
+	<SubTexture name="lavafalls0001" x="2038" y="0" width="2038" height="1250"/>
+	<SubTexture name="lavafalls0002" x="4076" y="0" width="2038" height="1250"/>
+	<SubTexture name="lavafalls0003" x="6114" y="0" width="2038" height="1250"/>
+	<SubTexture name="lavafalls0004" x="0" y="1250" width="2038" height="1250"/>
+	<SubTexture name="lavafalls0005" x="2038" y="1250" width="2038" height="1250"/>
+	<SubTexture name="lavafalls0006" x="4076" y="1250" width="2038" height="1250"/>
+	<SubTexture name="lavafalls0007" x="6114" y="1250" width="2038" height="1250"/>
+	<SubTexture name="lavafalls0008" x="0" y="2500" width="2038" height="1250"/>
+	<SubTexture name="lavafalls0009" x="2038" y="2500" width="2038" height="1250"/>
+	<SubTexture name="lavafalls0010" x="4076" y="2500" width="2038" height="1250"/>
+	<SubTexture name="lavafalls0011" x="6114" y="2500" width="2038" height="1250"/>
+	<SubTexture name="lavafalls0012" x="0" y="3750" width="2038" height="1250"/>
+	<SubTexture name="lavafalls0013" x="2038" y="3750" width="2038" height="1250"/>
+	<SubTexture name="lavafalls0014" x="4076" y="3750" width="2038" height="1250"/>
+	<SubTexture name="lavafalls0015" x="6114" y="3750" width="2038" height="1250"/>
+	<SubTexture name="lavafalls0016" x="0" y="5000" width="2038" height="1250"/>
+	<SubTexture name="lavafalls0017" x="2038" y="5000" width="2038" height="1250"/>
+	<SubTexture name="lavafalls0018" x="4076" y="5000" width="2038" height="1250"/>
+	<SubTexture name="lavafalls0019" x="6114" y="5000" width="2038" height="1250"/>
+	<SubTexture name="lavafalls0020" x="0" y="6250" width="2038" height="1250"/>
+	<SubTexture name="lavafalls0021" x="2038" y="6250" width="2038" height="1250"/>
+	<SubTexture name="lavafalls0022" x="4076" y="6250" width="2038" height="1250"/>
+</TextureAtlas>

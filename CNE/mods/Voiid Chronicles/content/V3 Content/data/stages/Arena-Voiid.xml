@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.525" name="Arena-Voiid" folder="stages/Arena-Voiid" >
+	<sprite name="unknown0" x="-635" y="-395" sprite="bg" scroll="0.5" scale="2" updateHitbox="true"/>
+	<sprite name="water" x="-635" y="-585" sprite="water" scroll="0.8" scale="2" updateHitbox="true"/>
+	<sprite name="unknown2" x="-645" y="-360" sprite="crowdLeft" scroll="0.8" scale="2" updateHitbox="true"/>
+	<sprite name="unknown3" x="965" y="-360" sprite="crowdRight" scroll="0.8" scale="2" updateHitbox="true"/>
+	<sprite name="unknown4" x="-590" y="-590" sprite="platform" scroll="1" scale="2" updateHitbox="true"/>
+	<sprite name="unknown5" x="-605" y="-610" sprite="lights" scroll="0.8" scale="2" updateHitbox="true"/>
+	
+	<girlfriend x="6905" y="-2890"/>
+	<dad x="550" y="900"/>
+	<boyfriend x="950" y="900"/>
+	<sprite name="unknown6" x="-635" y="-405" sprite="grain" scroll="0" scale="2" updateHitbox="true"/>
+</stage>

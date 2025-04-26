@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.6" name="Insano" folder="stages/Insano" >
+	<sprite name="unknown0" x="-159" y="-335" sprite="back" scroll="0.7" scale="1" updateHitbox="true"/>
+	<sprite name="unknown1" x="-159" y="-335" sprite="lights" scroll="0.7" scale="1" updateHitbox="true"/>
+	<sprite name="unknown2" x="0" y="635" sprite="arena" scroll="1" scale="1" updateHitbox="true"/>
+	
+	<girlfriend x="1289" y="10844"/>
+	<dad x="986" y="961"/>
+	<boyfriend x="1629" y="981"/>
+</stage>

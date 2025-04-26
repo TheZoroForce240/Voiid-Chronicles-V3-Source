@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="GreedBlast.png">
+  <!-- Created with Adobe Animate version 21.0.7.42652 -->
+  <!-- http://www.adobe.com/products/animate.html -->
+  <SubTexture name="GREEDBLAST0000" x="0" y="0" width="1351.314" height="400.932" />
+  <SubTexture name="GREEDBLAST0001" x="1351.314" y="0" width="1351.314" height="400.932" />
+  <SubTexture name="GREEDBLAST0002" x="2702.628" y="0" width="1351.314" height="400.932" />
+  <SubTexture name="GREEDBLAST0003" x="4053.942" y="0" width="1351.314" height="400.932" />
+  <SubTexture name="GREEDBLAST0004" x="0" y="400.932" width="1351.314" height="400.932" />
+  <SubTexture name="GREEDBLAST0005" x="1351.314" y="400.932" width="1351.314" height="400.932" />
+  <SubTexture name="GREEDBLAST0006" x="2702.628" y="400.932" width="1351.314" height="400.932" />
+  <SubTexture name="GREEDBLAST0007" x="4053.942" y="400.932" width="1351.314" height="400.932" />
+  <SubTexture name="GREEDBLAST0008" x="0" y="801.864" width="1351.314" height="400.932" />
+  <SubTexture name="GREEDBLAST0009" x="1351.314" y="801.864" width="1351.314" height="400.932" />
+  <SubTexture name="GREEDBLAST0010" x="2702.628" y="801.864" width="1351.314" height="400.932" />
+  <SubTexture name="GREEDBLAST0011" x="4053.942" y="801.864" width="1351.314" height="400.932" />
+  <SubTexture name="GREEDBLAST0012" x="0" y="1202.796" width="1351.314" height="400.932" />
+  <SubTexture name="GREEDBLAST0013" x="1351.314" y="1202.796" width="1351.314" height="400.932" />
+</TextureAtlas>

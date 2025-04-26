@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.5" name="Rejected" folder="stages/Rejected" >
+	<!--<solid name="vortex" x="-700" y="-1000" width="4500" height="4500" scroll="0.4" scale="1" updateHitbox="true" color="#FFFFFF"/>-->
+	<sprite name="unknown1" x="-692" y="-67" sprite="Island" scroll="0.75" scale="1" updateHitbox="true"/>
+	<sprite name="unknown2" x="-352" y="-162" sprite="Main" scroll="1" scale="1" updateHitbox="true"/>
+	
+	<girlfriend x="1625" y="2091" alpha="0"/>
+	<dad x="917" y="2145"/>
+	<boyfriend x="2416" y="2106"/>
+	<sprite name="unknown3" x="-900" y="-516" sprite="ruido" scroll="0" scale="1" updateHitbox="true"/>
+	<combo x="1916" y="1506"/>
+</stage>

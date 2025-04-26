@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.7" name="GreedVolcano" folder="stages/GreedVolcano" >
+	<sprite name="unknown0" x="-345" y="-558" sprite="FullBG" scroll="1" scale="1" updateHitbox="true"/>
+	<sprite name="unknown1" x="-59" y="-755" sprite="rockstop" scroll="1.3" scale="1" updateHitbox="true"/>
+	
+	<girlfriend x="1356" y="377"/>
+	<dad x="620" y="434"/>
+	<boyfriend x="1447" y="467"/>
+	<sprite name="unknown2" x="-1672" y="1484" sprite="ruido2" scroll="1" scale="1.3" updateHitbox="true"/>
+</stage>

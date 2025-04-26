@@ -1,0 +1,12 @@
+export/
+dump/
+latest/windows/obj/
+latest/windows/haxe/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+.haxelib/
+pages/
+docs/doc.xml
+mods/Baldi's Basics in Funkin'/
+mods/Voiid Chronicles/content/Fancharts/

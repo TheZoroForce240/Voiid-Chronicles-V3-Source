@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.33" name="Mattpurgation" folder="stages/Mattpurgation" >
+	<sprite name="unknown0" x="-1156" y="-580" sprite="Sky" scroll="0.2" scale="1" updateHitbox="true"/>
+	<sprite name="unknown1" x="-1036" y="-180" sprite="2" scroll="0.35" scale="1" updateHitbox="true"/>
+	<sprite name="unknown2" x="-836" y="-180" sprite="1" scroll="0.5" scale="1" updateHitbox="true"/>
+	<sprite name="unknown3" x="-436" y="-180" sprite="Floor" scroll="1" scale="1" updateHitbox="true"/>
+	
+	<girlfriend x="1909" y="1636"/>
+	<dad x="1385" y="1719"/>
+	<boyfriend x="2454" y="1736"/>
+	<sprite name="unknown4" x="-1476" y="-882" sprite="Grain" scroll="0" scale="1" updateHitbox="true"/>
+</stage>

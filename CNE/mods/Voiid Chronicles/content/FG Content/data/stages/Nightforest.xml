@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.8" name="Nightforest" folder="stages/Nightforest" >
+	<sprite name="unknown0" x="-342" y="-331" sprite="sky" scroll="0.6" scale="1" updateHitbox="true"/>
+	<sprite name="unknown1" x="-312" y="-396" sprite="wawa" scroll="1" scale="1" updateHitbox="true"/>
+	<girlfriend x="3507" y="2258"/>
+	<dad x="1156" y="704"/>
+	<boyfriend x="1541" y="724"/>
+</stage>

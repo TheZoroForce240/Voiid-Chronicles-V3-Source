@@ -1,0 +1,16 @@
+<!DOCTYPE codename-engine-character>
+<character x="-5" icon="Matthew_Lewis-icons" camx="0" y="30" isGF="false" camy="-100" color="#49444E" isPlayer="false" sprite="Matthew_Lewis" flipX="false" scale="1" >
+	<anim x="0" loop="false" y="0" fps="24" anim="idle0" name="idle" />
+	<anim x="-17" loop="false" y="-31" fps="24" anim="attackleft0" name="singLEFT" />
+	<anim x="35" loop="false" y="-33" fps="24" anim="attackdown0" name="singDOWN" />
+	<anim x="94" loop="false" y="-31" fps="24" anim="attackup0" name="singUP" />
+	<anim x="-4" loop="false" y="-37" fps="24" anim="attackright0" name="singRIGHT" />
+	<anim x="-23" loop="false" y="-37" fps="24" anim="blockleft0" name="blockLEFT" />
+	<anim x="-24" loop="false" y="-34" fps="24" anim="blockdown0" name="blockDOWN" />
+	<anim x="-23" loop="false" y="-37" fps="24" anim="blockup0" name="blockUP" />
+	<anim x="-23" loop="false" y="-32" fps="24" anim="blockright0" name="blockRIGHT" />
+	<anim x="-19" loop="false" y="-33" fps="24" anim="parrydown0" name="parryLEFT" />
+	<anim x="-25" loop="false" y="-42" fps="24" anim="parrydown0" name="parryDOWN" />
+	<anim x="-25" loop="false" y="-35" fps="24" anim="parryup0" name="parryUP" />
+	<anim x="-25" loop="false" y="-31" fps="24" anim="parryup0" name="parryRIGHT" />
+</character>

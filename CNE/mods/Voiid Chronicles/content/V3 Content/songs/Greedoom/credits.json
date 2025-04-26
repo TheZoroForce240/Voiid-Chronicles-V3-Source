@@ -1,0 +1,15 @@
+{
+	"composer": "Lord Voiid and NobodyKnows",
+	"charter": "RhysRJJ",
+	"originalComposer": "",
+	"startTime": 0,
+	"songFont": "dumbnerd.ttf",
+	"songFontSize": 128,
+	"infoFontSize": 24,
+	"outerBorderTop": "#000000",
+	"outerBorderBot": "#000000",
+	"midBorderTop": "#0e9f25",
+	"midBorderBot": "#59ff35",
+	"innerBorderTop": "#3f3f3f",
+	"innerBorderBot": "#121617"
+}

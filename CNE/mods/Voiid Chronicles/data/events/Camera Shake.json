@@ -1,0 +1,8 @@
+{
+    "params":
+    [
+        {"name": "Intensity", "type": "Float(0, 99999, 0.1, 2)", "defaultValue": 0.01},
+		{"name": "Steps", "type": "Float(0, 99999, 0.1, 2)", "defaultValue": 1},
+		{"name": "Shake HUD?", "type": "Bool", "defaultValue": true}
+    ]
+}

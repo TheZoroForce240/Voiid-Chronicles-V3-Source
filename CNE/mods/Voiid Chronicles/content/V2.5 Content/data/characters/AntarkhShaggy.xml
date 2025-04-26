@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="AntarkhShaggy-icons" camx="0" y="0" isGF="true" camy="0" color="#F00000" isPlayer="false" sprite="AntarkhShaggy" flipX="false" scale="1" >
+	<anim x="0" loop="false" y="0" fps="30" anim="shaggy_idle" name="danceLeft" />
+	<anim x="-1" loop="false" y="0" fps="30" anim="shaggy_idle2" name="danceRight" />
+	<anim x="165" loop="false" y="-114" fps="30" anim="shaggy_left" name="singLEFT" />
+	<anim x="-10" loop="false" y="-160" fps="30" anim="shaggy_down" name="singDOWN" />
+	<anim x="-16" loop="false" y="27" fps="30" anim="shaggy_up" name="singUP" />
+	<anim x="-1" loop="false" y="-38" fps="30" anim="shaggy_right" name="singRIGHT" />
+</character>

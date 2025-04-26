@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-60" icon="Wiik4VoiidMatt-icons" camx="0" y="0" isGF="false" camy="0" color="#49454E" isPlayer="false" sprite="MATT_WIIK_4_ROBO" flipX="false" scale="1" >
+	<anim x="-2" loop="false" y="-23" fps="24" anim="matt idle0" name="idle" />
+	<anim x="204" loop="false" y="74" fps="24" anim="left0" name="singLEFT" />
+	<anim x="100" loop="false" y="-44" fps="24" anim="down0" name="singDOWN" />
+	<anim x="5" loop="false" y="146" fps="24" anim="up0" name="singUP" />
+	<anim x="-58" loop="false" y="-66" fps="24" anim="right0" name="singRIGHT" />
+</character>

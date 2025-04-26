@@ -1,0 +1,2 @@
+iTime 0
+strength 0.2

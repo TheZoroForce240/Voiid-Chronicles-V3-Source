@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="mlommer.png"><SubTexture name="mlommer idle0000" x="0" y="0" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+<SubTexture name="mlommer idle0001" x="450" y="0" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+<SubTexture name="mlommer idle0002" x="900" y="0" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+<SubTexture name="mlommer idle0003" x="1350" y="0" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+<SubTexture name="mlommer idle0004" x="1800" y="0" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+<SubTexture name="mlommer idle0005" x="0" y="535" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+<SubTexture name="mlommer idle0006" x="450" y="535" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+<SubTexture name="mlommer left0000" x="900" y="535" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+<SubTexture name="mlommer left0001" x="1350" y="535" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+<SubTexture name="mlommer left0002" x="1800" y="535" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+<SubTexture name="mlommer left0003" x="0" y="1070" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+<SubTexture name="mlommer left0004" x="450" y="1070" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+<SubTexture name="mlommer left0005" x="900" y="1070" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+<SubTexture name="mlommer left0006" x="1350" y="1070" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+<SubTexture name="mlommer down0000" x="1800" y="1070" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+<SubTexture name="mlommer down0001" x="0" y="1605" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+<SubTexture name="mlommer down0002" x="450" y="1605" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+<SubTexture name="mlommer down0003" x="900" y="1605" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+<SubTexture name="mlommer down0004" x="1350" y="1605" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+<SubTexture name="mlommer down0005" x="1800" y="1605" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+<SubTexture name="mlommer down0006" x="0" y="2140" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+<SubTexture name="mlommer up0000" x="450" y="2140" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+<SubTexture name="mlommer up0001" x="900" y="2140" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+<SubTexture name="mlommer up0002" x="1350" y="2140" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+<SubTexture name="mlommer up0003" x="1800" y="2140" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+<SubTexture name="mlommer up0004" x="0" y="2675" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+<SubTexture name="mlommer up0005" x="450" y="2675" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+<SubTexture name="mlommer up0006" x="900" y="2675" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+<SubTexture name="mlommer right0000" x="1350" y="2675" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+<SubTexture name="mlommer right0001" x="1800" y="2675" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+<SubTexture name="mlommer right0002" x="0" y="3210" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+<SubTexture name="mlommer right0003" x="450" y="3210" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+<SubTexture name="mlommer right0004" x="900" y="3210" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+<SubTexture name="mlommer right0005" x="1350" y="3210" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+<SubTexture name="mlommer right0006" x="1800" y="3210" width="450" height="535" frameX="0" frameY="0" frameWidth="450" frameHeight="535" />
+</TextureAtlas>

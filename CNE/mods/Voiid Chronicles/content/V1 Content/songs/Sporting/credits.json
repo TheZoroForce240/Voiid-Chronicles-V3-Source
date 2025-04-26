@@ -1,0 +1,15 @@
+{
+	"composer": "Invalid",
+	"charter": "Xyriax",
+	"originalComposer": "Biddle3",
+	"startTime": 0,
+	"songFont": "dumbnerd.ttf",
+	"songFontSize": 128,
+	"infoFontSize": 24,
+	"outerBorderTop": "#000000",
+	"outerBorderBot": "#000000",
+	"midBorderTop": "#a22bd0",
+	"midBorderBot": "#5411c4",
+	"innerBorderTop": "#3f3f3f",
+	"innerBorderBot": "#121617"
+}

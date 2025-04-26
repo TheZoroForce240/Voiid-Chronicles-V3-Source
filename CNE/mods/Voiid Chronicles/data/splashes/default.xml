@@ -1,0 +1,39 @@
+<!DOCTYPE codename-engine-splashes>
+<splashes sprite="game/splashes/default" alpha="0.6">
+	<strum id="0"> <!-- LEFT -->
+		<anim name="splashleft1" anim="note impact 1 A" fps="24" x="0" y="0" />
+		<anim name="splashleft2" anim="note impact 2 A" fps="24" x="0" y="0" />
+	</strum>
+	<strum id="1"> <!-- DOWN -->
+		<anim name="splashdown1" anim="note impact 1 B" fps="24" x="0" y="0" />
+		<anim name="splashdown2" anim="note impact 2 B" fps="24" x="0" y="0" />
+	</strum>
+	<strum id="2"> <!-- UP -->
+		<anim name="splashup1" anim="note impact 1 C" fps="24" x="0" y="0" />
+		<anim name="splashup2" anim="note impact 2 C" fps="24" x="0" y="0" />
+	</strum>
+	<strum id="3"> <!-- RIGHT -->
+		<anim name="splashright1" anim="note impact 1 D" fps="24" x="0" y="0" />
+		<anim name="splashright2" anim="note impact 2 D" fps="24" x="0" y="0" />
+	</strum>
+	<strum id="4"> <!-- RIGHT -->
+		<anim name="splashspace1" anim="note impact 1 E" fps="24" x="0" y="0" />
+		<anim name="splashspace2" anim="note impact 2 E" fps="24" x="0" y="0" />
+	</strum>
+	<strum id="5"> <!-- RIGHT -->
+		<anim name="splashl21" anim="note impact 1 F" fps="24" x="0" y="0" />
+		<anim name="splashl22" anim="note impact 2 F" fps="24" x="0" y="0" />
+	</strum>
+	<strum id="6"> <!-- RIGHT -->
+		<anim name="splashd21" anim="note impact 1 G" fps="24" x="0" y="0" />
+		<anim name="splashd22" anim="note impact 2 G" fps="24" x="0" y="0" />
+	</strum>
+	<strum id="7"> <!-- RIGHT -->
+		<anim name="splashu21" anim="note impact 1 H" fps="24" x="0" y="0" />
+		<anim name="splashu22" anim="note impact 2 H" fps="24" x="0" y="0" />
+	</strum>
+	<strum id="8"> <!-- RIGHT -->
+		<anim name="splashr21" anim="note impact 1 I" fps="24" x="0" y="0" />
+		<anim name="splashr22" anim="note impact 2 I" fps="24" x="0" y="0" />
+	</strum>
+</splashes>

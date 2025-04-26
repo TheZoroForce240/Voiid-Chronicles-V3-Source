@@ -1,0 +1,3 @@
+iTime 0
+strength 10
+speed 0

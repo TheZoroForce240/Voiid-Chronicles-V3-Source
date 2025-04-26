@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 5,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 215,
+	"difficulties": [
+		"voiid"
+	],
+	"needsVoices": true,
+	"parsedColor": -1,
+	"displayName": "Champion",
+	"icon": "Wiik4VoiidMatt-icons",
+	"name": "Champion",
+	"color": "#FFFFFF",
+	"customValues": {}
+}

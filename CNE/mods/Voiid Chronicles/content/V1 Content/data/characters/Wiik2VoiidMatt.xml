@@ -1,0 +1,15 @@
+<!DOCTYPE codename-engine-character>
+<character x="-30" icon="Wiik2VoiidMatt-icons" camx="250" y="0" isGF="false" camy="-100" color="#49454E" isPlayer="false" sprite="Matt2_NO_RTX" flipX="false" scale="1" >
+	<anim x="1" loop="false" y="-2" fps="24" anim="idle0" name="idle" />
+	<anim x="-24" loop="false" y="-43" fps="24" anim="left0" name="singLEFT" />
+	<anim x="-15" loop="false" y="-58" fps="24" anim="down0" name="singDOWN" />
+	<anim x="29" loop="false" y="-3" fps="24" anim="up0" name="singUP" />
+	<anim x="-43" loop="false" y="-59" fps="24" anim="right0" name="singRIGHT" />
+	<anim x="115" loop="false" y="230" fps="24" anim="trans" name="trans" />
+	<anim x="37" loop="false" y="63" fps="24" anim="destrans" name="destrans" />
+	<anim x="48" loop="false" y="66" fps="24" anim="idlegod0" name="idle-alt" />
+	<anim x="-56" loop="false" y="52" fps="24" anim="leftgod0" name="singLEFT-alt" />
+	<anim x="-64" loop="false" y="66" fps="24" anim="downgod0" name="singDOWN-alt" />
+	<anim x="38" loop="false" y="77" fps="24" anim="upgod0" name="singUP-alt" />
+	<anim x="-86" loop="false" y="44" fps="24" anim="rightgod0" name="singRIGHT-alt" />
+</character>

@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.6" name="TKODark" folder="stages/TKODark" >
+	<sprite name="unknown0" x="-1121" y="-760" sprite="void" scroll="0.5" scale="2" updateHitbox="true"/>
+	<sprite name="tko-floor" x="-1121" y="-1060" sprite="floor" scroll="1" scale="2" updateHitbox="true"/>
+	<sprite name="tko-floorGlow" x="-1121" y="-1060" sprite="floordarknew" scroll="1" scale="2" updateHitbox="true"/>
+	<girlfriend x="421" y="272"/>
+	<dad x="-68" y="329"/>
+	<boyfriend x="934" y="332"/>
+</stage>

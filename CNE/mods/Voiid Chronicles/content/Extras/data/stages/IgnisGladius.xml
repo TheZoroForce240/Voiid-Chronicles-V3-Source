@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.35" name="IgnisGladius" folder="stages/IgnisGladius" >
+	<sprite name="unknown0" x="-575" y="-305" sprite="BG" scroll="1" scale="1" updateHitbox="true"/>
+	<sprite name="unknown1" x="-590" y="-290" sprite="PLATFORM" scroll="1" scale="1" updateHitbox="true"/>
+	
+	<girlfriend x="6905" y="-2890"/>
+	<dad x="1132" y="1561"/>
+	<boyfriend x="1732" y="1564"/>
+	<sprite name="unknown2" x="-1275" y="-705" sprite="GRAIN" scroll="0" scale="1" updateHitbox="true"/>
+</stage>

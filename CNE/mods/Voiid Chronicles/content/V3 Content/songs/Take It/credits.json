@@ -1,0 +1,15 @@
+{
+	"composer": "NobodyKnows",
+	"charter": "RhysRJJ",
+	"originalComposer": "",
+	"startTime": 0,
+	"songFont": "dumbnerd.ttf",
+	"songFontSize": 128,
+	"infoFontSize": 24,
+	"outerBorderTop": "#000000",
+	"outerBorderBot": "#000000",
+	"midBorderTop": "#e4709f",
+	"midBorderBot": "#9f152c",
+	"innerBorderTop": "#3f3f3f",
+	"innerBorderBot": "#121617"
+}

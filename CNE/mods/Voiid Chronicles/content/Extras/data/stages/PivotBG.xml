@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.7" name="PivotBG" folder="stages/PivotBG" >
+	<sprite name="unknown0" x="-495" y="-238" sprite="vapor" scroll="0.3" scale="1" updateHitbox="true"/>
+	<sprite name="unknown1" x="-195" y="-238" sprite="leanroom" scroll="1" scale="1" updateHitbox="true"/>
+	
+	<girlfriend x="1040" y="725"/>
+	<dad x="634" y="741"/>
+	<boyfriend x="1460" y="741"/>
+	<sprite name="unknown2" x="-800" y="-516" sprite="grain" scroll="0" scale="1.5" updateHitbox="true"/>
+</stage>

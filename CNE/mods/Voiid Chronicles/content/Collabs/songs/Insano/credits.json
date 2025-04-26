@@ -1,0 +1,16 @@
+{
+	"composer": "Joa (Inst and Voices), LordVoiid (Voices)",
+	"charter": "RhysRJJ",
+	"originalComposer": "",
+	"startTime": 0,
+	"songFont": "Akira.ttf",
+	"songFontSize": 96,
+	"infoFontSize": 24,
+	"outerBorderTop": "#000000",
+	"outerBorderBot": "#000000",
+	"midBorderTop": "#fa3795",
+	"midBorderBot": "#30c1ff",
+	"innerBorderTop": "#FFFFFF",
+	"innerBorderBot": "#FFFFFF",
+	"outerBorderSize": 0
+}

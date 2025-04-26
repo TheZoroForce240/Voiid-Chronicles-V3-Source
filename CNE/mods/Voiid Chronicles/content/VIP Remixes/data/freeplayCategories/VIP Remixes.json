@@ -1,0 +1,15 @@
+{
+	"songFont": "dumbnerd.ttf",
+	"songFontSize": 128,
+	"outerBorderTop": "#000000",
+	"outerBorderBot": "#000000",
+	"midBorderTop": "#6414ea",
+	"midBorderBot": "#097f4c",
+	"innerBorderTop": "#3f3f3f",
+	"innerBorderBot": "#121617",
+
+	"sobelStrength": 0.5,
+	"sobelIntensity": 1.0,
+	"outerBorderSize": 13,
+	"mixGap": 3.0
+}

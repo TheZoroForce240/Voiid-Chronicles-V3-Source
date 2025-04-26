@@ -1,0 +1,7 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.675" name="LeanLake" folder="stages/LeanLake" >
+	<sprite name="unknown0" x="-1121" y="-1060" sprite="BG" scroll="1" scale="1" updateHitbox="true"/>
+	<girlfriend x="112" y="-50"/>
+	<dad x="-303" y="-80"/>
+	<boyfriend x="429" y="-60"/>
+</stage>

@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<character x="70" icon="Wiik100VoiidMatt-icons" camx="80" y="100" isGF="false" camy="-100" color="#49454E" isPlayer="false" sprite="voiid100" flipX="false" scale="1.5" >
+	<anim x="0" loop="false" y="0" fps="24" anim="voiid100 idle0" name="idle" />
+	<anim x="0" loop="true" y="0" fps="24" anim="voiid100 idle0" name="idle-loop" indices="16,17,18,19"/>
+	<anim x="0" loop="false" y="0" fps="24" anim="voiid100 left0" name="singLEFT" />
+	<anim x="0" loop="false" y="0" fps="24" anim="voiid100 down0" name="singDOWN" />
+	<anim x="0" loop="false" y="0" fps="24" anim="voiid100 up0" name="singUP" />
+	<anim x="0" loop="false" y="0" fps="24" anim="voiid100 right0" name="singRIGHT" />
+	<anim x="0" loop="false" y="0" fps="24" anim="voiid100 shoot0" name="shoot" />
+</character>

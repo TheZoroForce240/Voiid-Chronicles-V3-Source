@@ -1,0 +1,21 @@
+{
+	"composer": "Lord Voiid",
+	"charter": "Medo and MarkC645 (Canon), TheZoroForce240 and RhysRJJ (Mania)",
+	"originalComposer": "srPerez",
+	"startTime": 0,
+	"songFont": "dumbnerd.ttf",
+	"songFontSize": 112,
+	"infoFontSize": 19,
+	"outerBorderTop": "#000000",
+	"outerBorderBot": "#000000",
+	"midBorderTop": "#d58297",
+	"midBorderBot": "#a82979",
+	"innerBorderTop": "#3f3f3f",
+	"innerBorderBot": "#121617",
+
+	"mixGap": 2.5,
+
+	"sobelStrength": 0.3,
+	"sobelIntensity": 1.0,
+	"outerBorderSize": 10
+}

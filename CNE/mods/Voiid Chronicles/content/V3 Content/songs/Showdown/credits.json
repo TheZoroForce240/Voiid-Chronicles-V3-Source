@@ -1,0 +1,15 @@
+{
+	"composer": "Revilo",
+	"charter": "RhysRJJ",
+	"originalComposer": "fluffyhairs music and Foodieti",
+	"startTime": 4800,
+	"songFont": "dumbnerd.ttf",
+	"songFontSize": 128,
+	"infoFontSize": 24,
+	"outerBorderTop": "#000000",
+	"outerBorderBot": "#000000",
+	"midBorderTop": "#dec2d0",
+	"midBorderBot": "#4d2757",
+	"innerBorderTop": "#3f3f3f",
+	"innerBorderBot": "#121617"
+}

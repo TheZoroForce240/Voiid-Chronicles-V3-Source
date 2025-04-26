@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.49" name="CvalWiik4" folder="stages/CvalWiik4" >
+	<sprite name="unknown0" x="-950" y="-500" sprite="7skyline" scroll="0.05" scale="2" updateHitbox="true"/>
+	<sprite name="unknown1" x="-950" y="-500" sprite="6cityvolc" scroll="0.1" scale="2" updateHitbox="true"/>
+	<sprite name="blimp" x="300" y="-200" sprite="5blimp" scroll="0.125" scale="1" updateHitbox="true"/>
+	<sprite name="unknown3" x="-900" y="-500" sprite="4shoredocks" scroll="0.15" scale="2" updateHitbox="true"/>
+	<sprite name="unknown4" x="-635" y="-395" sprite="3seatingswamp" scroll="0.75" scale="2" updateHitbox="true"/>
+	<sprite name="unknown5" x="-400" y="-395" sprite="2platform" scroll="1" scale="2" updateHitbox="true"/>
+	
+	<girlfriend x="6905" y="-2890"/>
+	<dad x="900" y="900"/>
+	<boyfriend x="1700" y="900"/>
+	<sprite name="unknown6" x="-950" y="-395" sprite="1overlay" scroll="0.05" scale="2" updateHitbox="true"/>
+</stage>

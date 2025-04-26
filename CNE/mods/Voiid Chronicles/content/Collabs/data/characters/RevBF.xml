@@ -1,0 +1,18 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="BOYFRIEND-RED-icons" camx="0" y="0" isGF="false" camy="0" color="#F4665A" isPlayer="true" sprite="BOYFRIEND-RED" flipX="true" scale="1" >
+	<anim x="-8" loop="false" y="-7" fps="24" anim="BF idle dance" name="idle" />
+	<anim x="-50" loop="false" y="-5" fps="24" anim="BF NOTE RIGHT0" name="singLEFT" />
+	<anim x="-23" loop="false" y="-35" fps="24" anim="BF NOTE DOWN0" name="singDOWN" />
+	<anim x="-66" loop="false" y="30" fps="24" anim="BF NOTE UP0" name="singUP" />
+	<anim x="24" loop="false" y="-15" fps="24" anim="BF NOTE LEFT0" name="singRIGHT" />
+	<anim x="-55" loop="false" y="8" fps="24" anim="BF NOTE RIGHT MISS" name="singLEFTmiss" />
+	<anim x="-24" loop="false" y="-34" fps="24" anim="BF NOTE DOWN MISS" name="singDOWNmiss" />
+	<anim x="-65" loop="false" y="31" fps="24" anim="BF NOTE UP MISS" name="singUPmiss" />
+	<anim x="28" loop="false" y="5" fps="24" anim="BF NOTE LEFT MISS" name="singRIGHTmiss" />
+	<anim x="-18" loop="false" y="1" fps="24" anim="BF HEY!!" name="hey" />
+	<anim x="34" loop="false" y="69" fps="24" anim="boyfriend dodge0" name="dodge" />
+	<anim x="34" loop="false" y="69" fps="24" anim="boyfriend dodge0" name="dodgeLEFT" />
+	<anim x="34" loop="false" y="69" fps="24" anim="boyfriend dodge0" name="dodgeUP" />
+	<anim x="34" loop="false" y="69" fps="24" anim="boyfriend dodge0" name="dodgeDOWN" />
+	<anim x="34" loop="false" y="69" fps="24" anim="boyfriend dodge0" name="dodgeRIGHT" />
+</character>

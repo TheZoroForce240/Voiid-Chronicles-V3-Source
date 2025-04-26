@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.53" name="VoiidWiik3" folder="stages/VoiidWiik3" >
+	<sprite name="unknown0" x="-791" y="-667" sprite="Voiid3" scroll="0.5" scale="2" updateHitbox="true"/>
+	<sprite name="unknown1" x="-666" y="-425" sprite="WALL" scroll="0.6" scale="2" updateHitbox="true"/>
+	<sprite name="unknown2" x="-271" y="-202" sprite="RING" scroll="1" scale="2" updateHitbox="true"/>
+	<girlfriend x="1556" y="1090" scroll="1.0" scale="0.9"/>
+	<dad x="1455" y="1207" camxoffset="-150"/>
+	<boyfriend x="1855" y="1207" camxoffset="-180"/>
+</stage>

@@ -1,0 +1,17 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="Gerald-icons" camx="-150" y="0" isGF="false" camy="-50" color="#FFAFAF" isPlayer="true" sprite="gerald" flipX="true" scale="1" >
+	<anim x="0" loop="false" y="0" fps="24" anim="BF idle dance" name="idle" />
+	<anim x="-38" loop="false" y="-6" fps="24" anim="BF NOTE RIGHT instancia 1" name="singLEFT" />
+	<anim x="-24" loop="false" y="-47" fps="24" anim="BF NOTE DOWN instancia 1" name="singDOWN" />
+	<anim x="-32" loop="false" y="54" fps="24" anim="BF NOTE UP instancia 1" name="singUP" />
+	<anim x="9" loop="false" y="-11" fps="24" anim="BF NOTE LEFT instancia 1" name="singRIGHT" />
+	<anim x="-39" loop="false" y="-1" fps="24" anim="BF NOTE RIGHT MISS instancia 1" name="singLEFTmiss" />
+	<anim x="-23" loop="false" y="-48" fps="24" anim="BF NOTE DOWN MISS instancia 1" name="singDOWNmiss" />
+	<anim x="-30" loop="false" y="53" fps="24" anim="BF NOTE UP MISS instancia 1" name="singUPmiss" />
+	<anim x="12" loop="false" y="-8" fps="24" anim="BF NOTE LEFT MISS instancia 1" name="singRIGHTmiss" />
+	<anim x="-15" loop="false" y="-10" fps="24" anim="boyfriend dodge" name="dodge" />
+	<anim x="-15" loop="false" y="-10" fps="24" anim="boyfriend dodge" name="dodgeLEFT" />
+	<anim x="-15" loop="false" y="-10" fps="24" anim="boyfriend dodge" name="dodgeDOWN" />
+	<anim x="-15" loop="false" y="-10" fps="24" anim="boyfriend dodge" name="dodgeUP" />
+	<anim x="-15" loop="false" y="-10" fps="24" anim="boyfriend dodge" name="dodgeRIGHT" />
+</character>

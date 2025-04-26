@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.7" name="Volcano" folder="stages/Volcano" >
+	<sprite name="unknown0" x="-3" y="-552" sprite="FireBG" scroll="0.75" scale="2" updateHitbox="true"/>
+	<sprite name="unknown1" x="-92" y="-648" sprite="LavaFalls" scroll="0.85" scale="2" updateHitbox="true"/>
+	<sprite name="unknown2" x="-349" y="-548" sprite="bgrocks" scroll="0.98" scale="2" updateHitbox="true"/>
+	<sprite name="unknown3" x="-345" y="-558" sprite="floor" scroll="1" scale="2" updateHitbox="true"/>
+	<sprite name="unknown4" x="-349" y="255" sprite="LavaLake" scroll="1" scale="2" updateHitbox="true"/>
+	<sprite name="unknown5" x="-59" y="-755" sprite="rockstop" scroll="1.3" scale="2" updateHitbox="true"/>
+	
+	<girlfriend x="1356" y="377"/>
+	<dad x="620" y="434"/>
+	<boyfriend x="1447" y="467"/>
+	<sprite name="unknown6" x="-1672" y="1484" sprite="ruido2" scroll="1" scale="2.6" updateHitbox="true"/>
+</stage>

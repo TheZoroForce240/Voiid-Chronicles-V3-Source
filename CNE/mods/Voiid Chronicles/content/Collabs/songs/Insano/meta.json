@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 200,
+	"difficulties": [
+		"voiid"
+	],
+	"needsVoices": true,
+	"parsedColor": -1,
+	"displayName": "Insano",
+	"icon": "Insano-icons",
+	"name": "Insano",
+	"color": "#FFFFFF",
+	"customValues": {}
+}

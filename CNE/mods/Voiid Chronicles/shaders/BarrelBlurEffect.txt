@@ -1,0 +1,6 @@
+zoom 1
+angle 0
+x 0
+y 0
+barrel 0
+doChroma 0.0

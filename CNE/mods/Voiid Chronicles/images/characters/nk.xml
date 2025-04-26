@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="nk.png">
+<SubTexture name="nk idle0000" x="1968" y="0" width="546" height="423" frameX="-67" frameY="-74" frameWidth="650" frameHeight="497" />
+<SubTexture name="nk idle0001" x="1968" y="0" width="546" height="423" frameX="-67" frameY="-74" frameWidth="650" frameHeight="497" />
+<SubTexture name="nk idle0002" x="1121" y="1380" width="535" height="431" frameX="-73" frameY="-66" frameWidth="650" frameHeight="497" />
+<SubTexture name="nk idle0003" x="1429" y="881" width="520" height="437" frameX="-76" frameY="-60" frameWidth="650" frameHeight="497" />
+<SubTexture name="nk idle0004" x="1429" y="881" width="520" height="437" frameX="-76" frameY="-60" frameWidth="650" frameHeight="497" />
+<SubTexture name="nk idle0005" x="1429" y="441" width="506" height="440" frameX="-80" frameY="-57" frameWidth="650" frameHeight="497" />
+<SubTexture name="nk idle0006" x="1429" y="441" width="506" height="440" frameX="-80" frameY="-57" frameWidth="650" frameHeight="497" />
+<SubTexture name="nk idle0007" x="565" y="938" width="503" height="441" frameX="-81" frameY="-56" frameWidth="650" frameHeight="497" />
+<SubTexture name="nk left0000" x="573" y="1380" width="548" height="435" frameX="-3" frameY="-64" frameWidth="650" frameHeight="497" />
+<SubTexture name="nk left0001" x="573" y="1380" width="548" height="435" frameX="-3" frameY="-64" frameWidth="650" frameHeight="497" />
+<SubTexture name="nk left0002" x="1429" y="0" width="539" height="441" frameX="-20" frameY="-58" frameWidth="650" frameHeight="497" />
+<SubTexture name="nk left0003" x="1429" y="0" width="539" height="441" frameX="-20" frameY="-58" frameWidth="650" frameHeight="497" />
+<SubTexture name="nk left0004" x="0" y="494" width="537" height="444" frameX="-27" frameY="-55" frameWidth="650" frameHeight="497" />
+<SubTexture name="nk down0000" x="1968" y="1229" width="541" height="374" frameX="-61" frameY="-123" frameWidth="650" frameHeight="497" />
+<SubTexture name="nk down0001" x="1968" y="1229" width="541" height="374" frameX="-61" frameY="-123" frameWidth="650" frameHeight="497" />
+<SubTexture name="nk down0002" x="1968" y="831" width="538" height="398" frameX="-67" frameY="-99" frameWidth="650" frameHeight="497" />
+<SubTexture name="nk down0003" x="1968" y="831" width="538" height="398" frameX="-67" frameY="-99" frameWidth="650" frameHeight="497" />
+<SubTexture name="nk down0004" x="1968" y="423" width="539" height="408" frameX="-68" frameY="-89" frameWidth="650" frameHeight="497" />
+<SubTexture name="nk up0000" x="0" y="0" width="467" height="494" frameX="-95" frameY="-3" frameWidth="650" frameHeight="497" />
+<SubTexture name="nk up0001" x="0" y="0" width="467" height="494" frameX="-95" frameY="-3" frameWidth="650" frameHeight="497" />
+<SubTexture name="nk up0002" x="467" y="0" width="479" height="473" frameX="-89" frameY="-24" frameWidth="650" frameHeight="497" />
+<SubTexture name="nk up0003" x="467" y="0" width="479" height="473" frameX="-89" frameY="-24" frameWidth="650" frameHeight="497" />
+<SubTexture name="nk up0004" x="946" y="0" width="483" height="469" frameX="-86" frameY="-28" frameWidth="650" frameHeight="497" />
+<SubTexture name="nk right0000" x="0" y="1380" width="573" height="438" frameX="-86" frameY="-64" frameWidth="650" frameHeight="497" />
+<SubTexture name="nk right0001" x="0" y="1380" width="573" height="438" frameX="-86" frameY="-64" frameWidth="650" frameHeight="497" />
+<SubTexture name="nk right0002" x="0" y="938" width="565" height="442" frameX="-78" frameY="-60" frameWidth="650" frameHeight="497" />
+<SubTexture name="nk right0003" x="0" y="938" width="565" height="442" frameX="-78" frameY="-60" frameWidth="650" frameHeight="497" />
+<SubTexture name="nk right0004" x="537" y="494" width="564" height="444" frameX="-74" frameY="-58" frameWidth="650" frameHeight="497" />
+</TextureAtlas>

@@ -1,0 +1,7 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.7" name="OGVolcano" folder="stages/OGVolcano" >
+	<sprite name="unknown0" x="-345" y="-558" sprite="floor" scroll="1" scale="2" updateHitbox="true"/>
+	<girlfriend x="1000" y="477"/>
+	<dad x="620" y="567"/>
+	<boyfriend x="1447" y="567"/>
+</stage>

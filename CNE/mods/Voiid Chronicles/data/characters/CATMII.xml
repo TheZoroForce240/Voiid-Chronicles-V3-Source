@@ -1,0 +1,20 @@
+<!DOCTYPE codename-engine-character>
+<character x="-20" icon="-icons" camx="-150" y="0" isGF="false" camy="-50" color="#FFAFAF" isPlayer="true" sprite="CAT_MII_PLAYER" flipX="true" scale="1" >
+	<anim x="0" loop="false" y="-1" fps="24" anim="Cat idle0" name="idle" />
+	<anim x="22" loop="false" y="17" fps="24" anim="Cat Right0" name="singLEFT" />
+	<anim x="21" loop="false" y="-27" fps="24" anim="Cat Down0" name="singDOWN" />
+	<anim x="-68" loop="false" y="43" fps="24" anim="Cat Up" name="singUP" />
+	<anim x="38" loop="false" y="21" fps="24" anim="Cat Left0" name="singRIGHT" />
+	<anim x="-10" loop="false" y="-31" fps="24" anim="Cat Miss Right0" name="singLEFTmiss" />
+	<anim x="-17" loop="false" y="-68" fps="24" anim="Cat Miss Down0" name="singDOWNmiss" />
+	<anim x="-92" loop="false" y="27" fps="24" anim="Cat Miss Up0" name="singUPmiss" />
+	<anim x="-24" loop="false" y="-8" fps="24" anim="Cat Miss Left0" name="singRIGHTmiss" />
+	<anim x="-81" loop="false" y="-4" fps="24" anim="Cat Dodge0" name="dodge" />
+	<anim x="-80" loop="false" y="-4" fps="24" anim="Cat Dodge0" name="dodgeLEFT" />
+	<anim x="-81" loop="false" y="-4" fps="24" anim="Cat Dodge0" name="dodgeDOWN" />
+	<anim x="-81" loop="false" y="-4" fps="24" anim="Cat Dodge0" name="dodgeUP" />
+	<anim x="-81" loop="false" y="-4" fps="24" anim="Cat Dodge0" name="dodgeRIGHT" />
+	<anim x="-23" loop="false" y="1" fps="24" anim="Cat Death Start0" name="firstDeath" />
+	<anim x="-32" loop="false" y="-6" fps="24" anim="Cat Death Loop0" name="deathLoop" />
+	<anim x="3" loop="false" y="-3" fps="24" anim="Cat Death ENTER0" name="deathConfirm" />
+</character>

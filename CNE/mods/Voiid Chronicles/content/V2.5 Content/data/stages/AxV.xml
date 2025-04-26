@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.55" name="AxV" folder="stages/AxV" >
+	<sprite name="unknown0" x="-670" y="-450" sprite="bg" scroll="0.1" scale="1" updateHitbox="true"/>
+	<sprite name="unknown1" x="-768" y="-558" sprite="rocks" scroll="0.3" scale="1" updateHitbox="true"/>
+	<sprite name="unknown2" x="-1200" y="-1000" sprite="floor" scroll="1" scale="1.2" updateHitbox="true"/>
+	<sprite name="unknown3" x="-700" y="-450" sprite="foreground" scroll="0.2" scale="1" updateHitbox="true"/>
+	<sprite name="unknown4" x="-700" y="-450" sprite="dust" scroll="0.2" scale="1" updateHitbox="true"/>
+	<girlfriend x="1111" y="202"/>
+	<dad x="209" y="286"/>
+	<boyfriend x="746" y="306"/>
+</stage>

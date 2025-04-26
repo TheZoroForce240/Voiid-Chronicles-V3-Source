@@ -1,0 +1,21 @@
+{
+	"composer": "ImPaper (Inst, Voices) and Lord Voiid (Voices)",
+	"charter": "RhysRJJ",
+	"originalComposer": "Tomz_ and Singular",
+	"startTime": 21942,
+	"songFont": "dumbnerd.ttf",
+	"songFontSize": 128,
+	"infoFontSize": 24,
+	"outerBorderTop": "#000000",
+	"outerBorderBot": "#000000",
+	"midBorderTop": "#b5232c",
+	"midBorderBot": "#753096",
+	"innerBorderTop": "#3f3f3f",
+	"innerBorderBot": "#121617",
+	"shader": "TextShaderH",
+	"mixGap": 2.5,
+
+	"sobelStrength": 1.2,
+	"sobelIntensity": 1.0,
+	"outerBorderSize": 10
+}

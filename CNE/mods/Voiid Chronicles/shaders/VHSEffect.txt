@@ -1,0 +1,3 @@
+iTime 0
+effect 0
+chromStrength 0.005

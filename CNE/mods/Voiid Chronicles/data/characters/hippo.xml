@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="35" icon="hippo-icons" camx="0" y="-10" isGF="false" camy="0" color="#F05ADC" isPlayer="false" sprite="hippo" flipX="false" scale="1" >
+	<anim x="0" loop="false" y="0" fps="24" anim="Hpo idle" name="idle" />
+	<anim x="52" loop="false" y="6" fps="24" anim="Hpo left0" name="singLEFT" />
+	<anim x="-6" loop="false" y="-54" fps="24" anim="Hpo down0" name="singDOWN" />
+	<anim x="30" loop="false" y="30" fps="24" anim="Hpo up0" name="singUP" />
+	<anim x="-9" loop="false" y="9" fps="24" anim="Hpo right0" name="singRIGHT" />
+</character>

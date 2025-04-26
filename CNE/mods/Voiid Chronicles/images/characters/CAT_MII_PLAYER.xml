@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="CAT MII PLAYER.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Cat Death ENTER0000" x="10" y="10" width="470" height="535" frameX="-37" frameY="0" frameWidth="507" frameHeight="535"/>
+	<SubTexture name="Cat Death ENTER0001" x="490" y="10" width="470" height="535" frameX="-37" frameY="0" frameWidth="507" frameHeight="535"/>
+	<SubTexture name="Cat Death ENTER0002" x="490" y="10" width="470" height="535" frameX="-37" frameY="0" frameWidth="507" frameHeight="535"/>
+	<SubTexture name="Cat Death ENTER0003" x="970" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0004" x="970" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0005" x="970" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0006" x="970" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0007" x="1487" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0008" x="1487" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0009" x="1487" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0010" x="1487" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0011" x="2004" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0012" x="2004" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0013" x="2004" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0014" x="2004" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0015" x="2521" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0016" x="2521" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0017" x="2521" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0018" x="2521" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0019" x="2521" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0020" x="3038" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0021" x="3038" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0022" x="3038" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0023" x="3038" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0024" x="3555" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0025" x="3555" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0026" x="3555" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0027" x="3555" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0028" x="3555" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0029" x="4072" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0030" x="4072" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0031" x="4072" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0032" x="4072" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0033" x="4589" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0034" x="4589" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0035" x="4589" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0036" x="4589" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0037" x="4589" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0038" x="4589" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0039" x="4589" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death ENTER0040" x="4589" y="10" width="507" height="535"/>
+	<SubTexture name="Cat Death Loop0000" x="5106" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0001" x="5106" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0002" x="5586" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0003" x="5586" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0004" x="6066" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0005" x="6066" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0006" x="6546" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0007" x="6546" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0008" x="5106" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0009" x="5106" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0010" x="7026" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0011" x="7026" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0012" x="6066" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0013" x="6066" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0014" x="6546" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0015" x="6546" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0016" x="5106" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0017" x="5106" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0018" x="7026" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0019" x="7026" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0020" x="5106" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0021" x="5106" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0022" x="5586" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0023" x="5586" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0024" x="6066" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0025" x="6066" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0026" x="7506" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0027" x="7506" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0028" x="5106" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0029" x="5106" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0030" x="7026" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0031" x="7026" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0032" x="6066" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0033" x="6066" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0034" x="6546" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0035" x="6546" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0036" x="5106" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0037" x="5106" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0038" x="7026" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Loop0039" x="7026" y="10" width="470" height="535"/>
+	<SubTexture name="Cat Death Start0000" x="10" y="555" width="458" height="539" frameX="-18" frameY="0" frameWidth="478" frameHeight="539"/>
+	<SubTexture name="Cat Death Start0001" x="478" y="555" width="458" height="539" frameX="-18" frameY="0" frameWidth="478" frameHeight="539"/>
+	<SubTexture name="Cat Death Start0002" x="946" y="555" width="461" height="535" frameX="-17" frameY="-4" frameWidth="478" frameHeight="539"/>
+	<SubTexture name="Cat Death Start0003" x="1417" y="555" width="461" height="535" frameX="-17" frameY="-4" frameWidth="478" frameHeight="539"/>
+	<SubTexture name="Cat Death Start0004" x="1888" y="555" width="461" height="535" frameX="-17" frameY="-4" frameWidth="478" frameHeight="539"/>
+	<SubTexture name="Cat Death Start0005" x="2359" y="555" width="461" height="535" frameX="-17" frameY="-4" frameWidth="478" frameHeight="539"/>
+	<SubTexture name="Cat Death Start0006" x="2830" y="555" width="478" height="535" frameX="0" frameY="-4" frameWidth="478" frameHeight="539"/>
+	<SubTexture name="Cat Death Start0007" x="2830" y="555" width="478" height="535" frameX="0" frameY="-4" frameWidth="478" frameHeight="539"/>
+	<SubTexture name="Cat Death Start0008" x="3318" y="555" width="475" height="535" frameX="-3" frameY="-4" frameWidth="478" frameHeight="539"/>
+	<SubTexture name="Cat Death Start0009" x="3318" y="555" width="475" height="535" frameX="-3" frameY="-4" frameWidth="478" frameHeight="539"/>
+	<SubTexture name="Cat Death Start0010" x="3803" y="555" width="471" height="535" frameX="-7" frameY="-4" frameWidth="478" frameHeight="539"/>
+	<SubTexture name="Cat Death Start0011" x="3803" y="555" width="471" height="535" frameX="-7" frameY="-4" frameWidth="478" frameHeight="539"/>
+	<SubTexture name="Cat Death Start0012" x="4284" y="555" width="470" height="535" frameX="-8" frameY="-4" frameWidth="478" frameHeight="539"/>
+	<SubTexture name="Cat Death Start0013" x="4284" y="555" width="470" height="535" frameX="-8" frameY="-4" frameWidth="478" frameHeight="539"/>
+	<SubTexture name="Cat Death Start0014" x="4764" y="555" width="470" height="535" frameX="-8" frameY="-4" frameWidth="478" frameHeight="539"/>
+	<SubTexture name="Cat Death Start0015" x="4764" y="555" width="470" height="535" frameX="-8" frameY="-4" frameWidth="478" frameHeight="539"/>
+	<SubTexture name="Cat Death Start0016" x="4764" y="555" width="470" height="535" frameX="-8" frameY="-4" frameWidth="478" frameHeight="539"/>
+	<SubTexture name="Cat Death Start0017" x="4764" y="555" width="470" height="535" frameX="-8" frameY="-4" frameWidth="478" frameHeight="539"/>
+	<SubTexture name="Cat Death Start0018" x="4764" y="555" width="470" height="535" frameX="-8" frameY="-4" frameWidth="478" frameHeight="539"/>
+	<SubTexture name="Cat Death Start0019" x="5244" y="555" width="470" height="535" frameX="-8" frameY="-4" frameWidth="478" frameHeight="539"/>
+	<SubTexture name="Cat Death Start0020" x="5724" y="555" width="470" height="535" frameX="-8" frameY="-4" frameWidth="478" frameHeight="539"/>
+	<SubTexture name="Cat Death Start0021" x="6204" y="555" width="470" height="535" frameX="-8" frameY="-4" frameWidth="478" frameHeight="539"/>
+	<SubTexture name="Cat Death Start0022" x="6204" y="555" width="470" height="535" frameX="-8" frameY="-4" frameWidth="478" frameHeight="539"/>
+	<SubTexture name="Cat Death Start0023" x="6684" y="555" width="470" height="535" frameX="-8" frameY="-4" frameWidth="478" frameHeight="539"/>
+	<SubTexture name="Cat Death Start0024" x="6684" y="555" width="470" height="535" frameX="-8" frameY="-4" frameWidth="478" frameHeight="539"/>
+	<SubTexture name="Cat Death Start0025" x="6684" y="555" width="470" height="535" frameX="-8" frameY="-4" frameWidth="478" frameHeight="539"/>
+	<SubTexture name="Cat Death Start0026" x="7164" y="555" width="470" height="535" frameX="-8" frameY="-4" frameWidth="478" frameHeight="539"/>
+	<SubTexture name="Cat Death Start0027" x="7164" y="555" width="470" height="535" frameX="-8" frameY="-4" frameWidth="478" frameHeight="539"/>
+	<SubTexture name="Cat Death Start0028" x="7164" y="555" width="470" height="535" frameX="-8" frameY="-4" frameWidth="478" frameHeight="539"/>
+	<SubTexture name="Cat Death Start0029" x="7164" y="555" width="470" height="535" frameX="-8" frameY="-4" frameWidth="478" frameHeight="539"/>
+	<SubTexture name="Cat Dodge0000" x="10" y="1104" width="547" height="569"/>
+	<SubTexture name="Cat Dodge0001" x="567" y="1104" width="547" height="569"/>
+	<SubTexture name="Cat Dodge0002" x="1124" y="1104" width="547" height="569"/>
+	<SubTexture name="Cat Dodge0003" x="1681" y="1104" width="547" height="569"/>
+	<SubTexture name="Cat Dodge0004" x="2238" y="1104" width="547" height="569"/>
+	<SubTexture name="Cat Dodge0005" x="2795" y="1104" width="547" height="569"/>
+	<SubTexture name="Cat Dodge0006" x="3352" y="1104" width="547" height="569"/>
+	<SubTexture name="Cat Dodge0007" x="3909" y="1104" width="547" height="569"/>
+	<SubTexture name="Cat Dodge0008" x="4466" y="1104" width="547" height="569"/>
+	<SubTexture name="Cat Dodge0009" x="2795" y="1104" width="547" height="569"/>
+	<SubTexture name="Cat Dodge0010" x="3352" y="1104" width="547" height="569"/>
+	<SubTexture name="Cat Dodge0011" x="3909" y="1104" width="547" height="569"/>
+	<SubTexture name="Cat Dodge0012" x="4466" y="1104" width="547" height="569"/>
+	<SubTexture name="Cat Dodge0013" x="2795" y="1104" width="547" height="569"/>
+	<SubTexture name="Cat Dodge0014" x="3352" y="1104" width="547" height="569"/>
+	<SubTexture name="Cat Down0000" x="5023" y="1104" width="675" height="562"/>
+	<SubTexture name="Cat Down0001" x="5023" y="1104" width="675" height="562"/>
+	<SubTexture name="Cat Down0002" x="5708" y="1104" width="675" height="562"/>
+	<SubTexture name="Cat Down0003" x="5708" y="1104" width="675" height="562"/>
+	<SubTexture name="Cat Left0000" x="6393" y="1104" width="518" height="579"/>
+	<SubTexture name="Cat Left0001" x="6393" y="1104" width="518" height="579"/>
+	<SubTexture name="Cat Left0002" x="6921" y="1104" width="518" height="579"/>
+	<SubTexture name="Cat Left0003" x="6921" y="1104" width="518" height="579"/>
+	<SubTexture name="Cat Miss Down0000" x="7449" y="1104" width="591" height="469"/>
+	<SubTexture name="Cat Miss Down0001" x="10" y="1693" width="591" height="469"/>
+	<SubTexture name="Cat Miss Down0002" x="611" y="1693" width="591" height="468" frameX="0" frameY="-1" frameWidth="591" frameHeight="469"/>
+	<SubTexture name="Cat Miss Down0003" x="1212" y="1693" width="591" height="468" frameX="0" frameY="-1" frameWidth="591" frameHeight="469"/>
+	<SubTexture name="Cat Miss Left0000" x="1813" y="1693" width="454" height="523" frameX="0" frameY="0" frameWidth="454" frameHeight="524"/>
+	<SubTexture name="Cat Miss Left0001" x="2277" y="1693" width="453" height="524" frameX="0" frameY="0" frameWidth="454" frameHeight="524"/>
+	<SubTexture name="Cat Miss Left0002" x="2740" y="1693" width="452" height="524" frameX="-1" frameY="0" frameWidth="454" frameHeight="524"/>
+	<SubTexture name="Cat Miss Left0003" x="3202" y="1693" width="452" height="523" frameX="-1" frameY="-1" frameWidth="454" frameHeight="524"/>
+	<SubTexture name="Cat Miss Right0000" x="3664" y="1693" width="467" height="547" frameX="0" frameY="0" frameWidth="467" frameHeight="548"/>
+	<SubTexture name="Cat Miss Right0001" x="4141" y="1693" width="467" height="546" frameX="0" frameY="-1" frameWidth="467" frameHeight="548"/>
+	<SubTexture name="Cat Miss Right0002" x="4618" y="1693" width="467" height="547" frameX="0" frameY="-1" frameWidth="467" frameHeight="548"/>
+	<SubTexture name="Cat Miss Right0003" x="5095" y="1693" width="467" height="547" frameX="0" frameY="-1" frameWidth="467" frameHeight="548"/>
+	<SubTexture name="Cat Miss Up0000" x="5572" y="1693" width="457" height="569"/>
+	<SubTexture name="Cat Miss Up0001" x="6039" y="1693" width="457" height="569"/>
+	<SubTexture name="Cat Miss Up0002" x="6506" y="1693" width="455" height="568" frameX="0" frameY="-1" frameWidth="457" frameHeight="569"/>
+	<SubTexture name="Cat Miss Up0003" x="6971" y="1693" width="454" height="568" frameX="-1" frameY="-1" frameWidth="457" frameHeight="569"/>
+	<SubTexture name="Cat Right0000" x="7435" y="1693" width="543" height="578"/>
+	<SubTexture name="Cat Right0001" x="7435" y="1693" width="543" height="578"/>
+	<SubTexture name="Cat Right0002" x="10" y="2281" width="543" height="578"/>
+	<SubTexture name="Cat Right0003" x="10" y="2281" width="543" height="578"/>
+	<SubTexture name="Cat Up0000" x="563" y="2281" width="493" height="615"/>
+	<SubTexture name="Cat Up0001" x="563" y="2281" width="493" height="615"/>
+	<SubTexture name="Cat Up0002" x="1066" y="2281" width="493" height="615"/>
+	<SubTexture name="Cat Up0003" x="1066" y="2281" width="493" height="615"/>
+	<SubTexture name="Cat YEAH0000" x="1569" y="2281" width="470" height="525"/>
+	<SubTexture name="Cat YEAH0001" x="1569" y="2281" width="470" height="525"/>
+	<SubTexture name="Cat YEAH0002" x="2049" y="2281" width="470" height="522" frameX="0" frameY="-2" frameWidth="470" frameHeight="525"/>
+	<SubTexture name="Cat YEAH0003" x="2049" y="2281" width="470" height="522" frameX="0" frameY="-2" frameWidth="470" frameHeight="525"/>
+	<SubTexture name="Cat YEAH0004" x="2529" y="2281" width="470" height="522" frameX="0" frameY="-2" frameWidth="470" frameHeight="525"/>
+	<SubTexture name="Cat YEAH0005" x="2529" y="2281" width="470" height="522" frameX="0" frameY="-2" frameWidth="470" frameHeight="525"/>
+	<SubTexture name="Cat YEAH0006" x="2529" y="2281" width="470" height="522" frameX="0" frameY="-2" frameWidth="470" frameHeight="525"/>
+	<SubTexture name="Cat YEAH0007" x="2529" y="2281" width="470" height="522" frameX="0" frameY="-2" frameWidth="470" frameHeight="525"/>
+	<SubTexture name="Cat YEAH0008" x="2529" y="2281" width="470" height="522" frameX="0" frameY="-2" frameWidth="470" frameHeight="525"/>
+	<SubTexture name="Cat YEAH0009" x="2529" y="2281" width="470" height="522" frameX="0" frameY="-2" frameWidth="470" frameHeight="525"/>
+	<SubTexture name="Cat idle0000" x="3009" y="2281" width="477" height="561"/>
+	<SubTexture name="Cat idle0001" x="3009" y="2281" width="477" height="561"/>
+	<SubTexture name="Cat idle0002" x="3496" y="2281" width="477" height="561"/>
+	<SubTexture name="Cat idle0003" x="3496" y="2281" width="477" height="561"/>
+	<SubTexture name="Cat idle0004" x="3983" y="2281" width="477" height="561"/>
+	<SubTexture name="Cat idle0005" x="3983" y="2281" width="477" height="561"/>
+	<SubTexture name="Cat idle0006" x="4470" y="2281" width="477" height="561"/>
+	<SubTexture name="Cat idle0007" x="4470" y="2281" width="477" height="561"/>
+	<SubTexture name="Cat idle0008" x="4957" y="2281" width="477" height="561"/>
+	<SubTexture name="Cat idle0009" x="4957" y="2281" width="477" height="561"/>
+	<SubTexture name="Cat idle0010" x="5444" y="2281" width="477" height="561"/>
+	<SubTexture name="Cat idle0011" x="5444" y="2281" width="477" height="561"/>
+	<SubTexture name="Cat idle0012" x="5931" y="2281" width="477" height="561"/>
+	<SubTexture name="Cat idle0013" x="5931" y="2281" width="477" height="561"/>
+	<SubTexture name="Cat idle0014" x="5931" y="2281" width="477" height="561"/>
+</TextureAtlas>

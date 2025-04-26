@@ -1,0 +1,29 @@
+{
+	"categories": [
+		{
+			"name": "Collabs",
+			"songs": [
+				{
+					"name": "Alter Ego",
+					"port": "Alter_Ego",
+					"loadingScreen": "Wiik2"
+				},
+				{
+					"name": "Interregnum",
+					"port": "Wiik_2",
+					"loadingScreen": "Wiik2"
+				},
+				{
+					"name": "Ballin",
+					"port": "Wiik_2",
+					"loadingScreen": "Wiik2"
+				},
+				{
+					"name": "Insano",
+					"port": "Wiik_2",
+					"loadingScreen": "Wiik2"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="50" icon="-icons" camx="50" y="200" isGF="false" camy="-300" color="#FFAFAF" isPlayer="true" sprite="wawa" flipX="true" scale="1.5" >
+	<anim x="0" loop="false" y="0" fps="24" anim="idle0" name="idle" />
+	<anim x="10" loop="false" y="0" fps="24" anim="right0" name="singLEFT" />
+	<anim x="0" loop="false" y="-20" fps="24" anim="down0" name="singDOWN" />
+	<anim x="0" loop="false" y="120" fps="24" anim="up0" name="singUP" />
+	<anim x="201" loop="false" y="0" fps="24" anim="left0" name="singRIGHT" />
+</character>

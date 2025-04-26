@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.35" name="Wiik100" folder="stages/Wiik100" >
+	<sprite name="unknown0" x="-750" y="-555" sprite="BGSky" scroll="0.7" scale="1" updateHitbox="true"/>
+	<sprite name="unknown1" x="-750" y="-548" sprite="BGCity" scroll="0.7" scale="1" updateHitbox="true"/>
+	<sprite name="unknown2" x="-350" y="-550" sprite="Rooftop" scroll="1" scale="1" updateHitbox="true"/>
+	<sprite name="unknown3" x="-1190" y="-665" sprite="Front" scroll="0" scale="0.82" updateHitbox="true"/>
+	<girlfriend x="1775" y="1325"/>
+	<dad x="923" y="1218"/>
+	<boyfriend x="2443" y="1415"/>
+</stage>

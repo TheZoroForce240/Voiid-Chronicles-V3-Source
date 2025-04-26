@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.47" name="VoiidArena" folder="stages/VoiidArena" >
+	<sprite name="bg" x="-1000" y="-730" sprite="new/bg" scroll="1" scale="2.5" updateHitbox="true"/>
+	
+	<girlfriend x="781" y="730"/>
+	<dad x="41" y="810" camxoffset="200"/>
+	<boyfriend x="1503" y="840" camxoffset="-200"/>
+
+	<sprite name="screen" x="385" y="-357.5" sprite="new/border" scroll="1" scale="2.5" updateHitbox="true"/> 
+	<sprite name="grain" x="-500" y="-200" sprite="GRAIN" scroll="0" scale="2" updateHitbox="true"/>
+</stage>

@@ -1,0 +1,17 @@
+{
+	"composer": "Lord Voiid (Voices), and NobodyKnows (Inst, Voices)",
+	"charter": "RhysRJJ (Canon), TheZoroForce240 (Easy), Wolfinu (Mania)",
+	"originalComposer": "",
+	"startTime": 0,
+	"songFont": "dumbnerd.ttf",
+	"songFontSize": 128,
+	"infoFontSize": 20,
+	"outerBorderTop": "#000000",
+	"outerBorderBot": "#000000",
+	"midBorderTop": "#511ee5",
+	"midBorderBot": "#89119d",
+	"innerBorderTop": "#271593",
+	"innerBorderBot": "#460d76",
+
+	"mixGap": 2.5
+}

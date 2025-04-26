@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 190,
+	"difficulties": [
+		"voiid"
+	],
+	"needsVoices": true,
+	"parsedColor": -1,
+	"displayName": "damnale",
+	"icon": "face",
+	"name": "damnale",
+	"color": "#FFFFFF",
+	"customValues": {}
+}

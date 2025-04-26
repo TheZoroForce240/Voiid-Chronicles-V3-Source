@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="260" icon="MattSword-icons" camx="-100" y="450" isGF="false" camy="-200" color="#FB8D05" isPlayer="false" sprite="MattSword" flipX="false" scale="1.5" >
+	<anim x="-59" loop="false" y="-282" fps="24" anim="Idle0" name="idle" />
+	<anim x="-140" loop="false" y="-307" fps="24" anim="Left0" name="singLEFT" />
+	<anim x="-135" loop="false" y="-348" fps="24" anim="Down0" name="singDOWN" />
+	<anim x="-190" loop="false" y="-290" fps="24" anim="Up0" name="singUP" />
+	<anim x="-40" loop="false" y="-330" fps="24" anim="Right0" name="singRIGHT" />
+	<anim x="140" loop="false" y="-327" fps="24" anim="AltLeft0" name="singLEFT-alt" />
+	<anim x="15" loop="false" y="-368" fps="24" anim="AltDown0" name="singDOWN-alt" />
+	<anim x="-50" loop="false" y="-300" fps="24" anim="AltUp0" name="singUP-alt" />
+	<anim x="-73" loop="false" y="-334" fps="24" anim="AltRight0" name="singRIGHT-alt" />
+</character>

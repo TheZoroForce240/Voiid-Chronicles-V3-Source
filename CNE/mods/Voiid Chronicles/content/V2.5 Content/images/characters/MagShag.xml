@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="michael.png">
+	<!-- Created with Adobe Animate version 22.0.1.105 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="shaggy stand idle instance 10000" x="12" y="12" width="353" height="705" frameX="-5" frameY="-4" frameWidth="360" frameHeight="709"/>
+	<SubTexture name="shaggy stand idle instance 10001" x="12" y="12" width="353" height="705" frameX="-5" frameY="-4" frameWidth="360" frameHeight="709"/>
+	<SubTexture name="shaggy stand idle instance 10002" x="377" y="12" width="356" height="707" frameX="-4" frameY="-2" frameWidth="360" frameHeight="709"/>
+	<SubTexture name="shaggy stand idle instance 10003" x="377" y="12" width="356" height="707" frameX="-4" frameY="-2" frameWidth="360" frameHeight="709"/>
+	<SubTexture name="shaggy stand idle instance 10004" x="745" y="12" width="352" height="709" frameX="0" frameY="0" frameWidth="360" frameHeight="709"/>
+	<SubTexture name="shaggy stand idle instance 10005" x="745" y="12" width="352" height="709" frameX="0" frameY="0" frameWidth="360" frameHeight="709"/>
+	<SubTexture name="shaggy stand idle instance 10006" x="1109" y="12" width="353" height="709" frameX="-1" frameY="0" frameWidth="360" frameHeight="709"/>
+	<SubTexture name="shaggy stand idle instance 10007" x="1109" y="12" width="353" height="709" frameX="-1" frameY="0" frameWidth="360" frameHeight="709"/>
+	<SubTexture name="shaggy stand idle instance 10008" x="1474" y="12" width="354" height="709" frameX="-1" frameY="0" frameWidth="360" frameHeight="709"/>
+	<SubTexture name="shaggy stand idle instance 10009" x="1474" y="12" width="354" height="709" frameX="-1" frameY="0" frameWidth="360" frameHeight="709"/>
+	<SubTexture name="shaggy stand idle instance 10010" x="1474" y="12" width="354" height="709" frameX="-1" frameY="0" frameWidth="360" frameHeight="709"/>
+	<SubTexture name="shaggy stand idle instance 10011" x="1474" y="12" width="354" height="709" frameX="-1" frameY="0" frameWidth="360" frameHeight="709"/>
+	<SubTexture name="shaggy stand idle instance 10012" x="1474" y="12" width="354" height="709" frameX="-1" frameY="0" frameWidth="360" frameHeight="709"/>
+	<SubTexture name="shaggy stand idle instance 10013" x="1474" y="12" width="354" height="709" frameX="-1" frameY="0" frameWidth="360" frameHeight="709"/>
+	<SubTexture name="shaggy stand idle instance 10014" x="1474" y="12" width="354" height="709" frameX="-1" frameY="0" frameWidth="360" frameHeight="709"/>
+	<SubTexture name="stand down instance 10000" x="1840" y="12" width="301" height="685" frameX="-15" frameY="-4" frameWidth="316" frameHeight="689"/>
+	<SubTexture name="stand down instance 10001" x="2153" y="12" width="304" height="684" frameX="-11" frameY="-5" frameWidth="316" frameHeight="689"/>
+	<SubTexture name="stand down instance 10002" x="2153" y="12" width="304" height="684" frameX="-11" frameY="-5" frameWidth="316" frameHeight="689"/>
+	<SubTexture name="stand down instance 10003" x="2469" y="12" width="299" height="689" frameX="0" frameY="0" frameWidth="316" frameHeight="689"/>
+	<SubTexture name="stand down instance 10004" x="2469" y="12" width="299" height="689" frameX="0" frameY="0" frameWidth="316" frameHeight="689"/>
+	<SubTexture name="stand down instance 10005" x="2780" y="12" width="291" height="689" frameX="-7" frameY="0" frameWidth="316" frameHeight="689"/>
+	<SubTexture name="stand down instance 10006" x="2780" y="12" width="291" height="689" frameX="-7" frameY="0" frameWidth="316" frameHeight="689"/>
+	<SubTexture name="stand down instance 10007" x="3083" y="12" width="291" height="688" frameX="-7" frameY="-1" frameWidth="316" frameHeight="689"/>
+	<SubTexture name="stand down instance 10008" x="3386" y="12" width="291" height="688" frameX="-7" frameY="-1" frameWidth="316" frameHeight="689"/>
+	<SubTexture name="stand down instance 10009" x="3689" y="12" width="291" height="688" frameX="-7" frameY="-1" frameWidth="316" frameHeight="689"/>
+	<SubTexture name="stand down instance 10010" x="12" y="733" width="291" height="688" frameX="-7" frameY="-1" frameWidth="316" frameHeight="689"/>
+	<SubTexture name="stand down instance 10011" x="315" y="733" width="291" height="688" frameX="-7" frameY="-1" frameWidth="316" frameHeight="689"/>
+	<SubTexture name="stand down instance 10012" x="12" y="733" width="291" height="688" frameX="-7" frameY="-1" frameWidth="316" frameHeight="689"/>
+	<SubTexture name="stand down instance 10013" x="315" y="733" width="291" height="688" frameX="-7" frameY="-1" frameWidth="316" frameHeight="689"/>
+	<SubTexture name="stand down instance 10014" x="12" y="733" width="291" height="688" frameX="-7" frameY="-1" frameWidth="316" frameHeight="689"/>
+	<SubTexture name="stand left instance 10000" x="618" y="733" width="446" height="627" frameX="0" frameY="-27" frameWidth="449" frameHeight="654"/>
+	<SubTexture name="stand left instance 10001" x="1076" y="733" width="430" height="649" frameX="-17" frameY="-5" frameWidth="449" frameHeight="654"/>
+	<SubTexture name="stand left instance 10002" x="1076" y="733" width="430" height="649" frameX="-17" frameY="-5" frameWidth="449" frameHeight="654"/>
+	<SubTexture name="stand left instance 10003" x="1518" y="733" width="421" height="654" frameX="-28" frameY="0" frameWidth="449" frameHeight="654"/>
+	<SubTexture name="stand left instance 10004" x="1518" y="733" width="421" height="654" frameX="-28" frameY="0" frameWidth="449" frameHeight="654"/>
+	<SubTexture name="stand left instance 10005" x="1951" y="733" width="426" height="651" frameX="-22" frameY="-3" frameWidth="449" frameHeight="654"/>
+	<SubTexture name="stand left instance 10006" x="2389" y="733" width="426" height="650" frameX="-22" frameY="-4" frameWidth="449" frameHeight="654"/>
+	<SubTexture name="stand left instance 10007" x="2827" y="733" width="426" height="650" frameX="-22" frameY="-4" frameWidth="449" frameHeight="654"/>
+	<SubTexture name="stand left instance 10008" x="3265" y="733" width="426" height="650" frameX="-22" frameY="-4" frameWidth="449" frameHeight="654"/>
+	<SubTexture name="stand left instance 10009" x="12" y="1433" width="426" height="650" frameX="-22" frameY="-4" frameWidth="449" frameHeight="654"/>
+	<SubTexture name="stand left instance 10010" x="450" y="1433" width="426" height="650" frameX="-22" frameY="-4" frameWidth="449" frameHeight="654"/>
+	<SubTexture name="stand left instance 10011" x="888" y="1433" width="426" height="650" frameX="-22" frameY="-4" frameWidth="449" frameHeight="654"/>
+	<SubTexture name="stand left instance 10012" x="450" y="1433" width="426" height="650" frameX="-22" frameY="-4" frameWidth="449" frameHeight="654"/>
+	<SubTexture name="stand left instance 10013" x="1326" y="1433" width="426" height="650" frameX="-22" frameY="-4" frameWidth="449" frameHeight="654"/>
+	<SubTexture name="stand left instance 10014" x="1764" y="1433" width="426" height="650" frameX="-22" frameY="-4" frameWidth="449" frameHeight="654"/>
+	<SubTexture name="stand right instance 10000" x="2202" y="1433" width="345" height="709" frameX="-1" frameY="-8" frameWidth="346" frameHeight="717"/>
+	<SubTexture name="stand right instance 10001" x="2559" y="1433" width="340" height="707" frameX="-1" frameY="-10" frameWidth="346" frameHeight="717"/>
+	<SubTexture name="stand right instance 10002" x="2911" y="1433" width="332" height="711" frameX="0" frameY="-6" frameWidth="346" frameHeight="717"/>
+	<SubTexture name="stand right instance 10003" x="2911" y="1433" width="332" height="711" frameX="0" frameY="-6" frameWidth="346" frameHeight="717"/>
+	<SubTexture name="stand right instance 10004" x="3255" y="1433" width="328" height="717" frameX="0" frameY="0" frameWidth="346" frameHeight="717"/>
+	<SubTexture name="stand right instance 10005" x="3255" y="1433" width="328" height="717" frameX="0" frameY="0" frameWidth="346" frameHeight="717"/>
+	<SubTexture name="stand right instance 10006" x="3595" y="1433" width="326" height="715" frameX="0" frameY="-2" frameWidth="346" frameHeight="717"/>
+	<SubTexture name="stand right instance 10007" x="3595" y="1433" width="326" height="715" frameX="0" frameY="-2" frameWidth="346" frameHeight="717"/>
+	<SubTexture name="stand right instance 10008" x="12" y="2162" width="335" height="713" frameX="0" frameY="-4" frameWidth="346" frameHeight="717"/>
+	<SubTexture name="stand right instance 10009" x="359" y="2162" width="335" height="713" frameX="0" frameY="-4" frameWidth="346" frameHeight="717"/>
+	<SubTexture name="stand right instance 10010" x="706" y="2162" width="335" height="713" frameX="0" frameY="-4" frameWidth="346" frameHeight="717"/>
+	<SubTexture name="stand right instance 10011" x="1053" y="2162" width="335" height="713" frameX="0" frameY="-4" frameWidth="346" frameHeight="717"/>
+	<SubTexture name="stand right instance 10012" x="359" y="2162" width="335" height="713" frameX="0" frameY="-4" frameWidth="346" frameHeight="717"/>
+	<SubTexture name="stand right instance 10013" x="706" y="2162" width="335" height="713" frameX="0" frameY="-4" frameWidth="346" frameHeight="717"/>
+	<SubTexture name="stand right instance 10014" x="1053" y="2162" width="335" height="713" frameX="0" frameY="-4" frameWidth="346" frameHeight="717"/>
+	<SubTexture name="stand up instance 10000" x="1400" y="2162" width="296" height="712" frameX="-5" frameY="0" frameWidth="313" frameHeight="713"/>
+	<SubTexture name="stand up instance 10001" x="1708" y="2162" width="294" height="712" frameX="-3" frameY="-1" frameWidth="313" frameHeight="713"/>
+	<SubTexture name="stand up instance 10002" x="1708" y="2162" width="294" height="712" frameX="-3" frameY="-1" frameWidth="313" frameHeight="713"/>
+	<SubTexture name="stand up instance 10003" x="2014" y="2162" width="294" height="709" frameX="-1" frameY="-4" frameWidth="313" frameHeight="713"/>
+	<SubTexture name="stand up instance 10004" x="2014" y="2162" width="294" height="709" frameX="-1" frameY="-4" frameWidth="313" frameHeight="713"/>
+	<SubTexture name="stand up instance 10005" x="2320" y="2162" width="313" height="712" frameX="0" frameY="-1" frameWidth="313" frameHeight="713"/>
+	<SubTexture name="stand up instance 10006" x="2320" y="2162" width="313" height="712" frameX="0" frameY="-1" frameWidth="313" frameHeight="713"/>
+	<SubTexture name="stand up instance 10007" x="2645" y="2162" width="312" height="712" frameX="0" frameY="-1" frameWidth="313" frameHeight="713"/>
+	<SubTexture name="stand up instance 10008" x="2969" y="2162" width="312" height="712" frameX="0" frameY="-1" frameWidth="313" frameHeight="713"/>
+	<SubTexture name="stand up instance 10009" x="2969" y="2162" width="312" height="712" frameX="0" frameY="-1" frameWidth="313" frameHeight="713"/>
+	<SubTexture name="stand up instance 10010" x="3293" y="2162" width="312" height="712" frameX="0" frameY="-1" frameWidth="313" frameHeight="713"/>
+	<SubTexture name="stand up instance 10011" x="3617" y="2162" width="312" height="712" frameX="0" frameY="-1" frameWidth="313" frameHeight="713"/>
+	<SubTexture name="stand up instance 10012" x="3293" y="2162" width="312" height="712" frameX="0" frameY="-1" frameWidth="313" frameHeight="713"/>
+	<SubTexture name="stand up instance 10013" x="3617" y="2162" width="312" height="712" frameX="0" frameY="-1" frameWidth="313" frameHeight="713"/>
+	<SubTexture name="stand up instance 10014" x="3293" y="2162" width="312" height="712" frameX="0" frameY="-1" frameWidth="313" frameHeight="713"/>
+</TextureAtlas>

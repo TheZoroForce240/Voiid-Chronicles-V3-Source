@@ -1,0 +1,15 @@
+{
+	"composer": "Lord Voiid, MLOM, and Revilo",
+	"charter": "Official_YS",
+	"originalComposer": "AngryRacc",
+	"startTime": 0,
+	"songFont": "dumbnerd.ttf",
+	"songFontSize": 128,
+	"infoFontSize": 24,
+	"outerBorderTop": "#000000",
+	"outerBorderBot": "#000000",
+	"midBorderTop": "#31b8d2",
+	"midBorderBot": "#551c9c",
+	"innerBorderTop": "#3f3f3f",
+	"innerBorderBot": "#121617"
+}

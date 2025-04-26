@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="VoiidShaggy-icons" camx="250" y="0" isGF="false" camy="75" color="#5E4F58" isPlayer="false" sprite="VoiidShaggy" flipX="false" scale="1" >
+	<anim x="4" loop="false" y="3" fps="24" anim="Idle0" name="idle" />
+	<anim x="228" loop="false" y="17" fps="24" anim="Left0" name="singLEFT" />
+	<anim x="100" loop="false" y="-36" fps="24" anim="Down0" name="singDOWN" />
+	<anim x="28" loop="false" y="66" fps="24" anim="Up0" name="singUP" />
+	<anim x="-69" loop="false" y="19" fps="24" anim="Right0" name="singRIGHT" />
+	<anim x="4" loop="false" y="3" fps="24" anim="Idle0" name="idle-alt" />
+	<anim x="228" loop="false" y="17" fps="24" anim="Left0" name="singLEFT-alt" />
+	<anim x="100" loop="false" y="-36" fps="24" anim="Down0" name="singDOWN-alt" />
+	<anim x="28" loop="false" y="66" fps="24" anim="Up0" name="singUP-alt" />
+	<anim x="-69" loop="false" y="19" fps="24" anim="Right0" name="singRIGHT-alt" />
+</character>

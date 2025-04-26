@@ -1,0 +1,28 @@
+{
+	"composer": "Lord Voiid, ImPaper (Voices) and NobodyKnows (Inst)",
+	"charter": "RhysRJJ",
+	"originalComposer": "Lord Voiid and Revilo",
+	"startTime": 0,
+	"songFont": "dumbnerd.ttf",
+	"songFontSize": 128,
+	"infoFontSize": 22,
+	"outerBorderTop": "#000000",
+	"outerBorderBot": "#000000",
+	"midBorderTop": "#6414ea",
+	"midBorderBot": "#009d58",
+	"innerBorderTop": "#142332",
+	"innerBorderBot": "#142332",
+
+	"sobelStrength": 0.5,
+	"sobelIntensity": 1.0,
+	"mixGap": 4.0,
+
+	"outerBorderTopVIP": "#000000",
+	"outerBorderBotVIP": "#000000",
+	"midBorderTopVIP": "#14d884",
+	"midBorderBotVIP": "#6414ea",
+	"innerBorderTopVIP": "#142332",
+	"innerBorderBotVIP": "#000000",
+
+	"outerBorderSize": 13
+}

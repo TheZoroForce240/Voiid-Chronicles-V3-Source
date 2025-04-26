@@ -1,0 +1,28 @@
+{
+	"composer": "Lord Voiid, NobodyKnows (Voices) and AngryRacc (Inst)",
+	"charter": "Xyriax, RhysRJJ",
+	"originalComposer": "HamillUn and Shteque",
+	"startTime": 20480,
+	"songFont": "dumbnerd.ttf",
+	"songFontSize": 128,
+	"infoFontSize": 20,
+	"outerBorderTop": "#000000",
+	"outerBorderBot": "#000000",
+	"midBorderTop": "#009d58",
+	"midBorderBot": "#ef67ab",
+	"innerBorderTop": "#670498",
+	"innerBorderBot": "#4b1b65",
+
+	"sobelStrength": 0.5,
+	"sobelIntensity": 1.0,
+	"mixGap": 1.5,
+
+	"outerBorderTopVIP": "#000000",
+	"outerBorderBotVIP": "#000000",
+	"midBorderTopVIP": "#491846",
+	"midBorderBotVIP": "#fd73be",
+	"innerBorderTopVIP": "#142332",
+	"innerBorderBotVIP": "#000000",
+
+	"outerBorderSize": 13
+}

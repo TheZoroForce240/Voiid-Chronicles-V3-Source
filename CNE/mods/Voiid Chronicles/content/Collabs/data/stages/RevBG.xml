@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.6" name="RevBG" folder="stages/RevBG" >
+	<sprite name="unknown0" x="-159" y="-135" sprite="AlterEgoRevPartBG" scroll="1" scale="1" updateHitbox="true"/>
+	
+	<girlfriend x="1289" y="844"/>
+	<dad x="886" y="961"/>
+	<boyfriend x="1829" y="981"/>
+	<sprite name="unknown1" x="-159" y="-135" sprite="Grain" scroll="1" scale="1" updateHitbox="true"/>
+</stage>

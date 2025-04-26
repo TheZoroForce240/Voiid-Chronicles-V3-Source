@@ -1,0 +1,8 @@
+iTime 0
+red 0.7
+green 0.22
+blue 0.95
+size 140.0
+scale 1.2
+warp -250
+speed 1.0

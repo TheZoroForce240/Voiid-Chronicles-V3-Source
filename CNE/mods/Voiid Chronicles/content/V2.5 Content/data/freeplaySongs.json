@@ -1,0 +1,65 @@
+{
+	"categories": [
+		{
+			"name": "Story Mode",
+			"songs": [
+				{
+					"name": "Power Link",
+					"port": "Wiik_2",
+					"loadingScreen": "ShaggyXMatt"
+				},
+				{
+					"name": "Revenge",
+					"port": "Wiik_2",
+					"loadingScreen": "ShaggyXMatt"
+				},
+				{
+					"name": "Final Destination",
+					"port": "Wiik_2",
+					"loadingScreen": "ShaggyXMatt"
+				},
+				{
+					"name": "Soothing Power",
+					"port": "ShagBG"
+				},
+				{
+					"name": "Thunderstorm",
+					"port": "ShagBG"
+				},
+				{
+					"name": "Disassembler",
+					"port": "ShagBG"
+				},
+				{
+					"name": "Cosmic Memories",
+					"port": "ShagBG"
+				},
+				{
+					"name": "New Horizon",
+					"port": "ShagBG"
+				},
+				{
+					"name": "Galactic Storm",
+					"port": "Wiik_2"
+				}
+			]
+		},
+		{
+			"name": "Collabs",
+			"songs": [
+				{
+					"name": "Glowing Collision",
+					"port": "AxV"
+				},
+				{
+					"name": "Paired Entities",
+					"port": "AxV"
+				},
+				{
+					"name": "Multiversal Slash",
+					"port": "AxV"
+				}
+			]
+		}
+	]
+}

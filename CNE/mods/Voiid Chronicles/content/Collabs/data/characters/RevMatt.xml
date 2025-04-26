@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-40" icon="RevMattEpic-icons" camx="0" y="10" isGF="false" camy="0" color="#D61C43" isPlayer="false" sprite="RevMattEpic" flipX="false" scale="1" >
+	<anim x="-4" loop="false" y="-5" fps="24" anim="Matt BoxIdle0" name="idle" />
+	<anim x="116" loop="false" y="-3" fps="24" anim="matt Left0" name="singLEFT" />
+	<anim x="-18" loop="false" y="-21" fps="24" anim="Matt down0" name="singDOWN" />
+	<anim x="-33" loop="false" y="18" fps="24" anim="Matt up0" name="singUP" />
+	<anim x="15" loop="false" y="-6" fps="24" anim="Matt Right0" name="singRIGHT" />
+</character>

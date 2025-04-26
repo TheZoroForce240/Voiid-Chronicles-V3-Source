@@ -1,0 +1,26 @@
+{
+	"categories": [
+		{
+			"name": "VIP Remixes",
+			"songs": [
+				{
+					"name": "Boxing Match VIP",
+					"port": "Wiik_2"
+				},
+				{
+					"name": "TKO VIP",
+					"port": "Wiik_3"
+				},
+				{
+					"name": "Alter Ego VIP",
+					"port": "Wiik_4"
+				},
+				{
+					"name": "Rejected VIP",
+					"port": "Rejected",
+					"loadingScreen": "RejectVIP"
+				}
+			]
+		}
+	]
+}

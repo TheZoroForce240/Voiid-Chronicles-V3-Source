@@ -1,0 +1,20 @@
+<!DOCTYPE codename-engine-character>
+<character x="60" icon="OniiBF-icons" camx="-85" y="95" isGF="false" camy="-200" color="#4105D8" isPlayer="true" sprite="ONI_WIIK_3" flipX="true" scale="2" >
+	<anim x="-5" loop="false" y="-25" fps="24" anim="BF idle dance0" name="idle" />
+	<anim x="215" loop="false" y="5" fps="24" anim="BF Attack Right0" name="singLEFT" />
+	<anim x="211" loop="false" y="-63" fps="24" anim="BF Attack Down0" name="singDOWN" />
+	<anim x="219" loop="false" y="-12" fps="24" anim="BF Attack Up0" name="singUP" />
+	<anim x="215" loop="false" y="-31" fps="24" anim="BF Attack Left0" name="singRIGHT" />
+	<anim x="-39" loop="false" y="-19" fps="24" anim="BF RIGHT MISS0" name="singLEFTmiss" />
+	<anim x="-36" loop="false" y="-23" fps="24" anim="BF RIGHT MISS0" name="singDOWNmiss" />
+	<anim x="-37" loop="false" y="-21" fps="24" anim="BF RIGHT MISS0" name="singUPmiss" />
+	<anim x="-39" loop="false" y="-28" fps="24" anim="BF RIGHT MISS0" name="singRIGHTmiss" />
+	<anim x="-24" loop="false" y="-18" fps="24" anim="BF Block Left0" name="blockLEFT" />
+	<anim x="-5" loop="false" y="-16" fps="24" anim="BF Block Down0" name="blockDOWN" />
+	<anim x="-31" loop="false" y="-14" fps="24" anim="BF Block Up0" name="blockUP" />
+	<anim x="-25" loop="false" y="-15" fps="24" anim="BF Block Right0" name="blockRIGHT" />
+	<anim x="75" loop="false" y="-68" fps="24" anim="dodge DOWN0" name="dodgeLEFT" />
+	<anim x="66" loop="false" y="-66" fps="24" anim="dodge DOWN0" name="dodgeDOWN" />
+	<anim x="41" loop="false" y="-29" fps="24" anim="dodge UP0" name="dodgeUP" />
+	<anim x="48" loop="false" y="-29" fps="24" anim="dodge UP0" name="dodgeRIGHT" />
+</character>

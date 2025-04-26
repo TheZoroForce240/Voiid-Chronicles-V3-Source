@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character x="200" icon="melody-icons" camx="0" y="150" isGF="true" camy="0" color="#000000" isPlayer="false" sprite="melody" flipX="false" scale="2" >
+	<anim x="0" loop="false" y="30" fps="24" anim="GF Dancing Beat" name="danceLeft" indices="30,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14"/>
+	<anim x="0" loop="false" y="30" fps="24" anim="GF Dancing Beat" name="danceRight" indices="15,16,17,18,19,20,21,22,23,24,25,26,27,28,29"/>
+</character>

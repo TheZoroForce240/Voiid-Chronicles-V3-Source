@@ -1,0 +1,21 @@
+{
+	"categories": [
+		{
+			"name": "Story Mode",
+			"songs": [
+				{
+					"name": "Venom",
+					"port": "Wiik_FG"
+				},
+				{
+					"name": "Punch And Gun",
+					"port": "Wiik_FG"
+				},
+				{
+					"name": "Flaming Glove",
+					"port": "Wiik_FG"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,51 @@
+<Modchart>
+	<Init>
+		<Event type="initShader" name="smoke" shader="PerlinSmokeEffect"/>
+		<Event type="setCameraShader" name="smoke" camera="game"/>
+		<Event type="setShaderProperty" name="smoke" property="waveStrength" value="0"/>
+		<Event type="setShaderProperty" name="smoke" property="smokeStrength" value="0.5"/>
+		<Event type="initShader" name="mirror" shader="MirrorRepeatWarpEffect"/>
+		<Event type="setCameraShader" name="mirror" camera="game"/>
+		<Event type="setCameraShader" name="mirror" camera="hud"/>
+		<Event type="setShaderProperty" name="mirror" property="zoom" value="1"/>
+		<Event type="initShader" name="bloom2" shader="BloomEffect"/>
+		<Event type="setCameraShader" name="bloom2" camera="game"/>
+		<Event type="setCameraShader" name="bloom2" camera="hud"/>
+		<Event type="setShaderProperty" name="bloom2" property="effect" value="0"/>
+		<Event type="setShaderProperty" name="bloom2" property="strength" value="0"/>
+		<Event type="initShader" name="bv" shader="BloomVerticalEffect"/>
+		<Event type="setCameraShader" name="bv" camera="game"/>
+		<Event type="setCameraShader" name="bv" camera="hud"/>
+		<Event type="initShader" name="chroma" shader="ChromAbBlueSwapEffect"/>
+		<Event type="setCameraShader" name="chroma" camera="game"/>
+		<Event type="setCameraShader" name="chroma" camera="hud"/>
+	</Init>
+	<Events>
+		<Event step="128" time="16" value="0" property="effect" ease="cubeOut" type="tweenShaderProperty" startValue="2" name="bloom2"/>
+		<Event step="128" time="16" value="0" property="strength" ease="cubeOut" type="tweenShaderProperty" startValue="2" name="bloom2"/>
+		<Event step="128" time="8" value="0" property="strength" ease="cubeOut" type="tweenShaderProperty" startValue="0.01" name="chroma"/>
+		<Event step="896" time="16" value="0" property="effect" ease="cubeOut" type="tweenShaderProperty" startValue="2" name="bloom2"/>
+		<Event step="896" time="16" value="0" property="strength" ease="cubeOut" type="tweenShaderProperty" startValue="2" name="bloom2"/>
+		<Event step="896" time="8" value="0" property="strength" ease="cubeOut" type="tweenShaderProperty" startValue="0.01" name="chroma"/>
+		<Event step="1152" time="16" value="0" property="effect" ease="cubeOut" type="tweenShaderProperty" startValue="2" name="bloom2"/>
+		<Event step="1152" time="16" value="0" property="strength" ease="cubeOut" type="tweenShaderProperty" startValue="2" name="bloom2"/>
+		<Event step="1152" time="8" value="0" property="strength" ease="cubeOut" type="tweenShaderProperty" startValue="0.01" name="chroma"/>
+		<Event step="1408" time="16" value="0" property="effect" ease="cubeOut" type="tweenShaderProperty" startValue="2" name="bloom2"/>
+		<Event step="1408" time="16" value="0" property="strength" ease="cubeOut" type="tweenShaderProperty" startValue="2" name="bloom2"/>
+		<Event step="1408" time="8" value="0" property="strength" ease="cubeOut" type="tweenShaderProperty" startValue="0.01" name="chroma"/>
+		<Event step="1536" time="16" value="0" property="effect" ease="cubeOut" type="tweenShaderProperty" startValue="2" name="bloom2"/>
+		<Event step="1536" time="16" value="0" property="strength" ease="cubeOut" type="tweenShaderProperty" startValue="2" name="bloom2"/>
+		<Event step="1536" time="8" value="0" property="strength" ease="cubeOut" type="tweenShaderProperty" startValue="0.01" name="chroma"/>
+		<Event step="2368" time="16" value="0" property="effect" ease="cubeOut" type="tweenShaderProperty" startValue="2" name="bloom2"/>
+		<Event step="2368" time="16" value="0" property="strength" ease="cubeOut" type="tweenShaderProperty" startValue="2" name="bloom2"/>
+		<Event step="2368" time="8" value="0" property="strength" ease="cubeOut" type="tweenShaderProperty" startValue="0.01" name="chroma"/>
+		<Event step="2624" time="16" value="0" property="effect" ease="cubeOut" type="tweenShaderProperty" startValue="2" name="bloom2"/>
+		<Event step="2624" time="16" value="0" property="strength" ease="cubeOut" type="tweenShaderProperty" startValue="2" name="bloom2"/>
+		<Event step="2624" time="8" value="0" property="strength" ease="cubeOut" type="tweenShaderProperty" startValue="0.01" name="chroma"/>
+		<Event step="2848" time="32" value="2" property="effect" ease="cubeIn" type="tweenShaderProperty" startValue="0" name="bloom2"/>
+		<Event step="2848" time="32" value="2" property="strength" ease="cubeIn" type="tweenShaderProperty" startValue="0" name="bloom2"/>
+		<Event step="2880" time="16" value="0" property="effect" ease="cubeOut" type="tweenShaderProperty" startValue="2" name="bloom2"/>
+		<Event step="2880" time="16" value="0" property="strength" ease="cubeOut" type="tweenShaderProperty" startValue="2" name="bloom2"/>
+		<Event step="2880" time="8" value="0" property="strength" ease="cubeOut" type="tweenShaderProperty" startValue="0.01" name="chroma"/>
+	</Events>
+</Modchart>

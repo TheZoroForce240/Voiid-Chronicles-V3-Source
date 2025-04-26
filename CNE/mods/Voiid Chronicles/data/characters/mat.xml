@@ -1,0 +1,15 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="mat-icons" camx="250" y="0" isGF="false" camy="-100" color="#FFFFFF" isPlayer="false" sprite="mat" flipX="false" scale="1" >
+	<anim x="1" loop="false" y="-2" fps="24" anim="matt idle0" name="idle" />
+	<anim x="26" loop="false" y="-47" fps="24" anim="matt left note0" name="singLEFT" />
+	<anim x="-15" loop="false" y="-58" fps="24" anim="matt down note0" name="singDOWN" />
+	<anim x="39" loop="false" y="-3" fps="24" anim="matt up note0" name="singUP" />
+	<anim x="47" loop="false" y="-59" fps="24" anim="matt right note0" name="singRIGHT" />
+	<anim x="205" loop="false" y="230" fps="24" anim="trans" name="trans" />
+	<anim x="37" loop="false" y="63" fps="24" anim="destrans" name="destrans" />
+	<anim x="54" loop="false" y="66" fps="24" anim="idlegod0" name="idle-alt" />
+	<anim x="84" loop="false" y="52" fps="24" anim="leftgod0" name="singLEFT-alt" />
+	<anim x="76" loop="false" y="66" fps="24" anim="downgod0" name="singDOWN-alt" />
+	<anim x="78" loop="false" y="77" fps="24" anim="upgod0" name="singUP-alt" />
+	<anim x="24" loop="false" y="44" fps="24" anim="rightgod0" name="singRIGHT-alt" />
+</character>

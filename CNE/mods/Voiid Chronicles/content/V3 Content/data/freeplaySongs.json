@@ -1,0 +1,44 @@
+{
+	"categories": [
+		{
+			"name": "Story Mode",
+			"songs": [
+				{
+					"name": "Disadvantage",
+					"port": "Wiik_4",
+					"loadingScreen": "Wiik4"
+				},
+				{
+					"name": "Champion",
+					"port": "Wiik_4",
+					"loadingScreen": "Wiik4"
+				},
+				{
+					"name": "Last Combat",
+					"port": "Wiik_4",
+					"loadingScreen": "Wiik4"
+				},
+				{
+					"name": "Greedoom",
+					"port": "Greed",
+					"loadingScreen": "Wiik4"
+				},
+				{
+					"name": "Purgatory",
+					"port": "Greed",
+					"loadingScreen": "Wiik4"
+				},
+				{
+					"name": "Krakatoa",
+					"port": "Greed",
+					"loadingScreen": "Wiik4"
+				},
+
+				{
+					"name": "Showdown",
+					"port": "Wiik_4Alt"
+				}
+			]
+		}
+	]
+}

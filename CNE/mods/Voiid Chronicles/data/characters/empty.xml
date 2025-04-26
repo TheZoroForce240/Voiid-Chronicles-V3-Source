@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="40" icon="Wiik1BFRTX-icons" camx="-85" y="70" isGF="false" camy="-200" color="#FFAFAF" isPlayer="true" sprite="empty" flipX="true" scale="1" >
+	<anim x="0" loop="false" y="0" fps="24" anim="idle0" name="idle" />
+	<anim x="0" loop="false" y="0" fps="24" anim="idle0" name="singLEFT" />
+	<anim x="0" loop="false" y="0" fps="24" anim="idle0" name="singDOWN" />
+	<anim x="0" loop="false" y="0" fps="24" anim="idle0" name="singUP" />
+	<anim x="0" loop="false" y="0" fps="24" anim="idle0" name="singRIGHT" />
+</character>

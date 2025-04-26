@@ -1,0 +1,33 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="Wiik1BFRTX-icons" camx="0" y="0" isGF="false" camy="-100" color="#FFAFAF" isPlayer="true" sprite="TARO_WIIK3" flipX="true" scale="1" >
+	<anim x="-5" loop="false" y="-25" fps="24" anim="BF idle dance0" name="idle" />
+	<anim x="204" loop="false" y="-14" fps="24" anim="BF Attack Right0" name="singLEFT" />
+	<anim x="191" loop="false" y="-76" fps="24" anim="BF Attack Down0" name="singDOWN" />
+	<anim x="199" loop="false" y="-22" fps="24" anim="BF Attack Up0" name="singUP" />
+	<anim x="197" loop="false" y="-40" fps="24" anim="BF Attack Left0" name="singRIGHT" />
+	<anim x="-29" loop="false" y="-19" fps="24" anim="BF RIGHT MISS0" name="singLEFTmiss" />
+	<anim x="-29" loop="false" y="-19" fps="24" anim="BF RIGHT MISS0" name="singDOWNmiss" />
+	<anim x="-29" loop="false" y="-19" fps="24" anim="BF RIGHT MISS0" name="singUPmiss" />
+	<anim x="-29" loop="false" y="-19" fps="24" anim="BF RIGHT MISS0" name="singRIGHTmiss" />
+	<anim x="-34" loop="false" y="-28" fps="24" anim="BF Block Left0" name="singLEFT-block" />
+	<anim x="-18" loop="false" y="-28" fps="24" anim="BF Block Down0" name="singDOWN-block" />
+	<anim x="-31" loop="false" y="-27" fps="24" anim="BF Block Up0" name="singUP-block" />
+	<anim x="-31" loop="false" y="-26" fps="24" anim="BF Block Right0" name="singRIGHT-block" />
+	<anim x="46" loop="false" y="-66" fps="24" anim="dodge DOWN0" name="singLEFT-dodge" />
+	<anim x="46" loop="false" y="-66" fps="24" anim="dodge DOWN0" name="singDOWN-dodge" />
+	<anim x="19" loop="false" y="-24" fps="24" anim="dodge UP0" name="singUP-dodge" />
+	<anim x="18" loop="false" y="-25" fps="24" anim="dodge UP0" name="singRIGHT-dodge" />
+	<anim x="5" loop="false" y="-25" fps="24" anim="BF idle dance 20" name="idle-mic" />
+	<anim x="-33" loop="false" y="-30" fps="24" anim="BF SING RIGHT0" name="singLEFT-mic" />
+	<anim x="1" loop="false" y="-76" fps="24" anim="BF SING DOWN0" name="singDOWN-mic" />
+	<anim x="-21" loop="false" y="25" fps="24" anim="BF SING UP0" name="singUP-mic" />
+	<anim x="24" loop="false" y="-34" fps="24" anim="BF SING LEFT0" name="singRIGHT-mic" />
+	<anim x="-29" loop="false" y="-19" fps="24" anim="BF RIGHT MISS MIC0" name="singLEFTmiss-mic" />
+	<anim x="-29" loop="false" y="-19" fps="24" anim="BF RIGHT MISS MIC0" name="singDOWNmiss-mic" />
+	<anim x="-29" loop="false" y="-19" fps="24" anim="BF RIGHT MISS MIC0" name="singUPmiss-mic" />
+	<anim x="-29" loop="false" y="-19" fps="24" anim="BF RIGHT MISS MIC0" name="singRIGHTmiss-mic" />
+	<anim x="76" loop="false" y="-66" fps="24" anim="dodge DOWN MIC0" name="singLEFT-dodge-mic" />
+	<anim x="86" loop="false" y="-66" fps="24" anim="dodge DOWN MIC0" name="singDOWN-dodge-mic" />
+	<anim x="29" loop="false" y="-24" fps="24" anim="dodge UP MIC0" name="singUP-dodge-mic" />
+	<anim x="28" loop="false" y="-25" fps="24" anim="dodge UP MIC0" name="singRIGHT-dodge-mic" />
+</character>

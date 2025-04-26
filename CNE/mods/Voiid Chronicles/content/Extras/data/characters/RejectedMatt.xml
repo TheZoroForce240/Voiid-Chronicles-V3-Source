@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="Rejected-icons" camx="40" y="60" isGF="false" camy="-10" color="#222222" isPlayer="false" sprite="Rejected" flipX="false" scale="1" >
+	<anim x="4" loop="true" y="-3" fps="24" anim="matt idle0" name="idle" />
+	<anim x="212" loop="false" y="-71" fps="24" anim="matt left note0" name="singLEFT" />
+	<anim x="-65" loop="false" y="-77" fps="24" anim="matt down note0" name="singDOWN" />
+	<anim x="46" loop="false" y="0" fps="24" anim="matt up note0" name="singUP" />
+	<anim x="20" loop="false" y="-69" fps="24" anim="matt right note0" name="singRIGHT" />
+</character>

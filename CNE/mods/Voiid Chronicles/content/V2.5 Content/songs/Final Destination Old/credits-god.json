@@ -1,0 +1,21 @@
+{
+	"composer": "Lord Voiid",
+	"charter": "Medo and MarkC645 (God)",
+	"originalComposer": "srPerez",
+	"startTime": 0,
+	"songFont": "dumbnerd.ttf",
+	"songFontSize": 112,
+	"infoFontSize": 19,
+	"outerBorderTop": "#000000",
+	"outerBorderBot": "#000000",
+	"midBorderTop": "#ae7637",
+	"midBorderBot": "#8b2664",
+	"innerBorderTop": "#3f3f3f",
+	"innerBorderBot": "#121617",
+
+	"mixGap": 3.5,
+
+	"sobelStrength": 0.7,
+	"sobelIntensity": 1.0,
+	"outerBorderSize": 10
+}

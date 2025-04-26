@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 240,
+	"difficulties": [
+		"voiid"
+	],
+	"needsVoices": true,
+	"parsedColor": -1,
+	"displayName": "Burnout",
+	"icon": "Wiik2VoiidMatt-icons",
+	"name": "Burnout",
+	"color": "#FFFFFF",
+	"customValues": {}
+}

@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 175,
+	"difficulties": [
+		"voiid"
+	],
+	"needsVoices": true,
+	"parsedColor": -1,
+	"displayName": "Interregnum",
+	"icon": "Interregnum-Icons",
+	"name": "Interregnum",
+	"color": "#FFFFFF",
+	"customValues": {}
+}

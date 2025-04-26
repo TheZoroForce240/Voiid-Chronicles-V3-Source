@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.525" name="Edgelord-Intro" folder="stages/Edgelord-Intro" >
+	<sprite name="unknown0" x="-1100" y="-90" sprite="arena" scroll="1" scale="3" updateHitbox="true"/>
+	
+	<girlfriend x="6905" y="-2890"/>
+	<dad x="550" y="900"/>
+	<boyfriend x="950" y="900"/>
+	<sprite name="unknown1" x="-1100" y="-500" sprite="grain" scroll="0" scale="3" updateHitbox="true"/>
+</stage>

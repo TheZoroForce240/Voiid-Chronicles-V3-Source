@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="mlommer-icons" camx="0" y="0" isGF="false" camy="0" color="#F05ADC" isPlayer="false" sprite="mlommer" flipX="false" scale="1" >
+	<anim x="0" loop="false" y="0" fps="24" anim="mlommer idle" name="idle" />
+	<anim x="0" loop="false" y="0" fps="24" anim="mlommer left0" name="singLEFT" />
+	<anim x="0" loop="false" y="0" fps="24" anim="mlommer down0" name="singDOWN" />
+	<anim x="0" loop="false" y="0" fps="24" anim="mlommer up0" name="singUP" />
+	<anim x="0" loop="false" y="0" fps="24" anim="mlommer right0" name="singRIGHT" />
+</character>

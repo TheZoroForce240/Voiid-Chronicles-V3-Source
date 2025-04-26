@@ -1,0 +1,9 @@
+{
+    "params":
+    [
+        {"name": "Amount", "type": "Int(1, 99999, 1)", "defaultValue": 4},
+        {"name": "Do Animation?", "type": "Bool", "defaultValue": false},
+		{"name": "Change all strumlines?", "type": "Bool", "defaultValue": true},
+		{"name": "Strumline", "type": "StrumLine", "defaultValue": 0}
+    ]
+}

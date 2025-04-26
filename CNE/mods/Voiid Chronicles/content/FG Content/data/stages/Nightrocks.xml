@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.8" name="Nightrocks" folder="stages/Nightrocks" >
+	<sprite name="unknown0" x="-342" y="-431" sprite="skyrocks" scroll="0.9" scale="1" updateHitbox="true"/>
+	<sprite name="unknown1" x="-312" y="-396" sprite="rocks" scroll="1" scale="1" updateHitbox="true"/>
+	<sprite name="unknown2" x="-402" y="-441" sprite="lights2" scroll="1" scale="0.8" updateHitbox="true"/>
+	
+	<girlfriend x="3507" y="2258"/>
+	<dad x="452" y="788"/>
+	<boyfriend x="1527" y="798"/>
+	<sprite name="unknown3" x="-317" y="-386" sprite="ruido" scroll="1" scale="1" updateHitbox="true"/>
+</stage>

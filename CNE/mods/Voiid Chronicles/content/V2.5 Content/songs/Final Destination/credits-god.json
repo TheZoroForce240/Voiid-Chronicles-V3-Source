@@ -1,0 +1,21 @@
+{
+	"composer": "Lord Voiid",
+	"charter": "RhysRJJ (God, God Mania)",
+	"originalComposer": "srPerez",
+	"startTime": 6400,
+	"songFont": "dumbnerd.ttf",
+	"songFontSize": 128,
+	"infoFontSize": 24,
+	"outerBorderTop": "#000000",
+	"outerBorderBot": "#000000",
+	"midBorderTop": "#ae7637",
+	"midBorderBot": "#8b2664",
+	"innerBorderTop": "#3f3f3f",
+	"innerBorderBot": "#121617",
+
+	"mixGap": 3.5,
+
+	"sobelStrength": 0.7,
+	"sobelIntensity": 1.0,
+	"outerBorderSize": 10
+}

@@ -1,0 +1,21 @@
+{
+	"composer": "Lord Voiid (Voices) and MLOM (Inst)",
+	"charter": "RhysRJJ",
+	"originalComposer": "st4rcannon",
+	"startTime": 18460,
+	"songFont": "dumbnerd.ttf",
+	"songFontSize": 128,
+	"infoFontSize": 24,
+	"outerBorderTop": "#000000",
+	"outerBorderBot": "#000000",
+	"midBorderTop": "#794dc7",
+	"midBorderBot": "#802955",
+	"innerBorderTop": "#3f3f3f",
+	"innerBorderBot": "#121617",
+	"shader": "TextShaderH",
+
+	"mixGap": 1.0,
+	"sobelStrength": 0.3,
+	"sobelIntensity": 1.0,
+	"outerBorderSize": 10
+}

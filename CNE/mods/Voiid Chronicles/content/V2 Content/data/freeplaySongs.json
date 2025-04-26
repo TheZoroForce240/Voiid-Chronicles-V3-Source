@@ -1,0 +1,44 @@
+{
+	"categories": [
+		{
+			"name": "Story Mode",
+			"songs": [
+				{
+					"name": "Fisticuffs",
+					"port": "Wiik_3"
+				},
+				{
+					"name": "Blastout",
+					"port": "Wiik_3"
+				},
+				{
+					"name": "Immortal",
+					"port": "Wiik_3"
+				},
+				{
+					"name": "King Hit",
+					"port": "Wiik_3"
+				},
+				{
+					"name": "TKO",
+					"port": "TKO"
+				},
+				{
+					"name": "Mat",
+					"port": "Wiik_100",
+					"loadingScreen": "Wiik100"
+				},
+				{
+					"name": "Banger",
+					"port": "Wiik_100",
+					"loadingScreen": "Wiik100"
+				},
+				{
+					"name": "Edgy",
+					"port": "Wiik_100",
+					"loadingScreen": "Wiik100"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,8 @@
+{
+    "params":
+    [
+        {"name": "UI Skin Prefix", "type": "String", "defaultValue":"voiid/"},
+		{"name": "Note Skin Prefix", "type": "String", "defaultValue":"voiid/"},
+		{"name": "Health Bar Prefix", "type": "String", "defaultValue":"voiid/"}
+    ]
+}
